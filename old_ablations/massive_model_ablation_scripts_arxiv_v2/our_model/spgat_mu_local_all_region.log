@@ -1,0 +1,337 @@
+nohup: ignoring input
+
+--- RUNNING LOCAL ABLATION ---
+
+Processing LOCAL Region: B004_Ascending (21232 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_spgat_mu_dict_local_ablation.py:88: FutureWarning: In the future, the default backend for leiden will be igraph instead of leidenalg.
+
+ To achieve the future defaults please pass: flavor="igraph" and n_iterations=2.  directed must also be False to work with igraph's implementation.
+  sc.tl.leiden(adata_tmp, resolution=1.0, random_state=43, key_added='leiden')
+  -> Total ARI: 0.3704 | Clean ARI: 0.3957
+
+Processing LOCAL Region: B005_Ascending (17312 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.4073 | Clean ARI: 0.4254
+
+Processing LOCAL Region: B006_Ascending (38371 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.5150 | Clean ARI: 0.7686
+
+Processing LOCAL Region: B009_Right (58349 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.4494 | Clean ARI: 0.4807
+
+Processing LOCAL Region: B010_Right (22961 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.7350 | Clean ARI: 0.5212
+
+Processing LOCAL Region: B011_Right (20382 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.4489 | Clean ARI: 0.4604
+
+Processing LOCAL Region: B012_Right (25403 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.4456 | Clean ARI: 0.4379
+
+Processing LOCAL Region: B008_Right (5829 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.7150 | Clean ARI: 0.5660
+
+Processing LOCAL Region: B004_Descending (30547 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.3914 | Clean ARI: 0.4197
+
+Processing LOCAL Region: B005_Descending (51294 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.3609 | Clean ARI: 0.4114
+
+Processing LOCAL Region: B006_Descending (20379 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.4731 | Clean ARI: 0.4460
+
+Processing LOCAL Region: B009_Left (77354 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.7892 | Clean ARI: 0.6200
+
+Processing LOCAL Region: B012_Left (72748 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.4569 | Clean ARI: 0.4707
+
+Processing LOCAL Region: B011_Left (20504 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.4365 | Clean ARI: 0.4581
+
+Processing LOCAL Region: B010_Left (19612 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.7546 | Clean ARI: 0.5582
+
+Processing LOCAL Region: B008_Left (37213 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.6247 | Clean ARI: 0.4474
+
+Processing LOCAL Region: B005_Duodenum (23558 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.4915 | Clean ARI: 0.5043
+
+Processing LOCAL Region: B004_Duodenum (44170 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.3522 | Clean ARI: 0.4045
+
+Processing LOCAL Region: B006_Duodenum (56310 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.5411 | Clean ARI: 0.5172
+
+Processing LOCAL Region: B009_Duodenum (43092 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.4856 | Clean ARI: 0.5142
+
+Processing LOCAL Region: B011_Duodenum (66845 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.5642 | Clean ARI: 0.5675
+
+Processing LOCAL Region: B012_Duodenum (31219 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.4641 | Clean ARI: 0.4514
+
+Processing LOCAL Region: B010_Duodenum (34133 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.4891 | Clean ARI: 0.5550
+
+Processing LOCAL Region: B008_Duodenum (78213 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.4486 | Clean ARI: 0.5984
+
+Processing LOCAL Region: B004_Ileum (26494 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.6100 | Clean ARI: 0.6023
+
+Processing LOCAL Region: B005_Ileum (17670 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.4839 | Clean ARI: 0.5413
+
+Processing LOCAL Region: B006_Ileum (89907 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.5211 | Clean ARI: 0.4193
+
+Processing LOCAL Region: B009_Ileum (88586 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.4868 | Clean ARI: 0.5144
+
+Processing LOCAL Region: B010_Ileum (39839 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.4510 | Clean ARI: 0.4120
+
+Processing LOCAL Region: B011_Ileum (32944 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.5944 | Clean ARI: 0.6503
+
+Processing LOCAL Region: B012_Ileum (33958 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.5768 | Clean ARI: 0.6064
+
+Processing LOCAL Region: B008_Ileum (37200 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.5571 | Clean ARI: 0.5760
+
+Processing LOCAL Region: B006_Mid-jejunum (35371 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.4807 | Clean ARI: 0.5431
+
+Processing LOCAL Region: B004_Mid-jejunum (36921 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.4167 | Clean ARI: 0.4334
+
+Processing LOCAL Region: B005_Mid-jejunum (86102 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.5489 | Clean ARI: 0.6131
+
+Processing LOCAL Region: B009_Mid jejunum (88436 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.6854 | Clean ARI: 0.6706
+
+Processing LOCAL Region: B009_Mid jejunum_extra (56182 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.6260 | Clean ARI: 0.6757
+
+Processing LOCAL Region: B011_Mid jejunum (44026 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.3448 | Clean ARI: 0.3865
+
+Processing LOCAL Region: B012_Mid jejunum (67636 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.5688 | Clean ARI: 0.5670
+
+Processing LOCAL Region: B010_Mid jejunum (31583 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.5376 | Clean ARI: 0.5316
+
+Processing LOCAL Region: B008_Mid jejunum (50954 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.5274 | Clean ARI: 0.5994
+
+Processing LOCAL Region: B004_Proximal Jejunum (30067 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.5558 | Clean ARI: 0.5267
+
+Processing LOCAL Region: B005_Proximal Jejunum (38321 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.6306 | Clean ARI: 0.5639
+
+Processing LOCAL Region: B006_Proximal Jejunum (41063 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.7256 | Clean ARI: 0.5598
+
+Processing LOCAL Region: B011_Proximal jejunum (30724 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.4187 | Clean ARI: 0.4072
+
+Processing LOCAL Region: B009_Proximal jejunum (48517 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.5694 | Clean ARI: 0.5564
+
+Processing LOCAL Region: B010_Proximal jejunum (54111 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.5289 | Clean ARI: 0.5362
+
+Processing LOCAL Region: B012_Proximal jejunum (32520 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.5547 | Clean ARI: 0.5948
+
+Processing LOCAL Region: B008_Proximal jejunum (37304 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.5866 | Clean ARI: 0.6703
+
+Processing LOCAL Region: B008_Proximal jejunum_extra (34850 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.5395 | Clean ARI: 0.5542
+
+Processing LOCAL Region: B004_Descending - Sigmoid (25063 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.6503 | Clean ARI: 0.4487
+
+Processing LOCAL Region: B005_Descending - Sigmoid (14230 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.7095 | Clean ARI: 0.6209
+
+Processing LOCAL Region: B006_Descending - Sigmoid (24585 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.4630 | Clean ARI: 0.4826
+
+Processing LOCAL Region: B009_Sigmoid (40551 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.8166 | Clean ARI: 0.4660
+
+Processing LOCAL Region: B011_Sigmoid (21201 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.4017 | Clean ARI: 0.4645
+
+Processing LOCAL Region: B010_Sigmoid (24158 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.4820 | Clean ARI: 0.4842
+
+Processing LOCAL Region: B012_Sigmoid (51593 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.5278 | Clean ARI: 0.5171
+
+Processing LOCAL Region: B008_Sigmoid (43783 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.5603 | Clean ARI: 0.4830
+
+Processing LOCAL Region: B004_Transverse (33793 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.4252 | Clean ARI: 0.4396
+
+Processing LOCAL Region: B005_Transverse (33281 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.5452 | Clean ARI: 0.4774
+
+Processing LOCAL Region: B006_Transverse (31283 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.3146 | Clean ARI: 0.3268
+
+Processing LOCAL Region: B009_Trans (34642 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.4696 | Clean ARI: 0.4862
+
+Processing LOCAL Region: B010_Trans (14924 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.4298 | Clean ARI: 0.4434
+
+Processing LOCAL Region: B011_Trans (31751 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.5719 | Clean ARI: 0.5251
+
+Processing LOCAL Region: B012_Trans (27784 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.5610 | Clean ARI: 0.5380
+
+Processing LOCAL Region: B008_Trans (22279 cells)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Total ARI: 0.7170 | Clean ARI: 0.6308

@@ -1,0 +1,120 @@
+nohup: ignoring input
+Loading Base Data...
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Loading Dictionary: /hpc/home/vk93/lab_vk93/sthd-codex/sthd_ct_intestine_v0/mu_dict_knn_gat_ablations/ablation_knn_gcn/profiles.tsv
+Building Spatial Adjacency Matrix...
+
+--------------------------------------------------
+Testing Config: Beta_0.01_HighLR | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 33.1667 | LL: -33.1220 | CE: 4.4639
+  Epoch 20 | Total: 22.9493 | LL: -22.9045 | CE: 4.4834
+  Epoch 40 | Total: 17.6067 | LL: -17.5603 | CE: 4.6357
+  Epoch 60 | Total: 14.4816 | LL: -14.4346 | CE: 4.7073
+  Epoch 80 | Total: 13.2478 | LL: -13.1964 | CE: 5.1350
+  Epoch 99 | Total: 12.8276 | LL: -12.7705 | CE: 5.7071
+--> Result: ARI: 0.4395 | RI: 0.8999 | F1: 0.5914
+
+--------------------------------------------------
+Testing Config: Beta_0.1_HighLR | Beta: 0.1 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 33.5684 | LL: -33.1220 | CE: 4.4639
+  Epoch 20 | Total: 23.3518 | LL: -22.9045 | CE: 4.4733
+  Epoch 40 | Total: 18.0298 | LL: -17.5719 | CE: 4.5799
+  Epoch 60 | Total: 14.8991 | LL: -14.4486 | CE: 4.5048
+  Epoch 80 | Total: 13.6572 | LL: -13.2119 | CE: 4.4528
+  Epoch 99 | Total: 13.2090 | LL: -12.8059 | CE: 4.0305
+--> Result: ARI: 0.4151 | RI: 0.8931 | F1: 0.5801
+
+--------------------------------------------------
+Testing Config: Beta_1.0_HighLR | Beta: 1.0 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 37.5859 | LL: -33.1220 | CE: 4.4639
+  Epoch 20 | Total: 27.2921 | LL: -22.9280 | CE: 4.3642
+  Epoch 40 | Total: 22.0196 | LL: -17.8316 | CE: 4.1880
+  Epoch 60 | Total: 18.4576 | LL: -14.9727 | CE: 3.4849
+  Epoch 80 | Total: 16.1003 | LL: -14.0618 | CE: 2.0385
+  Epoch 99 | Total: 15.0037 | LL: -13.8388 | CE: 1.1649
+--> Result: ARI: 0.1665 | RI: 0.8015 | F1: 0.4201
+
+--------------------------------------------------
+Testing Config: Beta_2.0_HighLR | Beta: 2.0 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 42.0498 | LL: -33.1220 | CE: 4.4639
+  Epoch 20 | Total: 31.5227 | LL: -22.9503 | CE: 4.2862
+  Epoch 40 | Total: 25.8479 | LL: -18.1111 | CE: 3.8684
+  Epoch 60 | Total: 21.3640 | LL: -15.7729 | CE: 2.7956
+  Epoch 80 | Total: 17.9909 | LL: -15.1462 | CE: 1.4223
+  Epoch 99 | Total: 16.4318 | LL: -14.9393 | CE: 0.7462
+--> Result: ARI: 0.0892 | RI: 0.7331 | F1: 0.3334
+
+--------------------------------------------------
+Testing Config: Beta_3.0_HighLR | Beta: 3.0 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 46.5137 | LL: -33.1220 | CE: 4.4639
+  Epoch 20 | Total: 35.7182 | LL: -22.9965 | CE: 4.2405
+  Epoch 40 | Total: 29.5472 | LL: -18.4890 | CE: 3.6861
+  Epoch 60 | Total: 24.1501 | LL: -16.4828 | CE: 2.5558
+  Epoch 80 | Total: 19.6817 | LL: -15.9530 | CE: 1.2429
+  Epoch 99 | Total: 17.5350 | LL: -15.7485 | CE: 0.5955
+--> Result: ARI: 0.0631 | RI: 0.7058 | F1: 0.2933
+
+--------------------------------------------------
+Testing Config: Beta_0.01_LowLR | Beta: 0.01 | LR_W: 0.01 | LR_GAT: 0.001
+  Epoch 00 | Total: 33.1667 | LL: -33.1220 | CE: 4.4639
+  Epoch 20 | Total: 28.4547 | LL: -28.4101 | CE: 4.4605
+  Epoch 40 | Total: 25.8966 | LL: -25.8521 | CE: 4.4557
+  Epoch 60 | Total: 24.5599 | LL: -24.5153 | CE: 4.4558
+  Epoch 80 | Total: 23.8278 | LL: -23.7831 | CE: 4.4617
+  Epoch 99 | Total: 23.3745 | LL: -23.3298 | CE: 4.4708
+--> Result: ARI: 0.2936 | RI: 0.8415 | F1: 0.4541
+
+--------------------------------------------------
+Testing Config: Beta_0.1_LowLR | Beta: 0.1 | LR_W: 0.01 | LR_GAT: 0.001
+  Epoch 00 | Total: 33.5684 | LL: -33.1220 | CE: 4.4639
+  Epoch 20 | Total: 28.8561 | LL: -28.4101 | CE: 4.4607
+  Epoch 40 | Total: 26.2976 | LL: -25.8520 | CE: 4.4559
+  Epoch 60 | Total: 24.9609 | LL: -24.5154 | CE: 4.4547
+  Epoch 80 | Total: 24.2293 | LL: -23.7836 | CE: 4.4576
+  Epoch 99 | Total: 23.7767 | LL: -23.3306 | CE: 4.4614
+--> Result: ARI: 0.2980 | RI: 0.8429 | F1: 0.4580
+
+--------------------------------------------------
+Testing Config: Beta_1.0_LowLR | Beta: 1.0 | LR_W: 0.01 | LR_GAT: 0.001
+  Epoch 00 | Total: 37.5859 | LL: -33.1220 | CE: 4.4639
+  Epoch 20 | Total: 32.8704 | LL: -28.4098 | CE: 4.4606
+  Epoch 40 | Total: 30.3063 | LL: -25.8520 | CE: 4.4543
+  Epoch 60 | Total: 28.9664 | LL: -24.5177 | CE: 4.4487
+  Epoch 80 | Total: 28.2349 | LL: -23.7901 | CE: 4.4449
+  Epoch 99 | Total: 27.7840 | LL: -23.3427 | CE: 4.4414
+--> Result: ARI: 0.3116 | RI: 0.8587 | F1: 0.4690
+
+--------------------------------------------------
+Testing Config: Beta_2.0_LowLR | Beta: 2.0 | LR_W: 0.01 | LR_GAT: 0.001
+  Epoch 00 | Total: 42.0498 | LL: -33.1220 | CE: 4.4639
+  Epoch 20 | Total: 37.3297 | LL: -28.4095 | CE: 4.4601
+  Epoch 40 | Total: 34.7550 | LL: -25.8520 | CE: 4.4515
+  Epoch 60 | Total: 33.4043 | LL: -24.5207 | CE: 4.4418
+  Epoch 80 | Total: 32.6582 | LL: -23.7985 | CE: 4.4298
+  Epoch 99 | Total: 32.1852 | LL: -23.3571 | CE: 4.4141
+--> Result: ARI: 0.2876 | RI: 0.8571 | F1: 0.4542
+
+--------------------------------------------------
+Testing Config: Beta_3.0_LowLR | Beta: 3.0 | LR_W: 0.01 | LR_GAT: 0.001
+  Epoch 00 | Total: 46.5137 | LL: -33.1220 | CE: 4.4639
+  Epoch 20 | Total: 41.7873 | LL: -28.4091 | CE: 4.4594
+  Epoch 40 | Total: 39.1991 | LL: -25.8519 | CE: 4.4491
+  Epoch 60 | Total: 37.8303 | LL: -24.5247 | CE: 4.4352
+  Epoch 80 | Total: 37.0589 | LL: -23.8102 | CE: 4.4162
+  Epoch 99 | Total: 36.5528 | LL: -23.3792 | CE: 4.3912
+--> Result: ARI: 0.2485 | RI: 0.8458 | F1: 0.4310
+
+======================================================================
+SpGAT HYPERPARAMETER LEADERBOARD:
+Beta_0.01_HighLR    : ARI=0.4395 | RI=0.8999 | F1=0.5914
+Beta_0.1_HighLR     : ARI=0.4151 | RI=0.8931 | F1=0.5801
+Beta_1.0_LowLR      : ARI=0.3116 | RI=0.8587 | F1=0.4690
+Beta_0.1_LowLR      : ARI=0.2980 | RI=0.8429 | F1=0.4580
+Beta_0.01_LowLR     : ARI=0.2936 | RI=0.8415 | F1=0.4541
+Beta_2.0_LowLR      : ARI=0.2876 | RI=0.8571 | F1=0.4542
+Beta_3.0_LowLR      : ARI=0.2485 | RI=0.8458 | F1=0.4310
+Beta_1.0_HighLR     : ARI=0.1665 | RI=0.8015 | F1=0.4201
+Beta_2.0_HighLR     : ARI=0.0892 | RI=0.7331 | F1=0.3334
+Beta_3.0_HighLR     : ARI=0.0631 | RI=0.7058 | F1=0.2933
+======================================================================

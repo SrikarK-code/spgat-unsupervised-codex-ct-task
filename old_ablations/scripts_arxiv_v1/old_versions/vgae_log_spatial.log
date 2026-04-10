@@ -1,0 +1,22 @@
+nohup: ignoring input
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/dask/dataframe/__init__.py:31: FutureWarning: The legacy Dask DataFrame implementation is deprecated and will be removed in a future version. Set the configuration option `dataframe.query-planning` to `True` or None to enable the new Dask Dataframe implementation and silence this warning.
+  warnings.warn(
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/xarray_schema/__init__.py:1: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import DistributionNotFound, get_distribution
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/utils.py:434: FutureWarning: Importing read_text from `anndata` is deprecated. Import anndata.io.read_text instead.
+  warnings.warn(msg, FutureWarning)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Physical Spatial Graph...
+Calculating Perona-Malik Feature Weights...
+Training Perona-Malik VGAE...
+Traceback (most recent call last):
+  File "/hpc/group/yizhanglab/vk93/sthd-codex/run_ct_vgae.py", line 108, in <module>
+    loss.backward()
+  File "/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/torch/_tensor.py", line 648, in backward
+    torch.autograd.backward(
+  File "/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/torch/autograd/__init__.py", line 353, in backward
+    _engine_run_backward(
+  File "/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/torch/autograd/graph.py", line 824, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 948.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 228.19 MiB is free. Including non-PyTorch memory, this process has 10.34 GiB memory in use. Of the allocated memory 9.24 GiB is allocated by PyTorch, and 941.74 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

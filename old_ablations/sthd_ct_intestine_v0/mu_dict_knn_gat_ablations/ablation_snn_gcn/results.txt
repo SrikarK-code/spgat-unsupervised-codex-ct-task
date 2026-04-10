@@ -1,0 +1,8 @@
+Graph: snn
+Model: gcn
+Seed: 43
+Latent ARI: 0.0852
+Final STHD ARI: 0.4025
+Final STHD ARI: 0.0566 | RI: 0.6688 | F1: 0.0706
+Final STHD ARI: 0.4025 | RI: 0.8913 | F1: 0.5176
+STHD [TOTAL] ARI: 0.4025 | [CLEAN] ARI: 0.6749 | [MIXED] ARI: 0.3989

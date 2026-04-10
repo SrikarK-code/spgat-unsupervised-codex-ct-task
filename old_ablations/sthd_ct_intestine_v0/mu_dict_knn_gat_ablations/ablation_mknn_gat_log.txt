@@ -1,0 +1,93 @@
+Starting Ablation: Graph=MKNN | Model=GAT | Seed=43
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:156: FutureWarning: In the future, the default backend for leiden will be igraph instead of leidenalg.
+
+ To achieve the future defaults please pass: flavor="igraph" and n_iterations=2.  directed must also be False to work with igraph's implementation.
+  sc.tl.leiden(adata, resolution=1.0, random_state=args.seed, key_added='vgae_leiden')
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  vgae_profiles[f"VGAE_{cluster}"] = np.mean(cluster_cells, axis=0)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  vgae_profiles[f"VGAE_{cluster}"] = np.mean(cluster_cells, axis=0)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  vgae_profiles[f"VGAE_{cluster}"] = np.mean(cluster_cells, axis=0)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  vgae_profiles[f"VGAE_{cluster}"] = np.mean(cluster_cells, axis=0)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  vgae_profiles[f"VGAE_{cluster}"] = np.mean(cluster_cells, axis=0)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  vgae_profiles[f"VGAE_{cluster}"] = np.mean(cluster_cells, axis=0)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  vgae_profiles[f"VGAE_{cluster}"] = np.mean(cluster_cells, axis=0)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  vgae_profiles[f"VGAE_{cluster}"] = np.mean(cluster_cells, axis=0)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  vgae_profiles[f"VGAE_{cluster}"] = np.mean(cluster_cells, axis=0)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  vgae_profiles[f"VGAE_{cluster}"] = np.mean(cluster_cells, axis=0)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  vgae_profiles[f"VGAE_{cluster}"] = np.mean(cluster_cells, axis=0)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  vgae_profiles[f"VGAE_{cluster}"] = np.mean(cluster_cells, axis=0)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  vgae_profiles[f"VGAE_{cluster}"] = np.mean(cluster_cells, axis=0)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  vgae_profiles[f"VGAE_{cluster}"] = np.mean(cluster_cells, axis=0)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  vgae_profiles[f"VGAE_{cluster}"] = np.mean(cluster_cells, axis=0)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  vgae_profiles[f"VGAE_{cluster}"] = np.mean(cluster_cells, axis=0)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  vgae_profiles[f"VGAE_{cluster}"] = np.mean(cluster_cells, axis=0)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  vgae_profiles[f"VGAE_{cluster}"] = np.mean(cluster_cells, axis=0)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  vgae_profiles[f"VGAE_{cluster}"] = np.mean(cluster_cells, axis=0)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  vgae_profiles[f"VGAE_{cluster}"] = np.mean(cluster_cells, axis=0)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  vgae_profiles[f"VGAE_{cluster}"] = np.mean(cluster_cells, axis=0)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  vgae_profiles[f"VGAE_{cluster}"] = np.mean(cluster_cells, axis=0)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  vgae_profiles[f"VGAE_{cluster}"] = np.mean(cluster_cells, axis=0)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  vgae_profiles[f"VGAE_{cluster}"] = np.mean(cluster_cells, axis=0)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  vgae_profiles[f"VGAE_{cluster}"] = np.mean(cluster_cells, axis=0)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  vgae_profiles[f"VGAE_{cluster}"] = np.mean(cluster_cells, axis=0)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  vgae_profiles[f"VGAE_{cluster}"] = np.mean(cluster_cells, axis=0)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  vgae_profiles[f"VGAE_{cluster}"] = np.mean(cluster_cells, axis=0)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  vgae_profiles[f"VGAE_{cluster}"] = np.mean(cluster_cells, axis=0)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  vgae_profiles[f"VGAE_{cluster}"] = np.mean(cluster_cells, axis=0)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  vgae_profiles[f"VGAE_{cluster}"] = np.mean(cluster_cells, axis=0)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  vgae_profiles[f"VGAE_{cluster}"] = np.mean(cluster_cells, axis=0)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  vgae_profiles[f"VGAE_{cluster}"] = np.mean(cluster_cells, axis=0)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  vgae_profiles[f"VGAE_{cluster}"] = np.mean(cluster_cells, axis=0)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  vgae_profiles[f"VGAE_{cluster}"] = np.mean(cluster_cells, axis=0)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  vgae_profiles[f"VGAE_{cluster}"] = np.mean(cluster_cells, axis=0)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  vgae_profiles[f"VGAE_{cluster}"] = np.mean(cluster_cells, axis=0)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  vgae_profiles[f"VGAE_{cluster}"] = np.mean(cluster_cells, axis=0)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  vgae_profiles[f"VGAE_{cluster}"] = np.mean(cluster_cells, axis=0)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  vgae_profiles[f"VGAE_{cluster}"] = np.mean(cluster_cells, axis=0)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  vgae_profiles[f"VGAE_{cluster}"] = np.mean(cluster_cells, axis=0)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  vgae_profiles[f"VGAE_{cluster}"] = np.mean(cluster_cells, axis=0)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py:165: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  vgae_profiles[f"VGAE_{cluster}"] = np.mean(cluster_cells, axis=0)

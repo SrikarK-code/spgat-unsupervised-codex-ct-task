@@ -1,0 +1,147 @@
+nohup: ignoring input
+Loading Data...
+Building Graphs...
+
+------------------------------------------------------------
+Running: BASE_Unanchored_LR0.01
+--> [TOTAL] ARI 0.1348 | [CLEAN] ARI 0.1549 | [MIXED] ARI 0.0895
+
+------------------------------------------------------------
+Running: LEARNED_K_Unanchored_LR0.01
+--> [TOTAL] ARI 0.1241 | [CLEAN] ARI 0.1351 | [MIXED] ARI 0.1109
+
+------------------------------------------------------------
+Running: DIRICHLET_Unanchored_LR0.01
+--> [TOTAL] ARI 0.1589 | [CLEAN] ARI 0.1598 | [MIXED] ARI 0.1619
+
+------------------------------------------------------------
+Running: ANTI_SMOOTH_Unanchored_LR0.01
+--> [TOTAL] ARI 0.1548 | [CLEAN] ARI 0.1857 | [MIXED] ARI 0.1299
+
+------------------------------------------------------------
+Running: EDGE_MIX_Unanchored_LR0.01
+--> [TOTAL] ARI 0.1315 | [CLEAN] ARI 0.1453 | [MIXED] ARI 0.1194
+
+------------------------------------------------------------
+Running: SAGD_Unanchored_LR0.01
+--> [TOTAL] ARI 0.0611 | [CLEAN] ARI 0.0588 | [MIXED] ARI 0.0858
+
+------------------------------------------------------------
+Running: OP_SAGD_Unanchored_LR0.01
+--> [TOTAL] ARI 0.1595 | [CLEAN] ARI 0.1641 | [MIXED] ARI 0.1602
+
+------------------------------------------------------------
+Running: BASE_Unanchored_LR0.005
+--> [TOTAL] ARI 0.0631 | [CLEAN] ARI 0.0615 | [MIXED] ARI 0.0827
+
+------------------------------------------------------------
+Running: LEARNED_K_Unanchored_LR0.005
+--> [TOTAL] ARI 0.1215 | [CLEAN] ARI 0.1313 | [MIXED] ARI 0.1088
+
+------------------------------------------------------------
+Running: DIRICHLET_Unanchored_LR0.005
+--> [TOTAL] ARI 0.2065 | [CLEAN] ARI 0.2204 | [MIXED] ARI 0.1844
+
+------------------------------------------------------------
+Running: ANTI_SMOOTH_Unanchored_LR0.005
+--> [TOTAL] ARI 0.1831 | [CLEAN] ARI 0.2248 | [MIXED] ARI 0.1383
+
+------------------------------------------------------------
+Running: EDGE_MIX_Unanchored_LR0.005
+--> [TOTAL] ARI 0.0640 | [CLEAN] ARI 0.0608 | [MIXED] ARI 0.0999
+
+------------------------------------------------------------
+Running: SAGD_Unanchored_LR0.005
+--> [TOTAL] ARI 0.0195 | [CLEAN] ARI 0.0142 | [MIXED] ARI 0.0759
+
+------------------------------------------------------------
+Running: OP_SAGD_Unanchored_LR0.005
+--> [TOTAL] ARI 0.1938 | [CLEAN] ARI 0.2101 | [MIXED] ARI 0.1669
+
+------------------------------------------------------------
+Running: BASE_Anchored_LR0.01
+--> [TOTAL] ARI 0.2328 | [CLEAN] ARI 0.1786 | [MIXED] ARI 0.2958
+
+------------------------------------------------------------
+Running: LEARNED_K_Anchored_LR0.01
+--> [TOTAL] ARI 0.1702 | [CLEAN] ARI 0.1322 | [MIXED] ARI 0.2143
+
+------------------------------------------------------------
+Running: DIRICHLET_Anchored_LR0.01
+--> [TOTAL] ARI 0.1249 | [CLEAN] ARI 0.0965 | [MIXED] ARI 0.1510
+
+------------------------------------------------------------
+Running: ANTI_SMOOTH_Anchored_LR0.01
+--> [TOTAL] ARI 0.1752 | [CLEAN] ARI 0.1324 | [MIXED] ARI 0.2120
+
+------------------------------------------------------------
+Running: EDGE_MIX_Anchored_LR0.01
+--> [TOTAL] ARI 0.1664 | [CLEAN] ARI 0.1419 | [MIXED] ARI 0.1898
+
+------------------------------------------------------------
+Running: SAGD_Anchored_LR0.01
+--> [TOTAL] ARI 0.1849 | [CLEAN] ARI 0.1209 | [MIXED] ARI 0.3049
+
+------------------------------------------------------------
+Running: OP_SAGD_Anchored_LR0.01
+--> [TOTAL] ARI 0.1284 | [CLEAN] ARI 0.0975 | [MIXED] ARI 0.1557
+
+------------------------------------------------------------
+Running: BASE_Anchored_LR0.005
+--> [TOTAL] ARI 0.2450 | [CLEAN] ARI 0.2252 | [MIXED] ARI 0.2852
+
+------------------------------------------------------------
+Running: LEARNED_K_Anchored_LR0.005
+--> [TOTAL] ARI 0.2116 | [CLEAN] ARI 0.1821 | [MIXED] ARI 0.2604
+
+------------------------------------------------------------
+Running: DIRICHLET_Anchored_LR0.005
+--> [TOTAL] ARI 0.1691 | [CLEAN] ARI 0.1409 | [MIXED] ARI 0.2117
+
+------------------------------------------------------------
+Running: ANTI_SMOOTH_Anchored_LR0.005
+--> [TOTAL] ARI 0.2443 | [CLEAN] ARI 0.2082 | [MIXED] ARI 0.2886
+
+------------------------------------------------------------
+Running: EDGE_MIX_Anchored_LR0.005
+--> [TOTAL] ARI 0.2148 | [CLEAN] ARI 0.2002 | [MIXED] ARI 0.2375
+
+------------------------------------------------------------
+Running: SAGD_Anchored_LR0.005
+--> [TOTAL] ARI 0.1565 | [CLEAN] ARI 0.1164 | [MIXED] ARI 0.2981
+
+------------------------------------------------------------
+Running: OP_SAGD_Anchored_LR0.005
+--> [TOTAL] ARI 0.1634 | [CLEAN] ARI 0.1316 | [MIXED] ARI 0.2093
+
+================================================================================
+FINAL GAT-DECONV LEADERBOARD (Sorted by Total ARI)
+================================================================================
+BASE_Anchored_LR0.005               | TOTAL: 0.2450 | CLEAN: 0.2252 | MIXED: 0.2852
+ANTI_SMOOTH_Anchored_LR0.005        | TOTAL: 0.2443 | CLEAN: 0.2082 | MIXED: 0.2886
+BASE_Anchored_LR0.01                | TOTAL: 0.2328 | CLEAN: 0.1786 | MIXED: 0.2958
+EDGE_MIX_Anchored_LR0.005           | TOTAL: 0.2148 | CLEAN: 0.2002 | MIXED: 0.2375
+LEARNED_K_Anchored_LR0.005          | TOTAL: 0.2116 | CLEAN: 0.1821 | MIXED: 0.2604
+DIRICHLET_Unanchored_LR0.005        | TOTAL: 0.2065 | CLEAN: 0.2204 | MIXED: 0.1844
+OP_SAGD_Unanchored_LR0.005          | TOTAL: 0.1938 | CLEAN: 0.2101 | MIXED: 0.1669
+SAGD_Anchored_LR0.01                | TOTAL: 0.1849 | CLEAN: 0.1209 | MIXED: 0.3049
+ANTI_SMOOTH_Unanchored_LR0.005      | TOTAL: 0.1831 | CLEAN: 0.2248 | MIXED: 0.1383
+ANTI_SMOOTH_Anchored_LR0.01         | TOTAL: 0.1752 | CLEAN: 0.1324 | MIXED: 0.2120
+LEARNED_K_Anchored_LR0.01           | TOTAL: 0.1702 | CLEAN: 0.1322 | MIXED: 0.2143
+DIRICHLET_Anchored_LR0.005          | TOTAL: 0.1691 | CLEAN: 0.1409 | MIXED: 0.2117
+EDGE_MIX_Anchored_LR0.01            | TOTAL: 0.1664 | CLEAN: 0.1419 | MIXED: 0.1898
+OP_SAGD_Anchored_LR0.005            | TOTAL: 0.1634 | CLEAN: 0.1316 | MIXED: 0.2093
+OP_SAGD_Unanchored_LR0.01           | TOTAL: 0.1595 | CLEAN: 0.1641 | MIXED: 0.1602
+DIRICHLET_Unanchored_LR0.01         | TOTAL: 0.1589 | CLEAN: 0.1598 | MIXED: 0.1619
+SAGD_Anchored_LR0.005               | TOTAL: 0.1565 | CLEAN: 0.1164 | MIXED: 0.2981
+ANTI_SMOOTH_Unanchored_LR0.01       | TOTAL: 0.1548 | CLEAN: 0.1857 | MIXED: 0.1299
+BASE_Unanchored_LR0.01              | TOTAL: 0.1348 | CLEAN: 0.1549 | MIXED: 0.0895
+EDGE_MIX_Unanchored_LR0.01          | TOTAL: 0.1315 | CLEAN: 0.1453 | MIXED: 0.1194
+OP_SAGD_Anchored_LR0.01             | TOTAL: 0.1284 | CLEAN: 0.0975 | MIXED: 0.1557
+DIRICHLET_Anchored_LR0.01           | TOTAL: 0.1249 | CLEAN: 0.0965 | MIXED: 0.1510
+LEARNED_K_Unanchored_LR0.01         | TOTAL: 0.1241 | CLEAN: 0.1351 | MIXED: 0.1109
+LEARNED_K_Unanchored_LR0.005        | TOTAL: 0.1215 | CLEAN: 0.1313 | MIXED: 0.1088
+EDGE_MIX_Unanchored_LR0.005         | TOTAL: 0.0640 | CLEAN: 0.0608 | MIXED: 0.0999
+BASE_Unanchored_LR0.005             | TOTAL: 0.0631 | CLEAN: 0.0615 | MIXED: 0.0827
+SAGD_Unanchored_LR0.01              | TOTAL: 0.0611 | CLEAN: 0.0588 | MIXED: 0.0858
+SAGD_Unanchored_LR0.005             | TOTAL: 0.0195 | CLEAN: 0.0142 | MIXED: 0.0759

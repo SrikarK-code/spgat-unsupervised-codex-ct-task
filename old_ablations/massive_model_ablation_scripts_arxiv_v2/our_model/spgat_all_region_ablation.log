@@ -1,0 +1,1460 @@
+nohup: ignoring input
+Loading Base Data...
+Loading Dictionary: /hpc/home/vk93/lab_vk93/sthd-codex/sthd_ct_intestine_v0/mu_dict_knn_gat_ablations/ablation_knn_gcn/profiles.tsv
+Found 66 unique regions to process.
+
+================================================================================
+Processing Region: B004_Ascending
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B004_Ascending (21232 cells)...
+
+------------------------------------------------------------
+Testing Region: B004_Ascending | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 32.7916 | LL: -32.7470 | CE: 4.4575
+  Epoch 20 | Total: 23.4887 | LL: -23.4445 | CE: 4.4200
+  Epoch 40 | Total: 18.0464 | LL: -18.0024 | CE: 4.3986
+  Epoch 60 | Total: 14.9027 | LL: -14.8617 | CE: 4.1054
+  Epoch 80 | Total: 13.6741 | LL: -13.6317 | CE: 4.2417
+  Epoch 99 | Total: 13.2798 | LL: -13.2336 | CE: 4.6264
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 21232   | ARI: 0.4338 | F1: 0.5859
+  [CLEAN] Cells: 12297   | ARI: 0.5009 | F1: 0.6354  (Confidence >= 80%)
+  [MIXED] Cells: 8935    | ARI: 0.3701 | F1: 0.5076  (Confidence < 80%)
+
+================================================================================
+Processing Region: B005_Ascending
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B005_Ascending (17312 cells)...
+
+------------------------------------------------------------
+Testing Region: B005_Ascending | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 38.5686 | LL: -38.5240 | CE: 4.4574
+  Epoch 20 | Total: 24.0268 | LL: -23.9831 | CE: 4.3754
+  Epoch 40 | Total: 21.0945 | LL: -21.0505 | CE: 4.4049
+  Epoch 60 | Total: 18.5007 | LL: -18.4573 | CE: 4.3339
+  Epoch 80 | Total: 16.2462 | LL: -16.2048 | CE: 4.1364
+  Epoch 99 | Total: 15.0560 | LL: -15.0152 | CE: 4.0783
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 17312   | ARI: 0.3652 | F1: 0.5537
+  [CLEAN] Cells: 3520    | ARI: 0.7396 | F1: 0.7553  (Confidence >= 80%)
+  [MIXED] Cells: 13792   | ARI: 0.3136 | F1: 0.4989  (Confidence < 80%)
+
+================================================================================
+Processing Region: B006_Ascending
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B006_Ascending (38371 cells)...
+
+------------------------------------------------------------
+Testing Region: B006_Ascending | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 38.5074 | LL: -38.4628 | CE: 4.4582
+  Epoch 20 | Total: 24.7807 | LL: -24.7374 | CE: 4.3248
+  Epoch 40 | Total: 18.7558 | LL: -18.7146 | CE: 4.1285
+  Epoch 60 | Total: 15.2293 | LL: -15.1902 | CE: 3.9138
+  Epoch 80 | Total: 13.9427 | LL: -13.9024 | CE: 4.0240
+  Epoch 99 | Total: 13.5229 | LL: -13.4791 | CE: 4.3841
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 38371   | ARI: 0.5069 | F1: 0.6098
+  [CLEAN] Cells: 19520   | ARI: 0.5635 | F1: 0.6748  (Confidence >= 80%)
+  [MIXED] Cells: 18851   | ARI: 0.4477 | F1: 0.5332  (Confidence < 80%)
+
+================================================================================
+Processing Region: B009_Right
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B009_Right (58349 cells)...
+
+------------------------------------------------------------
+Testing Region: B009_Right | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 210.0039 | LL: -209.9593 | CE: 4.4535
+  Epoch 20 | Total: 50.6654 | LL: -50.6216 | CE: 4.3780
+  Epoch 40 | Total: 41.6429 | LL: -41.5994 | CE: 4.3550
+  Epoch 60 | Total: 37.0360 | LL: -36.9939 | CE: 4.2116
+  Epoch 80 | Total: 30.4111 | LL: -30.3720 | CE: 3.9043
+  Epoch 99 | Total: 26.0706 | LL: -26.0346 | CE: 3.6017
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 58349   | ARI: 0.1276 | F1: 0.3641
+  [CLEAN] Cells: 3141    | ARI: 0.7453 | F1: 0.7242  (Confidence >= 80%)
+  [MIXED] Cells: 55208   | ARI: 0.1162 | F1: 0.3349  (Confidence < 80%)
+
+================================================================================
+Processing Region: B010_Right
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B010_Right (22961 cells)...
+
+------------------------------------------------------------
+Testing Region: B010_Right | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 224.1060 | LL: -224.0614 | CE: 4.4583
+  Epoch 20 | Total: 32.1820 | LL: -32.1378 | CE: 4.4172
+  Epoch 40 | Total: 27.4947 | LL: -27.4506 | CE: 4.4063
+  Epoch 60 | Total: 27.0574 | LL: -27.0134 | CE: 4.4017
+  Epoch 80 | Total: 26.3909 | LL: -26.3471 | CE: 4.3882
+  Epoch 99 | Total: 25.6191 | LL: -25.5752 | CE: 4.3868
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 22961   | ARI: 0.3276 | F1: 0.4581
+  [CLEAN] Cells: 33      | ARI: 0.5094 | F1: 0.4989  (Confidence >= 80%)
+  [MIXED] Cells: 22928   | ARI: 0.3275 | F1: 0.4582  (Confidence < 80%)
+
+================================================================================
+Processing Region: B011_Right
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B011_Right (20382 cells)...
+
+------------------------------------------------------------
+Testing Region: B011_Right | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 49.3342 | LL: -49.2896 | CE: 4.4558
+  Epoch 20 | Total: 26.4809 | LL: -26.4376 | CE: 4.3311
+  Epoch 40 | Total: 23.0070 | LL: -22.9639 | CE: 4.3112
+  Epoch 60 | Total: 19.7666 | LL: -19.7262 | CE: 4.0404
+  Epoch 80 | Total: 17.8405 | LL: -17.8027 | CE: 3.7826
+  Epoch 99 | Total: 17.0682 | LL: -17.0296 | CE: 3.8586
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 20382   | ARI: 0.3836 | F1: 0.5564
+  [CLEAN] Cells: 5774    | ARI: 0.6145 | F1: 0.6514  (Confidence >= 80%)
+  [MIXED] Cells: 14608   | ARI: 0.3162 | F1: 0.5109  (Confidence < 80%)
+
+================================================================================
+Processing Region: B012_Right
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B012_Right (25403 cells)...
+
+------------------------------------------------------------
+Testing Region: B012_Right | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 88.5994 | LL: -88.5549 | CE: 4.4538
+  Epoch 20 | Total: 30.4586 | LL: -30.4150 | CE: 4.3590
+  Epoch 40 | Total: 27.1346 | LL: -27.0912 | CE: 4.3388
+  Epoch 60 | Total: 25.0708 | LL: -25.0286 | CE: 4.2159
+  Epoch 80 | Total: 21.9662 | LL: -21.9271 | CE: 3.9062
+  Epoch 99 | Total: 19.8081 | LL: -19.7716 | CE: 3.6483
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 25403   | ARI: 0.1608 | F1: 0.4387
+  [CLEAN] Cells: 1827    | ARI: 0.7128 | F1: 0.6309  (Confidence >= 80%)
+  [MIXED] Cells: 23576   | ARI: 0.1423 | F1: 0.4207  (Confidence < 80%)
+
+================================================================================
+Processing Region: B008_Right
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B008_Right (5829 cells)...
+
+------------------------------------------------------------
+Testing Region: B008_Right | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 109.6862 | LL: -109.6416 | CE: 4.4575
+  Epoch 20 | Total: 33.9963 | LL: -33.9534 | CE: 4.2846
+  Epoch 40 | Total: 27.0560 | LL: -27.0140 | CE: 4.1977
+  Epoch 60 | Total: 22.8466 | LL: -22.8073 | CE: 3.9253
+  Epoch 80 | Total: 19.7593 | LL: -19.7221 | CE: 3.7188
+  Epoch 99 | Total: 18.5176 | LL: -18.4815 | CE: 3.6056
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 5829    | ARI: 0.3801 | F1: 0.5229
+  [CLEAN] Cells: 661     | ARI: 0.7228 | F1: 0.6837  (Confidence >= 80%)
+  [MIXED] Cells: 5168    | ARI: 0.3196 | F1: 0.4932  (Confidence < 80%)
+
+================================================================================
+Processing Region: B004_Descending
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B004_Descending (30547 cells)...
+
+------------------------------------------------------------
+Testing Region: B004_Descending | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 39.0920 | LL: -39.0474 | CE: 4.4583
+  Epoch 20 | Total: 25.7643 | LL: -25.7206 | CE: 4.3681
+  Epoch 40 | Total: 20.4107 | LL: -20.3677 | CE: 4.2931
+  Epoch 60 | Total: 16.2972 | LL: -16.2554 | CE: 4.1770
+  Epoch 80 | Total: 14.5435 | LL: -14.5009 | CE: 4.2641
+  Epoch 99 | Total: 13.9700 | LL: -13.9233 | CE: 4.6699
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 30547   | ARI: 0.3766 | F1: 0.5081
+  [CLEAN] Cells: 17803   | ARI: 0.4640 | F1: 0.5606  (Confidence >= 80%)
+  [MIXED] Cells: 12744   | ARI: 0.2763 | F1: 0.4281  (Confidence < 80%)
+
+================================================================================
+Processing Region: B005_Descending
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B005_Descending (51294 cells)...
+
+------------------------------------------------------------
+Testing Region: B005_Descending | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 52.1743 | LL: -52.1298 | CE: 4.4568
+  Epoch 20 | Total: 26.5201 | LL: -26.4765 | CE: 4.3612
+  Epoch 40 | Total: 22.4074 | LL: -22.3650 | CE: 4.2412
+  Epoch 60 | Total: 18.6211 | LL: -18.5814 | CE: 3.9668
+  Epoch 80 | Total: 16.9501 | LL: -16.9120 | CE: 3.8084
+  Epoch 99 | Total: 16.4562 | LL: -16.4170 | CE: 3.9177
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 51294   | ARI: 0.2459 | F1: 0.4323
+  [CLEAN] Cells: 25579   | ARI: 0.3516 | F1: 0.4894  (Confidence >= 80%)
+  [MIXED] Cells: 25715   | ARI: 0.1985 | F1: 0.3672  (Confidence < 80%)
+
+================================================================================
+Processing Region: B006_Descending
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B006_Descending (20379 cells)...
+
+------------------------------------------------------------
+Testing Region: B006_Descending | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 42.3673 | LL: -42.3227 | CE: 4.4560
+  Epoch 20 | Total: 25.0343 | LL: -24.9905 | CE: 4.3816
+  Epoch 40 | Total: 21.1032 | LL: -21.0595 | CE: 4.3713
+  Epoch 60 | Total: 18.1497 | LL: -18.1068 | CE: 4.2960
+  Epoch 80 | Total: 16.4078 | LL: -16.3642 | CE: 4.3670
+  Epoch 99 | Total: 15.5194 | LL: -15.4727 | CE: 4.6707
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 20379   | ARI: 0.3329 | F1: 0.5140
+  [CLEAN] Cells: 4836    | ARI: 0.4637 | F1: 0.6049  (Confidence >= 80%)
+  [MIXED] Cells: 15543   | ARI: 0.3164 | F1: 0.4847  (Confidence < 80%)
+
+================================================================================
+Processing Region: B009_Left
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B009_Left (77354 cells)...
+
+------------------------------------------------------------
+Testing Region: B009_Left | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 260.2723 | LL: -260.2277 | CE: 4.4627
+  Epoch 20 | Total: 68.0726 | LL: -68.0292 | CE: 4.3382
+  Epoch 40 | Total: 47.4317 | LL: -47.3897 | CE: 4.2031
+  Epoch 60 | Total: 35.0498 | LL: -35.0118 | CE: 3.7956
+  Epoch 80 | Total: 28.9652 | LL: -28.9299 | CE: 3.5275
+  Epoch 99 | Total: 26.0123 | LL: -25.9788 | CE: 3.3498
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 77354   | ARI: 0.4726 | F1: 0.4983
+  [CLEAN] Cells: 5999    | ARI: 0.5943 | F1: 0.6303  (Confidence >= 80%)
+  [MIXED] Cells: 71355   | ARI: 0.4546 | F1: 0.4864  (Confidence < 80%)
+
+================================================================================
+Processing Region: B012_Left
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B012_Left (72748 cells)...
+
+------------------------------------------------------------
+Testing Region: B012_Left | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 307.1952 | LL: -307.1506 | CE: 4.4549
+  Epoch 20 | Total: 49.3532 | LL: -49.3093 | CE: 4.3876
+  Epoch 40 | Total: 39.0252 | LL: -38.9815 | CE: 4.3773
+  Epoch 60 | Total: 36.9339 | LL: -36.8906 | CE: 4.3343
+  Epoch 80 | Total: 33.7168 | LL: -33.6747 | CE: 4.2060
+  Epoch 99 | Total: 29.4955 | LL: -29.4551 | CE: 4.0368
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 72748   | ARI: 0.1254 | F1: 0.3747
+  [CLEAN] Cells: 626     | ARI: 0.8312 | F1: 0.7533  (Confidence >= 80%)
+  [MIXED] Cells: 72122   | ARI: 0.1223 | F1: 0.3694  (Confidence < 80%)
+
+================================================================================
+Processing Region: B011_Left
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B011_Left (20504 cells)...
+
+------------------------------------------------------------
+Testing Region: B011_Left | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 341.3988 | LL: -341.3542 | CE: 4.4557
+  Epoch 20 | Total: 50.4448 | LL: -50.4007 | CE: 4.4119
+  Epoch 40 | Total: 40.1403 | LL: -40.0962 | CE: 4.4043
+  Epoch 60 | Total: 38.2442 | LL: -38.2005 | CE: 4.3689
+  Epoch 80 | Total: 35.4163 | LL: -35.3735 | CE: 4.2829
+  Epoch 99 | Total: 31.9202 | LL: -31.8783 | CE: 4.1906
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 20504   | ARI: 0.0537 | F1: 0.2448
+  [CLEAN] Cells: 33      | ARI: 0.3820 | F1: 0.5014  (Confidence >= 80%)
+  [MIXED] Cells: 20471   | ARI: 0.0534 | F1: 0.2443  (Confidence < 80%)
+
+================================================================================
+Processing Region: B010_Left
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B010_Left (19612 cells)...
+
+------------------------------------------------------------
+Testing Region: B010_Left | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 40.7937 | LL: -40.7491 | CE: 4.4582
+  Epoch 20 | Total: 25.7823 | LL: -25.7397 | CE: 4.2513
+  Epoch 40 | Total: 21.4462 | LL: -21.4042 | CE: 4.2002
+  Epoch 60 | Total: 18.3728 | LL: -18.3340 | CE: 3.8780
+  Epoch 80 | Total: 17.0721 | LL: -17.0346 | CE: 3.7499
+  Epoch 99 | Total: 16.6514 | LL: -16.6129 | CE: 3.8478
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 19612   | ARI: 0.6490 | F1: 0.6678
+  [CLEAN] Cells: 7327    | ARI: 0.7711 | F1: 0.7214  (Confidence >= 80%)
+  [MIXED] Cells: 12285   | ARI: 0.5610 | F1: 0.6275  (Confidence < 80%)
+
+================================================================================
+Processing Region: B008_Left
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B008_Left (37213 cells)...
+
+------------------------------------------------------------
+Testing Region: B008_Left | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 91.0990 | LL: -91.0544 | CE: 4.4595
+  Epoch 20 | Total: 31.8971 | LL: -31.8544 | CE: 4.2677
+  Epoch 40 | Total: 24.8619 | LL: -24.8211 | CE: 4.0812
+  Epoch 60 | Total: 20.4103 | LL: -20.3720 | CE: 3.8241
+  Epoch 80 | Total: 18.2028 | LL: -18.1656 | CE: 3.7254
+  Epoch 99 | Total: 16.9859 | LL: -16.9479 | CE: 3.7950
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 37213   | ARI: 0.4954 | F1: 0.5914
+  [CLEAN] Cells: 7946    | ARI: 0.5114 | F1: 0.6079  (Confidence >= 80%)
+  [MIXED] Cells: 29267   | ARI: 0.4804 | F1: 0.5813  (Confidence < 80%)
+
+================================================================================
+Processing Region: B005_Duodenum
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B005_Duodenum (23558 cells)...
+
+------------------------------------------------------------
+Testing Region: B005_Duodenum | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 32.3383 | LL: -32.2937 | CE: 4.4598
+  Epoch 20 | Total: 24.2377 | LL: -24.1939 | CE: 4.3792
+  Epoch 40 | Total: 19.1222 | LL: -19.0798 | CE: 4.2348
+  Epoch 60 | Total: 16.5810 | LL: -16.5397 | CE: 4.1368
+  Epoch 80 | Total: 15.5746 | LL: -15.5311 | CE: 4.3503
+  Epoch 99 | Total: 15.2559 | LL: -15.2081 | CE: 4.7764
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 23558   | ARI: 0.5019 | F1: 0.6208
+  [CLEAN] Cells: 14398   | ARI: 0.5660 | F1: 0.6660  (Confidence >= 80%)
+  [MIXED] Cells: 9160    | ARI: 0.4495 | F1: 0.5433  (Confidence < 80%)
+
+================================================================================
+Processing Region: B004_Duodenum
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B004_Duodenum (44170 cells)...
+
+------------------------------------------------------------
+Testing Region: B004_Duodenum | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 36.3872 | LL: -36.3426 | CE: 4.4599
+  Epoch 20 | Total: 23.7628 | LL: -23.7186 | CE: 4.4262
+  Epoch 40 | Total: 18.8119 | LL: -18.7680 | CE: 4.3825
+  Epoch 60 | Total: 15.5038 | LL: -15.4615 | CE: 4.2252
+  Epoch 80 | Total: 14.0756 | LL: -14.0315 | CE: 4.4065
+  Epoch 99 | Total: 13.5513 | LL: -13.5026 | CE: 4.8654
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 44170   | ARI: 0.3631 | F1: 0.5538
+  [CLEAN] Cells: 18984   | ARI: 0.4943 | F1: 0.6361  (Confidence >= 80%)
+  [MIXED] Cells: 25186   | ARI: 0.3038 | F1: 0.4778  (Confidence < 80%)
+
+================================================================================
+Processing Region: B006_Duodenum
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B006_Duodenum (56310 cells)...
+
+------------------------------------------------------------
+Testing Region: B006_Duodenum | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 57.9007 | LL: -57.8561 | CE: 4.4608
+  Epoch 20 | Total: 28.1173 | LL: -28.0743 | CE: 4.3034
+  Epoch 40 | Total: 23.1939 | LL: -23.1520 | CE: 4.1904
+  Epoch 60 | Total: 18.7623 | LL: -18.7237 | CE: 3.8531
+  Epoch 80 | Total: 16.4883 | LL: -16.4511 | CE: 3.7168
+  Epoch 99 | Total: 15.4790 | LL: -15.4398 | CE: 3.9128
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 56310   | ARI: 0.4565 | F1: 0.6168
+  [CLEAN] Cells: 13606   | ARI: 0.6580 | F1: 0.7353  (Confidence >= 80%)
+  [MIXED] Cells: 42704   | ARI: 0.4021 | F1: 0.5753  (Confidence < 80%)
+
+================================================================================
+Processing Region: B009_Duodenum
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B009_Duodenum (43092 cells)...
+
+------------------------------------------------------------
+Testing Region: B009_Duodenum | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 194.6145 | LL: -194.5699 | CE: 4.4574
+  Epoch 20 | Total: 34.6444 | LL: -34.6004 | CE: 4.4022
+  Epoch 40 | Total: 29.8469 | LL: -29.8030 | CE: 4.3924
+  Epoch 60 | Total: 28.7665 | LL: -28.7227 | CE: 4.3769
+  Epoch 80 | Total: 27.0543 | LL: -27.0110 | CE: 4.3299
+  Epoch 99 | Total: 25.1686 | LL: -25.1262 | CE: 4.2439
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 43092   | ARI: 0.1448 | F1: 0.3429
+  [CLEAN] Cells: 506     | ARI: 0.9142 | F1: 0.8925  (Confidence >= 80%)
+  [MIXED] Cells: 42586   | ARI: 0.1410 | F1: 0.3357  (Confidence < 80%)
+
+================================================================================
+Processing Region: B011_Duodenum
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B011_Duodenum (66845 cells)...
+
+------------------------------------------------------------
+Testing Region: B011_Duodenum | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 56.1593 | LL: -56.1147 | CE: 4.4584
+  Epoch 20 | Total: 25.8907 | LL: -25.8471 | CE: 4.3510
+  Epoch 40 | Total: 23.4830 | LL: -23.4396 | CE: 4.3418
+  Epoch 60 | Total: 21.4853 | LL: -21.4420 | CE: 4.3287
+  Epoch 80 | Total: 19.3760 | LL: -19.3333 | CE: 4.2658
+  Epoch 99 | Total: 18.0976 | LL: -18.0548 | CE: 4.2777
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 66845   | ARI: 0.2677 | F1: 0.4592
+  [CLEAN] Cells: 8403    | ARI: 0.6412 | F1: 0.5981  (Confidence >= 80%)
+  [MIXED] Cells: 58442   | ARI: 0.2457 | F1: 0.4368  (Confidence < 80%)
+
+================================================================================
+Processing Region: B012_Duodenum
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B012_Duodenum (31219 cells)...
+
+------------------------------------------------------------
+Testing Region: B012_Duodenum | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 192.5055 | LL: -192.4610 | CE: 4.4558
+  Epoch 20 | Total: 32.1720 | LL: -32.1282 | CE: 4.3859
+  Epoch 40 | Total: 27.6052 | LL: -27.5615 | CE: 4.3749
+  Epoch 60 | Total: 27.1054 | LL: -27.0617 | CE: 4.3642
+  Epoch 80 | Total: 26.1895 | LL: -26.1463 | CE: 4.3282
+  Epoch 99 | Total: 25.1319 | LL: -25.0892 | CE: 4.2739
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 31219   | ARI: 0.2358 | F1: 0.4085
+  [CLEAN] Cells: 146     | ARI: 0.7198 | F1: 0.6997  (Confidence >= 80%)
+  [MIXED] Cells: 31073   | ARI: 0.2347 | F1: 0.4066  (Confidence < 80%)
+
+================================================================================
+Processing Region: B010_Duodenum
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B010_Duodenum (34133 cells)...
+
+------------------------------------------------------------
+Testing Region: B010_Duodenum | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 50.1776 | LL: -50.1330 | CE: 4.4603
+  Epoch 20 | Total: 25.0211 | LL: -24.9775 | CE: 4.3561
+  Epoch 40 | Total: 22.3236 | LL: -22.2800 | CE: 4.3585
+  Epoch 60 | Total: 20.7259 | LL: -20.6824 | CE: 4.3509
+  Epoch 80 | Total: 19.3162 | LL: -19.2736 | CE: 4.2604
+  Epoch 99 | Total: 18.1555 | LL: -18.1143 | CE: 4.1261
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 34133   | ARI: 0.3210 | F1: 0.5385
+  [CLEAN] Cells: 2888    | ARI: 0.7199 | F1: 0.6897  (Confidence >= 80%)
+  [MIXED] Cells: 31245   | ARI: 0.2987 | F1: 0.5217  (Confidence < 80%)
+
+================================================================================
+Processing Region: B008_Duodenum
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B008_Duodenum (78213 cells)...
+
+------------------------------------------------------------
+Testing Region: B008_Duodenum | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 138.6039 | LL: -138.5593 | CE: 4.4609
+  Epoch 20 | Total: 32.7594 | LL: -32.7165 | CE: 4.2920
+  Epoch 40 | Total: 27.7720 | LL: -27.7293 | CE: 4.2707
+  Epoch 60 | Total: 26.6782 | LL: -26.6359 | CE: 4.2271
+  Epoch 80 | Total: 25.1197 | LL: -25.0791 | CE: 4.0607
+  Epoch 99 | Total: 23.0754 | LL: -23.0382 | CE: 3.7217
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 78213   | ARI: 0.1165 | F1: 0.3617
+  [CLEAN] Cells: 702     | ARI: 0.4173 | F1: 0.5056  (Confidence >= 80%)
+  [MIXED] Cells: 77511   | ARI: 0.1123 | F1: 0.3592  (Confidence < 80%)
+
+================================================================================
+Processing Region: B004_Ileum
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B004_Ileum (26494 cells)...
+
+------------------------------------------------------------
+Testing Region: B004_Ileum | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 44.6550 | LL: -44.6104 | CE: 4.4605
+  Epoch 20 | Total: 25.6225 | LL: -25.5797 | CE: 4.2801
+  Epoch 40 | Total: 18.4609 | LL: -18.4197 | CE: 4.1144
+  Epoch 60 | Total: 14.6153 | LL: -14.5751 | CE: 4.0190
+  Epoch 80 | Total: 13.2386 | LL: -13.1978 | CE: 4.0748
+  Epoch 99 | Total: 12.7729 | LL: -12.7292 | CE: 4.3722
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 26494   | ARI: 0.5968 | F1: 0.6601
+  [CLEAN] Cells: 12059   | ARI: 0.5955 | F1: 0.7014  (Confidence >= 80%)
+  [MIXED] Cells: 14435   | ARI: 0.5782 | F1: 0.6076  (Confidence < 80%)
+
+================================================================================
+Processing Region: B005_Ileum
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B005_Ileum (17670 cells)...
+
+------------------------------------------------------------
+Testing Region: B005_Ileum | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 31.5321 | LL: -31.4875 | CE: 4.4561
+  Epoch 20 | Total: 23.3324 | LL: -23.2886 | CE: 4.3738
+  Epoch 40 | Total: 18.3964 | LL: -18.3537 | CE: 4.2698
+  Epoch 60 | Total: 15.5273 | LL: -15.4876 | CE: 3.9765
+  Epoch 80 | Total: 14.4173 | LL: -14.3771 | CE: 4.0182
+  Epoch 99 | Total: 14.0392 | LL: -13.9956 | CE: 4.3594
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 17670   | ARI: 0.5219 | F1: 0.6723
+  [CLEAN] Cells: 8350    | ARI: 0.7086 | F1: 0.7820  (Confidence >= 80%)
+  [MIXED] Cells: 9320    | ARI: 0.4243 | F1: 0.5668  (Confidence < 80%)
+
+================================================================================
+Processing Region: B006_Ileum
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B006_Ileum (89907 cells)...
+
+------------------------------------------------------------
+Testing Region: B006_Ileum | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 64.2237 | LL: -64.1791 | CE: 4.4604
+  Epoch 20 | Total: 27.7668 | LL: -27.7234 | CE: 4.3404
+  Epoch 40 | Total: 24.2572 | LL: -24.2143 | CE: 4.2934
+  Epoch 60 | Total: 20.8721 | LL: -20.8315 | CE: 4.0661
+  Epoch 80 | Total: 18.1888 | LL: -18.1501 | CE: 3.8716
+  Epoch 99 | Total: 16.7207 | LL: -16.6805 | CE: 4.0218
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 89907   | ARI: 0.3411 | F1: 0.5384
+  [CLEAN] Cells: 13069   | ARI: 0.7280 | F1: 0.7500  (Confidence >= 80%)
+  [MIXED] Cells: 76838   | ARI: 0.2992 | F1: 0.4966  (Confidence < 80%)
+
+================================================================================
+Processing Region: B009_Ileum
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B009_Ileum (88586 cells)...
+
+------------------------------------------------------------
+Testing Region: B009_Ileum | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 78.3699 | LL: -78.3253 | CE: 4.4614
+  Epoch 20 | Total: 25.9203 | LL: -25.8766 | CE: 4.3761
+  Epoch 40 | Total: 23.7637 | LL: -23.7201 | CE: 4.3604
+  Epoch 60 | Total: 23.1061 | LL: -23.0623 | CE: 4.3763
+  Epoch 80 | Total: 22.5202 | LL: -22.4763 | CE: 4.3834
+  Epoch 99 | Total: 21.8334 | LL: -21.7895 | CE: 4.3914
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 88586   | ARI: 0.1883 | F1: 0.4035
+  [CLEAN] Cells: 1102    | ARI: 0.8330 | F1: 0.7595  (Confidence >= 80%)
+  [MIXED] Cells: 87484   | ARI: 0.1857 | F1: 0.3986  (Confidence < 80%)
+
+================================================================================
+Processing Region: B010_Ileum
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B010_Ileum (39839 cells)...
+
+------------------------------------------------------------
+Testing Region: B010_Ileum | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 50.5512 | LL: -50.5066 | CE: 4.4621
+  Epoch 20 | Total: 25.5804 | LL: -25.5366 | CE: 4.3776
+  Epoch 40 | Total: 23.3305 | LL: -23.2867 | CE: 4.3826
+  Epoch 60 | Total: 22.0117 | LL: -21.9681 | CE: 4.3602
+  Epoch 80 | Total: 20.2775 | LL: -20.2351 | CE: 4.2308
+  Epoch 99 | Total: 18.7942 | LL: -18.7530 | CE: 4.1147
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 39839   | ARI: 0.3119 | F1: 0.4676
+  [CLEAN] Cells: 2594    | ARI: 0.7114 | F1: 0.6644  (Confidence >= 80%)
+  [MIXED] Cells: 37245   | ARI: 0.2977 | F1: 0.4516  (Confidence < 80%)
+
+================================================================================
+Processing Region: B011_Ileum
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B011_Ileum (32944 cells)...
+
+------------------------------------------------------------
+Testing Region: B011_Ileum | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 82.7984 | LL: -82.7538 | CE: 4.4597
+  Epoch 20 | Total: 28.0469 | LL: -28.0033 | CE: 4.3573
+  Epoch 40 | Total: 25.2869 | LL: -25.2434 | CE: 4.3431
+  Epoch 60 | Total: 24.0103 | LL: -23.9671 | CE: 4.3222
+  Epoch 80 | Total: 22.3500 | LL: -22.3081 | CE: 4.1944
+  Epoch 99 | Total: 20.3720 | LL: -20.3324 | CE: 3.9661
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 32944   | ARI: 0.2091 | F1: 0.3988
+  [CLEAN] Cells: 862     | ARI: 0.8870 | F1: 0.7090  (Confidence >= 80%)
+  [MIXED] Cells: 32082   | ARI: 0.2035 | F1: 0.3880  (Confidence < 80%)
+
+================================================================================
+Processing Region: B012_Ileum
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B012_Ileum (33958 cells)...
+
+------------------------------------------------------------
+Testing Region: B012_Ileum | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 318.0215 | LL: -317.9769 | CE: 4.4585
+  Epoch 20 | Total: 51.8350 | LL: -51.7914 | CE: 4.3569
+  Epoch 40 | Total: 40.9534 | LL: -40.9101 | CE: 4.3380
+  Epoch 60 | Total: 38.6261 | LL: -38.5834 | CE: 4.2637
+  Epoch 80 | Total: 34.2982 | LL: -34.2576 | CE: 4.0590
+  Epoch 99 | Total: 29.0795 | LL: -29.0427 | CE: 3.6794
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 33958   | ARI: 0.0876 | F1: 0.2490
+  [CLEAN] Cells: 556     | ARI: 0.6403 | F1: 0.8125  (Confidence >= 80%)
+  [MIXED] Cells: 33402   | ARI: 0.0812 | F1: 0.2368  (Confidence < 80%)
+
+================================================================================
+Processing Region: B008_Ileum
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B008_Ileum (37200 cells)...
+
+------------------------------------------------------------
+Testing Region: B008_Ileum | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 43.6826 | LL: -43.6381 | CE: 4.4565
+  Epoch 20 | Total: 24.9560 | LL: -24.9133 | CE: 4.2755
+  Epoch 40 | Total: 22.0944 | LL: -22.0515 | CE: 4.2942
+  Epoch 60 | Total: 20.3475 | LL: -20.3051 | CE: 4.2449
+  Epoch 80 | Total: 19.0057 | LL: -18.9658 | CE: 3.9859
+  Epoch 99 | Total: 18.3385 | LL: -18.3015 | CE: 3.7075
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 37200   | ARI: 0.4490 | F1: 0.6159
+  [CLEAN] Cells: 6165    | ARI: 0.8415 | F1: 0.7930  (Confidence >= 80%)
+  [MIXED] Cells: 31035   | ARI: 0.3882 | F1: 0.5698  (Confidence < 80%)
+
+================================================================================
+Processing Region: B006_Mid-jejunum
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B006_Mid-jejunum (35371 cells)...
+
+------------------------------------------------------------
+Testing Region: B006_Mid-jejunum | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 45.1889 | LL: -45.1443 | CE: 4.4574
+  Epoch 20 | Total: 25.7690 | LL: -25.7257 | CE: 4.3317
+  Epoch 40 | Total: 21.3640 | LL: -21.3213 | CE: 4.2630
+  Epoch 60 | Total: 17.9010 | LL: -17.8608 | CE: 4.0241
+  Epoch 80 | Total: 16.2805 | LL: -16.2407 | CE: 3.9874
+  Epoch 99 | Total: 15.5884 | LL: -15.5462 | CE: 4.2222
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 35371   | ARI: 0.3416 | F1: 0.5517
+  [CLEAN] Cells: 10892   | ARI: 0.7020 | F1: 0.7312  (Confidence >= 80%)
+  [MIXED] Cells: 24479   | ARI: 0.2478 | F1: 0.4677  (Confidence < 80%)
+
+================================================================================
+Processing Region: B004_Mid-jejunum
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B004_Mid-jejunum (36921 cells)...
+
+------------------------------------------------------------
+Testing Region: B004_Mid-jejunum | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 37.2582 | LL: -37.2136 | CE: 4.4599
+  Epoch 20 | Total: 24.0113 | LL: -23.9679 | CE: 4.3410
+  Epoch 40 | Total: 17.5324 | LL: -17.4904 | CE: 4.2027
+  Epoch 60 | Total: 14.2440 | LL: -14.2029 | CE: 4.1159
+  Epoch 80 | Total: 13.0309 | LL: -12.9876 | CE: 4.3304
+  Epoch 99 | Total: 12.6484 | LL: -12.6012 | CE: 4.7232
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 36921   | ARI: 0.5167 | F1: 0.6456
+  [CLEAN] Cells: 20299   | ARI: 0.6049 | F1: 0.7016  (Confidence >= 80%)
+  [MIXED] Cells: 16622   | ARI: 0.4092 | F1: 0.5573  (Confidence < 80%)
+
+================================================================================
+Processing Region: B005_Mid-jejunum
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B005_Mid-jejunum (86102 cells)...
+
+------------------------------------------------------------
+Testing Region: B005_Mid-jejunum | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 36.5563 | LL: -36.5116 | CE: 4.4619
+  Epoch 20 | Total: 23.8951 | LL: -23.8510 | CE: 4.4131
+  Epoch 40 | Total: 20.5342 | LL: -20.4895 | CE: 4.4681
+  Epoch 60 | Total: 17.8058 | LL: -17.7606 | CE: 4.5199
+  Epoch 80 | Total: 16.0674 | LL: -16.0213 | CE: 4.6028
+  Epoch 99 | Total: 15.1686 | LL: -15.1194 | CE: 4.9167
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 86102   | ARI: 0.4323 | F1: 0.6357
+  [CLEAN] Cells: 16961   | ARI: 0.7178 | F1: 0.7772  (Confidence >= 80%)
+  [MIXED] Cells: 69141   | ARI: 0.3939 | F1: 0.5956  (Confidence < 80%)
+
+================================================================================
+Processing Region: B009_Mid jejunum
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B009_Mid jejunum (88436 cells)...
+
+------------------------------------------------------------
+Testing Region: B009_Mid jejunum | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 88.9902 | LL: -88.9456 | CE: 4.4552
+  Epoch 20 | Total: 31.9434 | LL: -31.9004 | CE: 4.2989
+  Epoch 40 | Total: 27.3188 | LL: -27.2763 | CE: 4.2515
+  Epoch 60 | Total: 23.5744 | LL: -23.5346 | CE: 3.9863
+  Epoch 80 | Total: 20.3861 | LL: -20.3498 | CE: 3.6361
+  Epoch 99 | Total: 18.8121 | LL: -18.7777 | CE: 3.4373
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 88436   | ARI: 0.3197 | F1: 0.5444
+  [CLEAN] Cells: 11345   | ARI: 0.7747 | F1: 0.7468  (Confidence >= 80%)
+  [MIXED] Cells: 77091   | ARI: 0.2746 | F1: 0.5031  (Confidence < 80%)
+
+================================================================================
+Processing Region: B009_Mid jejunum_extra
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B009_Mid jejunum_extra (56182 cells)...
+
+------------------------------------------------------------
+Testing Region: B009_Mid jejunum_extra | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 108.8190 | LL: -108.7745 | CE: 4.4524
+  Epoch 20 | Total: 28.0470 | LL: -28.0032 | CE: 4.3771
+  Epoch 40 | Total: 25.2113 | LL: -25.1677 | CE: 4.3641
+  Epoch 60 | Total: 24.2188 | LL: -24.1752 | CE: 4.3644
+  Epoch 80 | Total: 23.3228 | LL: -23.2794 | CE: 4.3433
+  Epoch 99 | Total: 22.4484 | LL: -22.4054 | CE: 4.3048
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 56182   | ARI: 0.3851 | F1: 0.5775
+  [CLEAN] Cells: 541     | ARI: 0.8977 | F1: 0.8061  (Confidence >= 80%)
+  [MIXED] Cells: 55641   | ARI: 0.3822 | F1: 0.5753  (Confidence < 80%)
+
+================================================================================
+Processing Region: B011_Mid jejunum
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B011_Mid jejunum (44026 cells)...
+
+------------------------------------------------------------
+Testing Region: B011_Mid jejunum | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 51.4091 | LL: -51.3645 | CE: 4.4590
+  Epoch 20 | Total: 24.5606 | LL: -24.5168 | CE: 4.3810
+  Epoch 40 | Total: 22.5523 | LL: -22.5085 | CE: 4.3788
+  Epoch 60 | Total: 21.5046 | LL: -21.4603 | CE: 4.4283
+  Epoch 80 | Total: 20.5657 | LL: -20.5211 | CE: 4.4631
+  Epoch 99 | Total: 19.7403 | LL: -19.6948 | CE: 4.5446
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 44026   | ARI: 0.1766 | F1: 0.3913
+  [CLEAN] Cells: 1736    | ARI: 0.5886 | F1: 0.5928  (Confidence >= 80%)
+  [MIXED] Cells: 42290   | ARI: 0.1712 | F1: 0.3839  (Confidence < 80%)
+
+================================================================================
+Processing Region: B012_Mid jejunum
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B012_Mid jejunum (67636 cells)...
+
+------------------------------------------------------------
+Testing Region: B012_Mid jejunum | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 188.1989 | LL: -188.1544 | CE: 4.4549
+  Epoch 20 | Total: 31.1597 | LL: -31.1159 | CE: 4.3814
+  Epoch 40 | Total: 26.8367 | LL: -26.7930 | CE: 4.3691
+  Epoch 60 | Total: 26.1938 | LL: -26.1502 | CE: 4.3670
+  Epoch 80 | Total: 25.5018 | LL: -25.4584 | CE: 4.3472
+  Epoch 99 | Total: 24.8635 | LL: -24.8204 | CE: 4.3136
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 67636   | ARI: 0.3170 | F1: 0.5009
+  [CLEAN] Cells: 142     | ARI: 0.7678 | F1: 0.6308  (Confidence >= 80%)
+  [MIXED] Cells: 67494   | ARI: 0.3165 | F1: 0.5006  (Confidence < 80%)
+
+================================================================================
+Processing Region: B010_Mid jejunum
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B010_Mid jejunum (31583 cells)...
+
+------------------------------------------------------------
+Testing Region: B010_Mid jejunum | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 46.6071 | LL: -46.5625 | CE: 4.4605
+  Epoch 20 | Total: 28.4540 | LL: -28.4100 | CE: 4.4007
+  Epoch 40 | Total: 26.2081 | LL: -26.1642 | CE: 4.3911
+  Epoch 60 | Total: 24.4388 | LL: -24.3956 | CE: 4.3268
+  Epoch 80 | Total: 23.0561 | LL: -23.0142 | CE: 4.1906
+  Epoch 99 | Total: 22.2664 | LL: -22.2255 | CE: 4.0862
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 31583   | ARI: 0.2308 | F1: 0.3873
+  [CLEAN] Cells: 5227    | ARI: 0.3688 | F1: 0.5180  (Confidence >= 80%)
+  [MIXED] Cells: 26356   | ARI: 0.2228 | F1: 0.3562  (Confidence < 80%)
+
+================================================================================
+Processing Region: B008_Mid jejunum
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B008_Mid jejunum (50954 cells)...
+
+------------------------------------------------------------
+Testing Region: B008_Mid jejunum | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 74.1679 | LL: -74.1232 | CE: 4.4612
+  Epoch 20 | Total: 27.7378 | LL: -27.6952 | CE: 4.2609
+  Epoch 40 | Total: 24.1881 | LL: -24.1458 | CE: 4.2379
+  Epoch 60 | Total: 22.6986 | LL: -22.6573 | CE: 4.1225
+  Epoch 80 | Total: 21.1851 | LL: -21.1465 | CE: 3.8579
+  Epoch 99 | Total: 20.0335 | LL: -19.9987 | CE: 3.4813
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 50954   | ARI: 0.0952 | F1: 0.3716
+  [CLEAN] Cells: 2851    | ARI: 0.7486 | F1: 0.7270  (Confidence >= 80%)
+  [MIXED] Cells: 48103   | ARI: 0.0810 | F1: 0.3427  (Confidence < 80%)
+
+================================================================================
+Processing Region: B004_Proximal Jejunum
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B004_Proximal Jejunum (30067 cells)...
+
+------------------------------------------------------------
+Testing Region: B004_Proximal Jejunum | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 38.5220 | LL: -38.4774 | CE: 4.4585
+  Epoch 20 | Total: 24.4407 | LL: -24.3974 | CE: 4.3390
+  Epoch 40 | Total: 18.8899 | LL: -18.8476 | CE: 4.2303
+  Epoch 60 | Total: 15.3814 | LL: -15.3404 | CE: 4.1023
+  Epoch 80 | Total: 13.9968 | LL: -13.9550 | CE: 4.1833
+  Epoch 99 | Total: 13.5071 | LL: -13.4620 | CE: 4.5064
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 30067   | ARI: 0.5625 | F1: 0.6719
+  [CLEAN] Cells: 13982   | ARI: 0.5907 | F1: 0.6924  (Confidence >= 80%)
+  [MIXED] Cells: 16085   | ARI: 0.5201 | F1: 0.6461  (Confidence < 80%)
+
+================================================================================
+Processing Region: B005_Proximal Jejunum
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B005_Proximal Jejunum (38321 cells)...
+
+------------------------------------------------------------
+Testing Region: B005_Proximal Jejunum | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 33.5477 | LL: -33.5031 | CE: 4.4622
+  Epoch 20 | Total: 23.7330 | LL: -23.6899 | CE: 4.3149
+  Epoch 40 | Total: 18.4707 | LL: -18.4280 | CE: 4.2668
+  Epoch 60 | Total: 15.6441 | LL: -15.6043 | CE: 3.9764
+  Epoch 80 | Total: 14.6489 | LL: -14.6100 | CE: 3.8847
+  Epoch 99 | Total: 14.3043 | LL: -14.2630 | CE: 4.1303
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 38321   | ARI: 0.4800 | F1: 0.6379
+  [CLEAN] Cells: 18350   | ARI: 0.5728 | F1: 0.7175  (Confidence >= 80%)
+  [MIXED] Cells: 19971   | ARI: 0.4333 | F1: 0.5510  (Confidence < 80%)
+
+================================================================================
+Processing Region: B006_Proximal Jejunum
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B006_Proximal Jejunum (41063 cells)...
+
+------------------------------------------------------------
+Testing Region: B006_Proximal Jejunum | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 57.9909 | LL: -57.9463 | CE: 4.4604
+  Epoch 20 | Total: 30.4773 | LL: -30.4353 | CE: 4.1958
+  Epoch 40 | Total: 22.0664 | LL: -22.0276 | CE: 3.8825
+  Epoch 60 | Total: 17.4675 | LL: -17.4313 | CE: 3.6206
+  Epoch 80 | Total: 15.8329 | LL: -15.7960 | CE: 3.6930
+  Epoch 99 | Total: 15.1794 | LL: -15.1415 | CE: 3.7852
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 41063   | ARI: 0.5849 | F1: 0.6727
+  [CLEAN] Cells: 16256   | ARI: 0.6695 | F1: 0.7563  (Confidence >= 80%)
+  [MIXED] Cells: 24807   | ARI: 0.5107 | F1: 0.6039  (Confidence < 80%)
+
+================================================================================
+Processing Region: B011_Proximal jejunum
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B011_Proximal jejunum (30724 cells)...
+
+------------------------------------------------------------
+Testing Region: B011_Proximal jejunum | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 195.9662 | LL: -195.9216 | CE: 4.4611
+  Epoch 20 | Total: 29.3838 | LL: -29.3396 | CE: 4.4193
+  Epoch 40 | Total: 25.6114 | LL: -25.5674 | CE: 4.4078
+  Epoch 60 | Total: 25.1778 | LL: -25.1337 | CE: 4.4057
+  Epoch 80 | Total: 24.6738 | LL: -24.6298 | CE: 4.3978
+  Epoch 99 | Total: 24.1581 | LL: -24.1141 | CE: 4.3984
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 30724   | ARI: 0.2045 | F1: 0.3970
+  [CLEAN] Cells: 50      | ARI: 0.5917 | F1: 0.4890  (Confidence >= 80%)
+  [MIXED] Cells: 30674   | ARI: 0.2045 | F1: 0.3968  (Confidence < 80%)
+
+================================================================================
+Processing Region: B009_Proximal jejunum
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B009_Proximal jejunum (48517 cells)...
+
+------------------------------------------------------------
+Testing Region: B009_Proximal jejunum | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 124.3774 | LL: -124.3328 | CE: 4.4529
+  Epoch 20 | Total: 31.6173 | LL: -31.5737 | CE: 4.3597
+  Epoch 40 | Total: 27.4636 | LL: -27.4201 | CE: 4.3445
+  Epoch 60 | Total: 25.8029 | LL: -25.7599 | CE: 4.2989
+  Epoch 80 | Total: 23.5024 | LL: -23.4611 | CE: 4.1289
+  Epoch 99 | Total: 20.9043 | LL: -20.8664 | CE: 3.7968
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 48517   | ARI: 0.2130 | F1: 0.4393
+  [CLEAN] Cells: 819     | ARI: 0.9171 | F1: 0.7512  (Confidence >= 80%)
+  [MIXED] Cells: 47698   | ARI: 0.2075 | F1: 0.4323  (Confidence < 80%)
+
+================================================================================
+Processing Region: B010_Proximal jejunum
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B010_Proximal jejunum (54111 cells)...
+
+------------------------------------------------------------
+Testing Region: B010_Proximal jejunum | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 56.9055 | LL: -56.8609 | CE: 4.4587
+  Epoch 20 | Total: 24.7739 | LL: -24.7302 | CE: 4.3691
+  Epoch 40 | Total: 22.8320 | LL: -22.7885 | CE: 4.3501
+  Epoch 60 | Total: 22.1086 | LL: -22.0649 | CE: 4.3678
+  Epoch 80 | Total: 21.4219 | LL: -21.3777 | CE: 4.4228
+  Epoch 99 | Total: 20.6918 | LL: -20.6464 | CE: 4.5358
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 54111   | ARI: 0.2576 | F1: 0.4586
+  [CLEAN] Cells: 1290    | ARI: 0.7287 | F1: 0.6717  (Confidence >= 80%)
+  [MIXED] Cells: 52821   | ARI: 0.2533 | F1: 0.4513  (Confidence < 80%)
+
+================================================================================
+Processing Region: B012_Proximal jejunum
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B012_Proximal jejunum (32520 cells)...
+
+------------------------------------------------------------
+Testing Region: B012_Proximal jejunum | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 102.7854 | LL: -102.7408 | CE: 4.4549
+  Epoch 20 | Total: 30.5270 | LL: -30.4836 | CE: 4.3442
+  Epoch 40 | Total: 27.1757 | LL: -27.1324 | CE: 4.3273
+  Epoch 60 | Total: 25.8170 | LL: -25.7744 | CE: 4.2643
+  Epoch 80 | Total: 23.6829 | LL: -23.6426 | CE: 4.0313
+  Epoch 99 | Total: 21.1720 | LL: -21.1347 | CE: 3.7302
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 32520   | ARI: 0.2785 | F1: 0.4899
+  [CLEAN] Cells: 529     | ARI: 0.6928 | F1: 0.6660  (Confidence >= 80%)
+  [MIXED] Cells: 31991   | ARI: 0.2726 | F1: 0.4858  (Confidence < 80%)
+
+================================================================================
+Processing Region: B008_Proximal jejunum
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B008_Proximal jejunum (37304 cells)...
+
+------------------------------------------------------------
+Testing Region: B008_Proximal jejunum | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 53.1432 | LL: -53.0987 | CE: 4.4587
+  Epoch 20 | Total: 25.5932 | LL: -25.5503 | CE: 4.2907
+  Epoch 40 | Total: 23.1114 | LL: -23.0686 | CE: 4.2794
+  Epoch 60 | Total: 21.5906 | LL: -21.5486 | CE: 4.2050
+  Epoch 80 | Total: 20.0059 | LL: -19.9659 | CE: 3.9965
+  Epoch 99 | Total: 19.0103 | LL: -18.9728 | CE: 3.7445
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 37304   | ARI: 0.2639 | F1: 0.5566
+  [CLEAN] Cells: 3801    | ARI: 0.8326 | F1: 0.7992  (Confidence >= 80%)
+  [MIXED] Cells: 33503   | ARI: 0.2257 | F1: 0.5222  (Confidence < 80%)
+
+================================================================================
+Processing Region: B008_Proximal jejunum_extra
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B008_Proximal jejunum_extra (34850 cells)...
+
+------------------------------------------------------------
+Testing Region: B008_Proximal jejunum_extra | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 45.9119 | LL: -45.8673 | CE: 4.4609
+  Epoch 20 | Total: 24.9970 | LL: -24.9538 | CE: 4.3174
+  Epoch 40 | Total: 22.8467 | LL: -22.8035 | CE: 4.3205
+  Epoch 60 | Total: 21.4844 | LL: -21.4416 | CE: 4.2790
+  Epoch 80 | Total: 20.1289 | LL: -20.0880 | CE: 4.0883
+  Epoch 99 | Total: 19.1629 | LL: -19.1247 | CE: 3.8219
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 34850   | ARI: 0.3887 | F1: 0.6064
+  [CLEAN] Cells: 4003    | ARI: 0.8186 | F1: 0.7768  (Confidence >= 80%)
+  [MIXED] Cells: 30847   | ARI: 0.3466 | F1: 0.5804  (Confidence < 80%)
+
+================================================================================
+Processing Region: B004_Descending - Sigmoid
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B004_Descending - Sigmoid (25063 cells)...
+
+------------------------------------------------------------
+Testing Region: B004_Descending - Sigmoid | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 35.6378 | LL: -35.5932 | CE: 4.4581
+  Epoch 20 | Total: 23.7826 | LL: -23.7393 | CE: 4.3346
+  Epoch 40 | Total: 16.8168 | LL: -16.7758 | CE: 4.1006
+  Epoch 60 | Total: 13.6650 | LL: -13.6257 | CE: 3.9303
+  Epoch 80 | Total: 12.4730 | LL: -12.4331 | CE: 3.9905
+  Epoch 99 | Total: 12.1708 | LL: -12.1277 | CE: 4.3045
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 25063   | ARI: 0.6642 | F1: 0.6524
+  [CLEAN] Cells: 18468   | ARI: 0.7398 | F1: 0.7013  (Confidence >= 80%)
+  [MIXED] Cells: 6595    | ARI: 0.4095 | F1: 0.5093  (Confidence < 80%)
+
+================================================================================
+Processing Region: B005_Descending - Sigmoid
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B005_Descending - Sigmoid (14230 cells)...
+
+------------------------------------------------------------
+Testing Region: B005_Descending - Sigmoid | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 193.0568 | LL: -193.0122 | CE: 4.4568
+  Epoch 20 | Total: 65.4658 | LL: -65.4229 | CE: 4.2904
+  Epoch 40 | Total: 44.8164 | LL: -44.7754 | CE: 4.0939
+  Epoch 60 | Total: 31.6213 | LL: -31.5846 | CE: 3.6703
+  Epoch 80 | Total: 25.6861 | LL: -25.6534 | CE: 3.2663
+  Epoch 99 | Total: 23.0561 | LL: -23.0327 | CE: 2.3399
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 14230   | ARI: 0.1950 | F1: 0.5078
+  [CLEAN] Cells: 3241    | ARI: 0.4550 | F1: 0.5138  (Confidence >= 80%)
+  [MIXED] Cells: 10989   | ARI: 0.0796 | F1: 0.4949  (Confidence < 80%)
+
+================================================================================
+Processing Region: B006_Descending - Sigmoid
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B006_Descending - Sigmoid (24585 cells)...
+
+------------------------------------------------------------
+Testing Region: B006_Descending - Sigmoid | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 41.9783 | LL: -41.9337 | CE: 4.4583
+  Epoch 20 | Total: 25.4118 | LL: -25.3685 | CE: 4.3300
+  Epoch 40 | Total: 22.4124 | LL: -22.3697 | CE: 4.2718
+  Epoch 60 | Total: 19.2016 | LL: -19.1622 | CE: 3.9365
+  Epoch 80 | Total: 16.9886 | LL: -16.9522 | CE: 3.6348
+  Epoch 99 | Total: 16.0340 | LL: -15.9964 | CE: 3.7545
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 24585   | ARI: 0.3866 | F1: 0.5711
+  [CLEAN] Cells: 7729    | ARI: 0.6316 | F1: 0.7308  (Confidence >= 80%)
+  [MIXED] Cells: 16856   | ARI: 0.3054 | F1: 0.4916  (Confidence < 80%)
+
+================================================================================
+Processing Region: B009_Sigmoid
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B009_Sigmoid (40551 cells)...
+
+------------------------------------------------------------
+Testing Region: B009_Sigmoid | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 474.9250 | LL: -474.8804 | CE: 4.4622
+  Epoch 20 | Total: 77.1429 | LL: -77.0987 | CE: 4.4187
+  Epoch 40 | Total: 57.7479 | LL: -57.7039 | CE: 4.4041
+  Epoch 60 | Total: 51.2841 | LL: -51.2411 | CE: 4.3028
+  Epoch 80 | Total: 43.2097 | LL: -43.1688 | CE: 4.0917
+  Epoch 99 | Total: 36.2788 | LL: -36.2406 | CE: 3.8151
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 40551   | ARI: 0.1793 | F1: 0.4030
+  [CLEAN] Cells: 309     | ARI: 0.6217 | F1: 0.6629  (Confidence >= 80%)
+  [MIXED] Cells: 40242   | ARI: 0.1736 | F1: 0.4005  (Confidence < 80%)
+
+================================================================================
+Processing Region: B011_Sigmoid
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B011_Sigmoid (21201 cells)...
+
+------------------------------------------------------------
+Testing Region: B011_Sigmoid | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 64.3643 | LL: -64.3197 | CE: 4.4585
+  Epoch 20 | Total: 29.0488 | LL: -29.0058 | CE: 4.2951
+  Epoch 40 | Total: 24.6792 | LL: -24.6368 | CE: 4.2422
+  Epoch 60 | Total: 21.5559 | LL: -21.5157 | CE: 4.0281
+  Epoch 80 | Total: 19.5857 | LL: -19.5474 | CE: 3.8278
+  Epoch 99 | Total: 18.7140 | LL: -18.6763 | CE: 3.7691
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 21201   | ARI: 0.2757 | F1: 0.4899
+  [CLEAN] Cells: 4345    | ARI: 0.6565 | F1: 0.6235  (Confidence >= 80%)
+  [MIXED] Cells: 16856   | ARI: 0.2147 | F1: 0.4467  (Confidence < 80%)
+
+================================================================================
+Processing Region: B010_Sigmoid
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B010_Sigmoid (24158 cells)...
+
+------------------------------------------------------------
+Testing Region: B010_Sigmoid | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 62.4669 | LL: -62.4223 | CE: 4.4604
+  Epoch 20 | Total: 29.4394 | LL: -29.3957 | CE: 4.3636
+  Epoch 40 | Total: 26.5973 | LL: -26.5538 | CE: 4.3436
+  Epoch 60 | Total: 23.7448 | LL: -23.7032 | CE: 4.1594
+  Epoch 80 | Total: 20.5729 | LL: -20.5349 | CE: 3.7995
+  Epoch 99 | Total: 18.9627 | LL: -18.9258 | CE: 3.6952
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 24158   | ARI: 0.2740 | F1: 0.4497
+  [CLEAN] Cells: 2885    | ARI: 0.7580 | F1: 0.6320  (Confidence >= 80%)
+  [MIXED] Cells: 21273   | ARI: 0.2409 | F1: 0.4187  (Confidence < 80%)
+
+================================================================================
+Processing Region: B012_Sigmoid
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B012_Sigmoid (51593 cells)...
+
+------------------------------------------------------------
+Testing Region: B012_Sigmoid | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 179.6337 | LL: -179.5891 | CE: 4.4555
+  Epoch 20 | Total: 38.4827 | LL: -38.4391 | CE: 4.3615
+  Epoch 40 | Total: 31.9430 | LL: -31.8995 | CE: 4.3444
+  Epoch 60 | Total: 29.9872 | LL: -29.9446 | CE: 4.2630
+  Epoch 80 | Total: 26.9050 | LL: -26.8647 | CE: 4.0361
+  Epoch 99 | Total: 23.5670 | LL: -23.5293 | CE: 3.7769
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 51593   | ARI: 0.1475 | F1: 0.3662
+  [CLEAN] Cells: 1355    | ARI: 0.8443 | F1: 0.7795  (Confidence >= 80%)
+  [MIXED] Cells: 50238   | ARI: 0.1388 | F1: 0.3526  (Confidence < 80%)
+
+================================================================================
+Processing Region: B008_Sigmoid
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B008_Sigmoid (43783 cells)...
+
+------------------------------------------------------------
+Testing Region: B008_Sigmoid | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 101.2207 | LL: -101.1761 | CE: 4.4588
+  Epoch 20 | Total: 33.8691 | LL: -33.8266 | CE: 4.2471
+  Epoch 40 | Total: 26.3302 | LL: -26.2893 | CE: 4.0905
+  Epoch 60 | Total: 21.7615 | LL: -21.7223 | CE: 3.9230
+  Epoch 80 | Total: 19.5226 | LL: -19.4842 | CE: 3.8384
+  Epoch 99 | Total: 18.2631 | LL: -18.2257 | CE: 3.7423
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 43783   | ARI: 0.3554 | F1: 0.5848
+  [CLEAN] Cells: 9257    | ARI: 0.6237 | F1: 0.6566  (Confidence >= 80%)
+  [MIXED] Cells: 34526   | ARI: 0.3035 | F1: 0.5549  (Confidence < 80%)
+
+================================================================================
+Processing Region: B004_Transverse
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B004_Transverse (33793 cells)...
+
+------------------------------------------------------------
+Testing Region: B004_Transverse | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 41.7973 | LL: -41.7527 | CE: 4.4576
+  Epoch 20 | Total: 25.2881 | LL: -25.2449 | CE: 4.3226
+  Epoch 40 | Total: 20.3228 | LL: -20.2805 | CE: 4.2326
+  Epoch 60 | Total: 16.8610 | LL: -16.8204 | CE: 4.0593
+  Epoch 80 | Total: 15.0342 | LL: -14.9935 | CE: 4.0679
+  Epoch 99 | Total: 14.2511 | LL: -14.2087 | CE: 4.2339
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 33793   | ARI: 0.4044 | F1: 0.5990
+  [CLEAN] Cells: 14445   | ARI: 0.5326 | F1: 0.6777  (Confidence >= 80%)
+  [MIXED] Cells: 19348   | ARI: 0.3358 | F1: 0.5335  (Confidence < 80%)
+
+================================================================================
+Processing Region: B005_Transverse
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B005_Transverse (33281 cells)...
+
+------------------------------------------------------------
+Testing Region: B005_Transverse | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 32.9784 | LL: -32.9338 | CE: 4.4601
+  Epoch 20 | Total: 23.3951 | LL: -23.3524 | CE: 4.2745
+  Epoch 40 | Total: 17.2757 | LL: -17.2358 | CE: 3.9934
+  Epoch 60 | Total: 14.2339 | LL: -14.1974 | CE: 3.6473
+  Epoch 80 | Total: 13.2788 | LL: -13.2417 | CE: 3.7099
+  Epoch 99 | Total: 12.9836 | LL: -12.9446 | CE: 3.8925
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 33281   | ARI: 0.5744 | F1: 0.6821
+  [CLEAN] Cells: 16816   | ARI: 0.6981 | F1: 0.7436  (Confidence >= 80%)
+  [MIXED] Cells: 16465   | ARI: 0.4945 | F1: 0.6089  (Confidence < 80%)
+
+================================================================================
+Processing Region: B006_Transverse
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B006_Transverse (31283 cells)...
+
+------------------------------------------------------------
+Testing Region: B006_Transverse | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 47.0777 | LL: -47.0331 | CE: 4.4532
+  Epoch 20 | Total: 25.0973 | LL: -25.0537 | CE: 4.3640
+  Epoch 40 | Total: 22.1623 | LL: -22.1187 | CE: 4.3594
+  Epoch 60 | Total: 19.4660 | LL: -19.4231 | CE: 4.2969
+  Epoch 80 | Total: 17.2190 | LL: -17.1758 | CE: 4.3177
+  Epoch 99 | Total: 15.9970 | LL: -15.9510 | CE: 4.5963
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 31283   | ARI: 0.2518 | F1: 0.4427
+  [CLEAN] Cells: 5432    | ARI: 0.6155 | F1: 0.6810  (Confidence >= 80%)
+  [MIXED] Cells: 25851   | ARI: 0.2190 | F1: 0.3915  (Confidence < 80%)
+
+================================================================================
+Processing Region: B009_Trans
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B009_Trans (34642 cells)...
+
+------------------------------------------------------------
+Testing Region: B009_Trans | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 178.8395 | LL: -178.7950 | CE: 4.4582
+  Epoch 20 | Total: 31.2821 | LL: -31.2381 | CE: 4.4023
+  Epoch 40 | Total: 27.2973 | LL: -27.2534 | CE: 4.3907
+  Epoch 60 | Total: 26.7530 | LL: -26.7091 | CE: 4.3833
+  Epoch 80 | Total: 25.8089 | LL: -25.7653 | CE: 4.3635
+  Epoch 99 | Total: 24.8415 | LL: -24.7979 | CE: 4.3538
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 34642   | ARI: 0.1809 | F1: 0.4032
+  [CLEAN] Cells: 115     | ARI: 0.8932 | F1: 0.7559  (Confidence >= 80%)
+  [MIXED] Cells: 34527   | ARI: 0.1802 | F1: 0.4017  (Confidence < 80%)
+
+================================================================================
+Processing Region: B010_Trans
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B010_Trans (14924 cells)...
+
+------------------------------------------------------------
+Testing Region: B010_Trans | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 126.3389 | LL: -126.2943 | CE: 4.4587
+  Epoch 20 | Total: 33.1868 | LL: -33.1437 | CE: 4.3126
+  Epoch 40 | Total: 28.5089 | LL: -28.4661 | CE: 4.2818
+  Epoch 60 | Total: 26.8618 | LL: -26.8200 | CE: 4.1782
+  Epoch 80 | Total: 24.6378 | LL: -24.5981 | CE: 3.9763
+  Epoch 99 | Total: 22.6735 | LL: -22.6351 | CE: 3.8404
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 14924   | ARI: 0.2027 | F1: 0.4288
+  [CLEAN] Cells: 372     | ARI: 0.7225 | F1: 0.6772  (Confidence >= 80%)
+  [MIXED] Cells: 14552   | ARI: 0.1966 | F1: 0.4201  (Confidence < 80%)
+
+================================================================================
+Processing Region: B011_Trans
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B011_Trans (31751 cells)...
+
+------------------------------------------------------------
+Testing Region: B011_Trans | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 88.2894 | LL: -88.2448 | CE: 4.4589
+  Epoch 20 | Total: 36.2769 | LL: -36.2341 | CE: 4.2781
+  Epoch 40 | Total: 28.0084 | LL: -27.9679 | CE: 4.0507
+  Epoch 60 | Total: 22.7159 | LL: -22.6784 | CE: 3.7463
+  Epoch 80 | Total: 20.5423 | LL: -20.5064 | CE: 3.5921
+  Epoch 99 | Total: 19.3235 | LL: -19.2881 | CE: 3.5393
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 31751   | ARI: 0.2818 | F1: 0.4689
+  [CLEAN] Cells: 5874    | ARI: 0.5859 | F1: 0.6138  (Confidence >= 80%)
+  [MIXED] Cells: 25877   | ARI: 0.2361 | F1: 0.4288  (Confidence < 80%)
+
+================================================================================
+Processing Region: B012_Trans
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B012_Trans (27784 cells)...
+
+------------------------------------------------------------
+Testing Region: B012_Trans | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 234.3600 | LL: -234.3155 | CE: 4.4542
+  Epoch 20 | Total: 45.4172 | LL: -45.3733 | CE: 4.3914
+  Epoch 40 | Total: 37.6396 | LL: -37.5958 | CE: 4.3801
+  Epoch 60 | Total: 35.3137 | LL: -35.2706 | CE: 4.3127
+  Epoch 80 | Total: 31.4151 | LL: -31.3739 | CE: 4.1205
+  Epoch 99 | Total: 26.9081 | LL: -26.8695 | CE: 3.8594
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 27784   | ARI: 0.0800 | F1: 0.2840
+  [CLEAN] Cells: 350     | ARI: 0.6866 | F1: 0.5925  (Confidence >= 80%)
+  [MIXED] Cells: 27434   | ARI: 0.0772 | F1: 0.2784  (Confidence < 80%)
+
+================================================================================
+Processing Region: B008_Trans
+================================================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Building Spatial Adjacency Matrix for B008_Trans (22279 cells)...
+
+------------------------------------------------------------
+Testing Region: B008_Trans | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 95.2654 | LL: -95.2208 | CE: 4.4571
+  Epoch 20 | Total: 32.8695 | LL: -32.8271 | CE: 4.2488
+  Epoch 40 | Total: 25.1519 | LL: -25.1115 | CE: 4.0363
+  Epoch 60 | Total: 20.5652 | LL: -20.5263 | CE: 3.8832
+  Epoch 80 | Total: 18.5694 | LL: -18.5304 | CE: 3.8981
+  Epoch 99 | Total: 17.5091 | LL: -17.4716 | CE: 3.7499
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 22279   | ARI: 0.5425 | F1: 0.6582
+  [CLEAN] Cells: 4175    | ARI: 0.6638 | F1: 0.7122  (Confidence >= 80%)
+  [MIXED] Cells: 18104   | ARI: 0.5179 | F1: 0.6324  (Confidence < 80%)
+
+================================================================================
+FINAL SpGAT REGION LEADERBOARD (Sorted by Total ARI):
+B004_Descending - Sigmoid     : [TOTAL] ARI=0.6642 | [CLEAN] ARI=0.7398
+B010_Left                     : [TOTAL] ARI=0.6490 | [CLEAN] ARI=0.7711
+B004_Ileum                    : [TOTAL] ARI=0.5968 | [CLEAN] ARI=0.5955
+B006_Proximal Jejunum         : [TOTAL] ARI=0.5849 | [CLEAN] ARI=0.6695
+B005_Transverse               : [TOTAL] ARI=0.5744 | [CLEAN] ARI=0.6981
+B004_Proximal Jejunum         : [TOTAL] ARI=0.5625 | [CLEAN] ARI=0.5907
+B008_Trans                    : [TOTAL] ARI=0.5425 | [CLEAN] ARI=0.6638
+B005_Ileum                    : [TOTAL] ARI=0.5219 | [CLEAN] ARI=0.7086
+B004_Mid-jejunum              : [TOTAL] ARI=0.5167 | [CLEAN] ARI=0.6049
+B006_Ascending                : [TOTAL] ARI=0.5069 | [CLEAN] ARI=0.5635
+B005_Duodenum                 : [TOTAL] ARI=0.5019 | [CLEAN] ARI=0.5660
+B008_Left                     : [TOTAL] ARI=0.4954 | [CLEAN] ARI=0.5114
+B005_Proximal Jejunum         : [TOTAL] ARI=0.4800 | [CLEAN] ARI=0.5728
+B009_Left                     : [TOTAL] ARI=0.4726 | [CLEAN] ARI=0.5943
+B006_Duodenum                 : [TOTAL] ARI=0.4565 | [CLEAN] ARI=0.6580
+B008_Ileum                    : [TOTAL] ARI=0.4490 | [CLEAN] ARI=0.8415
+B004_Ascending                : [TOTAL] ARI=0.4338 | [CLEAN] ARI=0.5009
+B005_Mid-jejunum              : [TOTAL] ARI=0.4323 | [CLEAN] ARI=0.7178
+B004_Transverse               : [TOTAL] ARI=0.4044 | [CLEAN] ARI=0.5326
+B008_Proximal jejunum_extra   : [TOTAL] ARI=0.3887 | [CLEAN] ARI=0.8186
+B006_Descending - Sigmoid     : [TOTAL] ARI=0.3866 | [CLEAN] ARI=0.6316
+B009_Mid jejunum_extra        : [TOTAL] ARI=0.3851 | [CLEAN] ARI=0.8977
+B011_Right                    : [TOTAL] ARI=0.3836 | [CLEAN] ARI=0.6145
+B008_Right                    : [TOTAL] ARI=0.3801 | [CLEAN] ARI=0.7228
+B004_Descending               : [TOTAL] ARI=0.3766 | [CLEAN] ARI=0.4640
+B005_Ascending                : [TOTAL] ARI=0.3652 | [CLEAN] ARI=0.7396
+B004_Duodenum                 : [TOTAL] ARI=0.3631 | [CLEAN] ARI=0.4943
+B008_Sigmoid                  : [TOTAL] ARI=0.3554 | [CLEAN] ARI=0.6237
+B006_Mid-jejunum              : [TOTAL] ARI=0.3416 | [CLEAN] ARI=0.7020
+B006_Ileum                    : [TOTAL] ARI=0.3411 | [CLEAN] ARI=0.7280
+B006_Descending               : [TOTAL] ARI=0.3329 | [CLEAN] ARI=0.4637
+B010_Right                    : [TOTAL] ARI=0.3276 | [CLEAN] ARI=0.5094
+B010_Duodenum                 : [TOTAL] ARI=0.3210 | [CLEAN] ARI=0.7199
+B009_Mid jejunum              : [TOTAL] ARI=0.3197 | [CLEAN] ARI=0.7747
+B012_Mid jejunum              : [TOTAL] ARI=0.3170 | [CLEAN] ARI=0.7678
+B010_Ileum                    : [TOTAL] ARI=0.3119 | [CLEAN] ARI=0.7114
+B011_Trans                    : [TOTAL] ARI=0.2818 | [CLEAN] ARI=0.5859
+B012_Proximal jejunum         : [TOTAL] ARI=0.2785 | [CLEAN] ARI=0.6928
+B011_Sigmoid                  : [TOTAL] ARI=0.2757 | [CLEAN] ARI=0.6565
+B010_Sigmoid                  : [TOTAL] ARI=0.2740 | [CLEAN] ARI=0.7580
+B011_Duodenum                 : [TOTAL] ARI=0.2677 | [CLEAN] ARI=0.6412
+B008_Proximal jejunum         : [TOTAL] ARI=0.2639 | [CLEAN] ARI=0.8326
+B010_Proximal jejunum         : [TOTAL] ARI=0.2576 | [CLEAN] ARI=0.7287
+B006_Transverse               : [TOTAL] ARI=0.2518 | [CLEAN] ARI=0.6155
+B005_Descending               : [TOTAL] ARI=0.2459 | [CLEAN] ARI=0.3516
+B012_Duodenum                 : [TOTAL] ARI=0.2358 | [CLEAN] ARI=0.7198
+B010_Mid jejunum              : [TOTAL] ARI=0.2308 | [CLEAN] ARI=0.3688
+B009_Proximal jejunum         : [TOTAL] ARI=0.2130 | [CLEAN] ARI=0.9171
+B011_Ileum                    : [TOTAL] ARI=0.2091 | [CLEAN] ARI=0.8870
+B011_Proximal jejunum         : [TOTAL] ARI=0.2045 | [CLEAN] ARI=0.5917
+B010_Trans                    : [TOTAL] ARI=0.2027 | [CLEAN] ARI=0.7225
+B005_Descending - Sigmoid     : [TOTAL] ARI=0.1950 | [CLEAN] ARI=0.4550
+B009_Ileum                    : [TOTAL] ARI=0.1883 | [CLEAN] ARI=0.8330
+B009_Trans                    : [TOTAL] ARI=0.1809 | [CLEAN] ARI=0.8932
+B009_Sigmoid                  : [TOTAL] ARI=0.1793 | [CLEAN] ARI=0.6217
+B011_Mid jejunum              : [TOTAL] ARI=0.1766 | [CLEAN] ARI=0.5886
+B012_Right                    : [TOTAL] ARI=0.1608 | [CLEAN] ARI=0.7128
+B012_Sigmoid                  : [TOTAL] ARI=0.1475 | [CLEAN] ARI=0.8443
+B009_Duodenum                 : [TOTAL] ARI=0.1448 | [CLEAN] ARI=0.9142
+B009_Right                    : [TOTAL] ARI=0.1276 | [CLEAN] ARI=0.7453
+B012_Left                     : [TOTAL] ARI=0.1254 | [CLEAN] ARI=0.8312
+B008_Duodenum                 : [TOTAL] ARI=0.1165 | [CLEAN] ARI=0.4173
+B008_Mid jejunum              : [TOTAL] ARI=0.0952 | [CLEAN] ARI=0.7486
+B012_Ileum                    : [TOTAL] ARI=0.0876 | [CLEAN] ARI=0.6403
+B012_Trans                    : [TOTAL] ARI=0.0800 | [CLEAN] ARI=0.6866
+B011_Left                     : [TOTAL] ARI=0.0537 | [CLEAN] ARI=0.3820
+================================================================================

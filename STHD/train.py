@@ -1,24 +1,45 @@
-import argparse
 import os
+import torch
 import pandas as pd
-from STHD import model, sthdio
 import numpy as np
+import squidpy as sq
+from STHD import model, sthdio
+from torch_geometric.utils import from_scipy_sparse_matrix
 
 def sthdata_match_refgene(sthd_data, refile):
     ref_df = pd.read_csv(refile, sep='\t', index_col=0)
     sthd_data.lambda_cell_type_by_gene_matrix = ref_df.values.T
     return sthd_data, ref_df
 
-def train(sthd_data, n_iter, step_size, beta, anisotropic):
-    constants = model.prepare_constants(sthd_data, anisotropic=anisotropic)
-    X, Y, Z = constants[0], constants[1], constants[2]
-    weights = model.prepare_training_weights(X, Z)
+def train(sthd_data, n_iter, step_size, beta, anisotropic=True):
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     
-    P_ct_out = model.train(
-        n_iter=n_iter, step_size=step_size, beta=beta,
-        constants=constants, weights=weights
-    )
-    return P_ct_out
+    sq.gr.spatial_neighbors(sthd_data.adata, spatial_key="spatial", coord_type="generic", delaunay=True)
+    edge_index, _ = from_scipy_sparse_matrix(sthd_data.adata.obsp["spatial_connectivities"])
+    edge_index = edge_index.to(device)
+
+    X_np = sthd_data.adata.to_df().values.astype("float32")
+    X = torch.tensor(X_np, device=device)
+    Mu = torch.tensor(sthd_data.lambda_cell_type_by_gene_matrix.astype("float32"), device=device)
+    Var = torch.tensor(np.var(X_np, axis=0).astype("float32") + 1e-6, device=device)
+
+    spgat_model = model.STHD_SpGAT(X.shape[0], Mu.shape[0], X.shape[1]).to(device)
+    optimizer = torch.optim.Adam(spgat_model.parameters(), lr=step_size)
+
+    spgat_model.train()
+    for i in range(n_iter):
+        optimizer.zero_grad()
+        ll_prot, ce_space, P = spgat_model(X, Mu, Var, edge_index)
+        
+        total_loss = -ll_prot + (beta * ce_space)
+        total_loss.backward()
+        optimizer.step()
+        
+        print(f"Iter {i} | Total: {total_loss.item():.4f} | LL: {ll_prot.item():.4f} | CE: {ce_space.item():.4f}")
+
+    with torch.no_grad():
+        _, _, P_final = spgat_model(X, Mu, Var, edge_index)
+    return P_final.cpu().numpy()
 
 def predict(sthd_data, p_ct, cell_type_names):
     adata = sthd_data.adata.copy()
@@ -29,9 +50,7 @@ def predict(sthd_data, p_ct, cell_type_names):
     adata.obs["y"] = adata.obsm["spatial"][:, 1]
 
     prob_df = adata.obs[[t for t in adata.obs.columns if "p_ct_" in t]]
-    ct_max = prob_df.columns[prob_df.values.argmax(1)].str.replace('p_ct_', '')
-    adata.obs["STHD_pred_ct"] = ct_max
-
+    adata.obs["STHD_pred_ct"] = prob_df.columns[prob_df.values.argmax(1)].str.replace('p_ct_', '')
     sthd_data.adata = adata
     return sthd_data
 

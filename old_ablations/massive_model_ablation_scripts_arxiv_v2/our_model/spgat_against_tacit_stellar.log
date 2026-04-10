@@ -1,0 +1,77 @@
+nohup: ignoring input
+/hpc/group/yizhanglab/vk93/sthd-codex/spgat_against_tacit_stellar.py:221: FutureWarning: In the future, the default backend for leiden will be igraph instead of leidenalg.
+
+ To achieve the future defaults please pass: flavor="igraph" and n_iterations=2.  directed must also be False to work with igraph's implementation.
+  sc.tl.leiden(adata_tmp, resolution=1.0, random_state=43, key_added='leiden')
+/hpc/group/yizhanglab/vk93/sthd-codex/spgat_against_tacit_stellar.py:284: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  df_sample = df_d.groupby('unique_region', group_keys=False).apply(lambda x: x.sample(min(len(x), 2000), random_state=43))
+/hpc/group/yizhanglab/vk93/sthd-codex/spgat_against_tacit_stellar.py:284: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  df_sample = df_d.groupby('unique_region', group_keys=False).apply(lambda x: x.sample(min(len(x), 2000), random_state=43))
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Loading Dataset...
+
+[1] Extracting Intra-Donor Unsupervised Prior (B004_Ascending)...
+      -> Building feature graph and training Dir-VGAE...
+      -> Clustering latent space...
+
+[2] Extracting Inter-Donor Unsupervised Prior (B008)...
+      -> Subsampling donor for Dir-VGAE...
+      -> Building feature graph and training Dir-VGAE...
+      -> Clustering latent space...
+
+[2] Extracting Inter-Donor Unsupervised Prior (B012)...
+      -> Subsampling donor for Dir-VGAE...
+      -> Building feature graph and training Dir-VGAE...
+      -> Clustering latent space...
+
+[3] Running Evaluations on B004 Regions...
+
+Testing Region: B004_Descending (30547 cells)
+  -> Meso (B004_Ascending)
+  -> Macro (B008)
+  -> Macro (B012)
+
+Testing Region: B004_Duodenum (44170 cells)
+  -> Meso (B004_Ascending)
+  -> Macro (B008)
+  -> Macro (B012)
+
+Testing Region: B004_Ileum (26494 cells)
+  -> Meso (B004_Ascending)
+  -> Macro (B008)
+  -> Macro (B012)
+
+Testing Region: B004_Mid-jejunum (36921 cells)
+  -> Meso (B004_Ascending)
+  -> Macro (B008)
+  -> Macro (B012)
+
+Testing Region: B004_Proximal Jejunum (30067 cells)
+  -> Meso (B004_Ascending)
+  -> Macro (B008)
+  -> Macro (B012)
+
+Testing Region: B004_Descending - Sigmoid (25063 cells)
+  -> Meso (B004_Ascending)
+  -> Macro (B008)
+  -> Macro (B012)
+
+Testing Region: B004_Transverse (33793 cells)
+  -> Meso (B004_Ascending)
+  -> Macro (B008)
+  -> Macro (B012)
+
+Done.

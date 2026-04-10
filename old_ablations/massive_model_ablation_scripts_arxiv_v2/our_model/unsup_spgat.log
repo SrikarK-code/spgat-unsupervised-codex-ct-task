@@ -1,0 +1,160 @@
+nohup: ignoring input
+Loading Base Data...
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Loading Dictionary: /hpc/home/vk93/lab_vk93/sthd-codex/sthd_ct_intestine_v0/mu_dict_knn_gat_ablations/ablation_knn_gcn/profiles.tsv
+Building Spatial Adjacency Matrix...
+
+------------------------------------------------------------
+Testing Config: Beta_0.01_HighLR | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 33.1667 | LL: -33.1220 | CE: 4.4639
+  Epoch 20 | Total: 22.9493 | LL: -22.9045 | CE: 4.4820
+  Epoch 40 | Total: 17.6071 | LL: -17.5605 | CE: 4.6628
+  Epoch 60 | Total: 14.4838 | LL: -14.4347 | CE: 4.9066
+  Epoch 80 | Total: 13.2489 | LL: -13.1966 | CE: 5.2301
+  Epoch 99 | Total: 12.8286 | LL: -12.7709 | CE: 5.7768
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 248287  | ARI: 0.4368 | F1: 0.5913
+  [CLEAN] Cells: 118221  | ARI: 0.5843 | F1: 0.6650  (Confidence >= 80%)
+  [MIXED] Cells: 130066  | ARI: 0.3394 | F1: 0.5126  (Confidence < 80%)
+
+------------------------------------------------------------
+Testing Config: Beta_0.1_HighLR | Beta: 0.1 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 33.5684 | LL: -33.1220 | CE: 4.4639
+  Epoch 20 | Total: 23.3500 | LL: -22.9041 | CE: 4.4592
+  Epoch 40 | Total: 18.0093 | LL: -17.5665 | CE: 4.4280
+  Epoch 60 | Total: 14.8857 | LL: -14.4423 | CE: 4.4343
+  Epoch 80 | Total: 13.6441 | LL: -13.2066 | CE: 4.3748
+  Epoch 99 | Total: 13.1918 | LL: -12.8006 | CE: 3.9128
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 248287  | ARI: 0.4186 | F1: 0.5816
+  [CLEAN] Cells: 120924  | ARI: 0.5816 | F1: 0.6648  (Confidence >= 80%)
+  [MIXED] Cells: 127363  | ARI: 0.3126 | F1: 0.4895  (Confidence < 80%)
+
+------------------------------------------------------------
+Testing Config: Beta_1.0_HighLR | Beta: 1.0 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 37.5859 | LL: -33.1220 | CE: 4.4639
+  Epoch 20 | Total: 27.2678 | LL: -22.9145 | CE: 4.3533
+  Epoch 40 | Total: 21.9570 | LL: -17.7899 | CE: 4.1671
+  Epoch 60 | Total: 18.3441 | LL: -14.9525 | CE: 3.3917
+  Epoch 80 | Total: 16.0254 | LL: -14.0490 | CE: 1.9764
+  Epoch 99 | Total: 14.9600 | LL: -13.8316 | CE: 1.1284
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 248287  | ARI: 0.1679 | F1: 0.4211
+  [CLEAN] Cells: 190883  | ARI: 0.1697 | F1: 0.4312  (Confidence >= 80%)
+  [MIXED] Cells: 57404   | ARI: 0.1737 | F1: 0.3811  (Confidence < 80%)
+
+------------------------------------------------------------
+Testing Config: Beta_2.0_HighLR | Beta: 2.0 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 42.0498 | LL: -33.1220 | CE: 4.4639
+  Epoch 20 | Total: 31.5269 | LL: -22.9475 | CE: 4.2897
+  Epoch 40 | Total: 25.9144 | LL: -18.1074 | CE: 3.9035
+  Epoch 60 | Total: 21.4749 | LL: -15.7779 | CE: 2.8485
+  Epoch 80 | Total: 18.0910 | LL: -15.1697 | CE: 1.4606
+  Epoch 99 | Total: 16.5085 | LL: -14.9607 | CE: 0.7739
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 248287  | ARI: 0.0922 | F1: 0.3422
+  [CLEAN] Cells: 207481  | ARI: 0.0868 | F1: 0.3362  (Confidence >= 80%)
+  [MIXED] Cells: 40806   | ARI: 0.1440 | F1: 0.3713  (Confidence < 80%)
+
+------------------------------------------------------------
+Testing Config: Beta_3.0_HighLR | Beta: 3.0 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 46.5137 | LL: -33.1220 | CE: 4.4639
+  Epoch 20 | Total: 35.6959 | LL: -22.9877 | CE: 4.2361
+  Epoch 40 | Total: 29.5551 | LL: -18.5490 | CE: 3.6687
+  Epoch 60 | Total: 24.1853 | LL: -16.5771 | CE: 2.5361
+  Epoch 80 | Total: 19.7253 | LL: -16.0442 | CE: 1.2270
+  Epoch 99 | Total: 17.5902 | LL: -15.8421 | CE: 0.5827
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 248287  | ARI: 0.0596 | F1: 0.2876
+  [CLEAN] Cells: 214284  | ARI: 0.0525 | F1: 0.2734  (Confidence >= 80%)
+  [MIXED] Cells: 34003   | ARI: 0.1297 | F1: 0.3712  (Confidence < 80%)
+
+------------------------------------------------------------
+Testing Config: Beta_0.01_LowLR | Beta: 0.01 | LR_W: 0.01 | LR_GAT: 0.001
+  Epoch 00 | Total: 33.1667 | LL: -33.1220 | CE: 4.4639
+  Epoch 20 | Total: 28.4547 | LL: -28.4101 | CE: 4.4603
+  Epoch 40 | Total: 25.8966 | LL: -25.8521 | CE: 4.4550
+  Epoch 60 | Total: 24.5598 | LL: -24.5153 | CE: 4.4541
+  Epoch 80 | Total: 23.8277 | LL: -23.7831 | CE: 4.4595
+  Epoch 99 | Total: 23.3745 | LL: -23.3298 | CE: 4.4687
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 248287  | ARI: 0.2935 | F1: 0.4541
+  [CLEAN] Cells: 0       | ARI: 0.0000 | F1: 0.0000  (Confidence >= 80%)
+  [MIXED] Cells: 248287  | ARI: 0.2935 | F1: 0.4541  (Confidence < 80%)
+
+------------------------------------------------------------
+Testing Config: Beta_0.1_LowLR | Beta: 0.1 | LR_W: 0.01 | LR_GAT: 0.001
+  Epoch 00 | Total: 33.5684 | LL: -33.1220 | CE: 4.4639
+  Epoch 20 | Total: 28.8564 | LL: -28.4101 | CE: 4.4627
+  Epoch 40 | Total: 26.2983 | LL: -25.8522 | CE: 4.4611
+  Epoch 60 | Total: 24.9617 | LL: -24.5157 | CE: 4.4592
+  Epoch 80 | Total: 24.2300 | LL: -23.7839 | CE: 4.4607
+  Epoch 99 | Total: 23.7774 | LL: -23.3310 | CE: 4.4635
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 248287  | ARI: 0.2990 | F1: 0.4582
+  [CLEAN] Cells: 0       | ARI: 0.0000 | F1: 0.0000  (Confidence >= 80%)
+  [MIXED] Cells: 248287  | ARI: 0.2990 | F1: 0.4582  (Confidence < 80%)
+
+------------------------------------------------------------
+Testing Config: Beta_1.0_LowLR | Beta: 1.0 | LR_W: 0.01 | LR_GAT: 0.001
+  Epoch 00 | Total: 37.5859 | LL: -33.1220 | CE: 4.4639
+  Epoch 20 | Total: 32.8711 | LL: -28.4100 | CE: 4.4611
+  Epoch 40 | Total: 30.3071 | LL: -25.8526 | CE: 4.4545
+  Epoch 60 | Total: 28.9658 | LL: -24.5182 | CE: 4.4476
+  Epoch 80 | Total: 28.2330 | LL: -23.7902 | CE: 4.4428
+  Epoch 99 | Total: 27.7803 | LL: -23.3425 | CE: 4.4378
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 248287  | ARI: 0.3119 | F1: 0.4712
+  [CLEAN] Cells: 0       | ARI: 0.0000 | F1: 0.0000  (Confidence >= 80%)
+  [MIXED] Cells: 248287  | ARI: 0.3119 | F1: 0.4712  (Confidence < 80%)
+
+------------------------------------------------------------
+Testing Config: Beta_2.0_LowLR | Beta: 2.0 | LR_W: 0.01 | LR_GAT: 0.001
+  Epoch 00 | Total: 42.0498 | LL: -33.1220 | CE: 4.4639
+  Epoch 20 | Total: 37.3333 | LL: -28.4102 | CE: 4.4616
+  Epoch 40 | Total: 34.7662 | LL: -25.8551 | CE: 4.4556
+  Epoch 60 | Total: 33.4181 | LL: -24.5257 | CE: 4.4462
+  Epoch 80 | Total: 32.6712 | LL: -23.8039 | CE: 4.4336
+  Epoch 99 | Total: 32.1983 | LL: -23.3630 | CE: 4.4177
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 248287  | ARI: 0.2876 | F1: 0.4573
+  [CLEAN] Cells: 0       | ARI: 0.0000 | F1: 0.0000  (Confidence >= 80%)
+  [MIXED] Cells: 248287  | ARI: 0.2876 | F1: 0.4573  (Confidence < 80%)
+
+------------------------------------------------------------
+Testing Config: Beta_3.0_LowLR | Beta: 3.0 | LR_W: 0.01 | LR_GAT: 0.001
+  Epoch 00 | Total: 46.5137 | LL: -33.1220 | CE: 4.4639
+  Epoch 20 | Total: 41.7893 | LL: -28.4094 | CE: 4.4600
+  Epoch 40 | Total: 39.2052 | LL: -25.8532 | CE: 4.4507
+  Epoch 60 | Total: 37.8405 | LL: -24.5267 | CE: 4.4379
+  Epoch 80 | Total: 37.0723 | LL: -23.8122 | CE: 4.4200
+  Epoch 99 | Total: 36.5692 | LL: -23.3803 | CE: 4.3963
+
+  === METRICS BREAKDOWN ===
+  [TOTAL] Cells: 248287  | ARI: 0.2517 | F1: 0.4324
+  [CLEAN] Cells: 0       | ARI: 0.0000 | F1: 0.0000  (Confidence >= 80%)
+  [MIXED] Cells: 248287  | ARI: 0.2517 | F1: 0.4324  (Confidence < 80%)
+
+================================================================================
+SpGAT HYPERPARAMETER LEADERBOARD (Sorted by Total ARI):
+Beta_0.01_HighLR    : [TOTAL] ARI=0.4368 | [CLEAN] ARI=0.5843
+Beta_0.1_HighLR     : [TOTAL] ARI=0.4186 | [CLEAN] ARI=0.5816
+Beta_1.0_LowLR      : [TOTAL] ARI=0.3119 | [CLEAN] ARI=0.0000
+Beta_0.1_LowLR      : [TOTAL] ARI=0.2990 | [CLEAN] ARI=0.0000
+Beta_0.01_LowLR     : [TOTAL] ARI=0.2935 | [CLEAN] ARI=0.0000
+Beta_2.0_LowLR      : [TOTAL] ARI=0.2876 | [CLEAN] ARI=0.0000
+Beta_3.0_LowLR      : [TOTAL] ARI=0.2517 | [CLEAN] ARI=0.0000
+Beta_1.0_HighLR     : [TOTAL] ARI=0.1679 | [CLEAN] ARI=0.1697
+Beta_2.0_HighLR     : [TOTAL] ARI=0.0922 | [CLEAN] ARI=0.0868
+Beta_3.0_HighLR     : [TOTAL] ARI=0.0596 | [CLEAN] ARI=0.0525
+================================================================================

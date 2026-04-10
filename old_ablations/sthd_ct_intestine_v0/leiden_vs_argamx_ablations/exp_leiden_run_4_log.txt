@@ -1,0 +1,1939 @@
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/dask/dataframe/__init__.py:31: FutureWarning: The legacy Dask DataFrame implementation is deprecated and will be removed in a future version. Set the configuration option `dataframe.query-planning` to `True` or None to enable the new Dask Dataframe implementation and silence this warning.
+  warnings.warn(
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/xarray_schema/__init__.py:1: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import DistributionNotFound, get_distribution
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/utils.py:434: FutureWarning: Importing read_text from `anndata` is deprecated. Import anndata.io.read_text instead.
+  warnings.warn(msg, FutureWarning)
+Running Unseeded (Random)
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+/hpc/group/yizhanglab/vk93/sthd-codex/run_exp.py:105: FutureWarning: In the future, the default backend for leiden will be igraph instead of leidenalg.
+
+ To achieve the future defaults please pass: flavor="igraph" and n_iterations=2.  directed must also be False to work with igraph's implementation.
+  sc.tl.leiden(adata, resolution=1.0, key_added='vgae_leiden')
+Building cKDTree for instant spatial querying...
+Calculating rigid partitions...
+Extracting 64 patches with halo...
+  0%|          | 0/64 [00:00<?, ?it/s]  2%|▏         | 1/64 [00:00<00:23,  2.65it/s]  3%|▎         | 2/64 [00:00<00:22,  2.70it/s]  5%|▍         | 3/64 [00:01<00:21,  2.82it/s]  6%|▋         | 4/64 [00:01<00:20,  2.96it/s]  8%|▊         | 5/64 [00:01<00:19,  2.96it/s]  9%|▉         | 6/64 [00:02<00:19,  3.00it/s] 11%|█         | 7/64 [00:02<00:18,  3.05it/s] 12%|█▎        | 8/64 [00:02<00:17,  3.12it/s] 14%|█▍        | 9/64 [00:02<00:17,  3.17it/s] 16%|█▌        | 10/64 [00:03<00:16,  3.21it/s] 17%|█▋        | 11/64 [00:03<00:16,  3.17it/s] 19%|█▉        | 12/64 [00:03<00:16,  3.13it/s] 20%|██        | 13/64 [00:04<00:16,  3.10it/s] 22%|██▏       | 14/64 [00:04<00:15,  3.17it/s] 23%|██▎       | 15/64 [00:04<00:15,  3.14it/s] 25%|██▌       | 16/64 [00:05<00:15,  3.15it/s] 27%|██▋       | 17/64 [00:05<00:14,  3.23it/s] 28%|██▊       | 18/64 [00:05<00:14,  3.20it/s] 30%|██▉       | 19/64 [00:06<00:14,  3.21it/s] 31%|███▏      | 20/64 [00:06<00:13,  3.23it/s] 33%|███▎      | 21/64 [00:06<00:13,  3.24it/s] 34%|███▍      | 22/64 [00:07<00:13,  3.23it/s] 36%|███▌      | 23/64 [00:07<00:12,  3.18it/s] 38%|███▊      | 24/64 [00:07<00:14,  2.85it/s] 39%|███▉      | 25/64 [00:08<00:15,  2.56it/s] 41%|████      | 26/64 [00:08<00:14,  2.71it/s] 42%|████▏     | 27/64 [00:08<00:13,  2.82it/s] 44%|████▍     | 28/64 [00:09<00:12,  2.84it/s] 45%|████▌     | 29/64 [00:09<00:12,  2.91it/s] 47%|████▋     | 30/64 [00:09<00:11,  2.96it/s] 48%|████▊     | 31/64 [00:10<00:11,  2.93it/s] 50%|█████     | 32/64 [00:10<00:10,  3.03it/s] 52%|█████▏    | 33/64 [00:10<00:10,  3.06it/s] 53%|█████▎    | 34/64 [00:11<00:09,  3.08it/s] 55%|█████▍    | 35/64 [00:11<00:09,  3.12it/s] 56%|█████▋    | 36/64 [00:11<00:08,  3.21it/s] 58%|█████▊    | 37/64 [00:12<00:08,  3.22it/s] 59%|█████▉    | 38/64 [00:12<00:08,  3.00it/s] 61%|██████    | 39/64 [00:12<00:08,  3.06it/s] 62%|██████▎   | 40/64 [00:13<00:07,  3.10it/s] 64%|██████▍   | 41/64 [00:13<00:07,  3.00it/s] 66%|██████▌   | 42/64 [00:13<00:07,  3.05it/s] 67%|██████▋   | 43/64 [00:14<00:06,  3.10it/s] 69%|██████▉   | 44/64 [00:14<00:06,  3.17it/s] 70%|███████   | 45/64 [00:14<00:06,  3.14it/s] 72%|███████▏  | 46/64 [00:15<00:05,  3.15it/s] 73%|███████▎  | 47/64 [00:15<00:05,  3.19it/s] 75%|███████▌  | 48/64 [00:15<00:05,  3.10it/s] 77%|███████▋  | 49/64 [00:16<00:05,  2.84it/s] 78%|███████▊  | 50/64 [00:16<00:05,  2.71it/s] 80%|███████▉  | 51/64 [00:16<00:05,  2.60it/s] 81%|████████▏ | 52/64 [00:17<00:04,  2.55it/s] 83%|████████▎ | 53/64 [00:17<00:04,  2.47it/s] 84%|████████▍ | 54/64 [00:18<00:04,  2.48it/s] 86%|████████▌ | 55/64 [00:18<00:03,  2.46it/s] 88%|████████▊ | 56/64 [00:19<00:03,  2.43it/s] 89%|████████▉ | 57/64 [00:19<00:02,  2.56it/s] 91%|█████████ | 58/64 [00:19<00:02,  2.71it/s] 92%|█████████▏| 59/64 [00:20<00:01,  2.85it/s] 94%|█████████▍| 60/64 [00:20<00:01,  2.96it/s] 95%|█████████▌| 61/64 [00:20<00:00,  3.05it/s] 97%|█████████▋| 62/64 [00:20<00:00,  3.06it/s] 98%|█████████▊| 63/64 [00:21<00:00,  3.16it/s]100%|██████████| 64/64 [00:21<00:00,  3.17it/s]100%|██████████| 64/64 [00:21<00:00,  2.97it/s]
+Iter 0 | Total: 56.1200 | LL: -52.9507 | CE: 10.5646
+Iter 1 | Total: 41.9363 | LL: -38.7896 | CE: 10.4890
+Iter 2 | Total: 35.4798 | LL: -32.3708 | CE: 10.3635
+Iter 3 | Total: 32.1975 | LL: -29.1253 | CE: 10.2407
+Iter 4 | Total: 30.2455 | LL: -27.2049 | CE: 10.1353
+Iter 5 | Total: 28.8686 | LL: -25.8532 | CE: 10.0515
+Iter 6 | Total: 27.7583 | LL: -24.7614 | CE: 9.9895
+Iter 7 | Total: 26.7896 | LL: -23.8048 | CE: 9.9494
+Iter 8 | Total: 25.9126 | LL: -22.9331 | CE: 9.9318
+Iter 9 | Total: 25.1080 | LL: -22.1266 | CE: 9.9377
+Iter 10 | Total: 24.3697 | LL: -21.3792 | CE: 9.9682
+Iter 11 | Total: 23.6966 | LL: -20.6893 | CE: 10.0243
+Iter 12 | Total: 23.0886 | LL: -20.0565 | CE: 10.1069
+Iter 13 | Total: 22.5471 | LL: -19.4821 | CE: 10.2166
+Iter 14 | Total: 22.0736 | LL: -18.9675 | CE: 10.3535
+Iter 15 | Total: 21.6684 | LL: -18.5132 | CE: 10.5173
+Iter 16 | Total: 21.3291 | LL: -18.1170 | CE: 10.7073
+Iter 17 | Total: 21.0510 | LL: -17.7744 | CE: 10.9221
+Iter 18 | Total: 20.8277 | LL: -17.4797 | CE: 11.1600
+Iter 19 | Total: 20.6524 | LL: -17.2267 | CE: 11.4189
+Iter 20 | Total: 20.5182 | LL: -17.0092 | CE: 11.6967
+Iter 21 | Total: 20.4188 | LL: -16.8215 | CE: 11.9912
+Iter 22 | Total: 20.3488 | LL: -16.6587 | CE: 12.3003
+Iter 23 | Total: 20.3034 | LL: -16.5167 | CE: 12.6224
+Iter 24 | Total: 20.2789 | LL: -16.3922 | CE: 12.9557
+Iter 25 | Total: 20.2721 | LL: -16.2824 | CE: 13.2990
+Iter 26 | Total: 20.2804 | LL: -16.1851 | CE: 13.6508
+Iter 27 | Total: 20.3014 | LL: -16.0985 | CE: 14.0097
+Iter 28 | Total: 20.3332 | LL: -16.0209 | CE: 14.3745
+Iter 29 | Total: 20.3741 | LL: -15.9511 | CE: 14.7435
+Iter 0 | Total: 56.4003 | LL: -53.3263 | CE: 10.2465
+Iter 1 | Total: 42.2622 | LL: -39.2133 | CE: 10.1628
+Iter 2 | Total: 35.7085 | LL: -32.6995 | CE: 10.0297
+Iter 3 | Total: 32.3431 | LL: -29.3706 | CE: 9.9085
+Iter 4 | Total: 30.3139 | LL: -27.3709 | CE: 9.8102
+Iter 5 | Total: 28.8627 | LL: -25.9420 | CE: 9.7357
+Iter 6 | Total: 27.6817 | LL: -24.7764 | CE: 9.6842
+Iter 7 | Total: 26.6479 | LL: -23.7512 | CE: 9.6557
+Iter 8 | Total: 25.7144 | LL: -22.8192 | CE: 9.6504
+Iter 9 | Total: 24.8627 | LL: -21.9620 | CE: 9.6692
+Iter 10 | Total: 24.0849 | LL: -21.1711 | CE: 9.7125
+Iter 11 | Total: 23.3769 | LL: -20.4426 | CE: 9.7811
+Iter 12 | Total: 22.7390 | LL: -19.7763 | CE: 9.8756
+Iter 13 | Total: 22.1744 | LL: -19.1756 | CE: 9.9962
+Iter 14 | Total: 21.6868 | LL: -18.6439 | CE: 10.1430
+Iter 15 | Total: 21.2762 | LL: -18.1815 | CE: 10.3156
+Iter 16 | Total: 20.9380 | LL: -17.7840 | CE: 10.5132
+Iter 17 | Total: 20.6639 | LL: -17.4434 | CE: 10.7350
+Iter 18 | Total: 20.4443 | LL: -17.1504 | CE: 10.9796
+Iter 19 | Total: 20.2707 | LL: -16.8971 | CE: 11.2455
+Iter 20 | Total: 20.1360 | LL: -16.6766 | CE: 11.5311
+Iter 21 | Total: 20.0343 | LL: -16.4839 | CE: 11.8349
+Iter 22 | Total: 19.9612 | LL: -16.3146 | CE: 12.1553
+Iter 23 | Total: 19.9126 | LL: -16.1654 | CE: 12.4905
+Iter 24 | Total: 19.8853 | LL: -16.0335 | CE: 12.8391
+Iter 25 | Total: 19.8762 | LL: -15.9164 | CE: 13.1994
+Iter 26 | Total: 19.8830 | LL: -15.8121 | CE: 13.5696
+Iter 27 | Total: 19.9032 | LL: -15.7188 | CE: 13.9481
+Iter 28 | Total: 19.9348 | LL: -15.6350 | CE: 14.3329
+Iter 29 | Total: 19.9761 | LL: -15.5594 | CE: 14.7225
+Iter 0 | Total: 40.3513 | LL: -37.2851 | CE: 10.2205
+Iter 1 | Total: 34.2560 | LL: -31.2191 | CE: 10.1229
+Iter 2 | Total: 30.9867 | LL: -27.9946 | CE: 9.9735
+Iter 3 | Total: 28.9544 | LL: -25.9949 | CE: 9.8648
+Iter 4 | Total: 27.4682 | LL: -24.5251 | CE: 9.8106
+Iter 5 | Total: 26.2618 | LL: -23.3185 | CE: 9.8110
+Iter 6 | Total: 25.2335 | LL: -22.2736 | CE: 9.8661
+Iter 7 | Total: 24.3436 | LL: -21.3507 | CE: 9.9765
+Iter 8 | Total: 23.5736 | LL: -20.5308 | CE: 10.1426
+Iter 9 | Total: 22.9107 | LL: -19.8015 | CE: 10.3639
+Iter 10 | Total: 22.3464 | LL: -19.1548 | CE: 10.6384
+Iter 11 | Total: 21.8763 | LL: -18.5874 | CE: 10.9632
+Iter 12 | Total: 21.4972 | LL: -18.0969 | CE: 11.3344
+Iter 13 | Total: 21.2037 | LL: -17.6792 | CE: 11.7483
+Iter 14 | Total: 20.9866 | LL: -17.3263 | CE: 12.2010
+Iter 15 | Total: 20.8345 | LL: -17.0279 | CE: 12.6887
+Iter 16 | Total: 20.7361 | LL: -16.7738 | CE: 13.2076
+Iter 17 | Total: 20.6821 | LL: -16.5559 | CE: 13.7539
+Iter 18 | Total: 20.6646 | LL: -16.3677 | CE: 14.3231
+Iter 19 | Total: 20.6774 | LL: -16.2044 | CE: 14.9102
+Iter 20 | Total: 20.7151 | LL: -16.0620 | CE: 15.5102
+Iter 21 | Total: 20.7728 | LL: -15.9373 | CE: 16.1184
+Iter 22 | Total: 20.8467 | LL: -15.8277 | CE: 16.7299
+Iter 23 | Total: 20.9331 | LL: -15.7310 | CE: 17.3403
+Iter 24 | Total: 21.0290 | LL: -15.6454 | CE: 17.9455
+Iter 25 | Total: 21.1320 | LL: -15.5693 | CE: 18.5423
+Iter 26 | Total: 21.2399 | LL: -15.5015 | CE: 19.1279
+Iter 27 | Total: 21.3510 | LL: -15.4410 | CE: 19.7002
+Iter 28 | Total: 21.4640 | LL: -15.3867 | CE: 20.2575
+Iter 29 | Total: 21.5775 | LL: -15.3380 | CE: 20.7986
+Iter 0 | Total: 51.4123 | LL: -48.3125 | CE: 10.3328
+Iter 1 | Total: 39.5484 | LL: -36.4771 | CE: 10.2375
+Iter 2 | Total: 33.8428 | LL: -30.8184 | CE: 10.0814
+Iter 3 | Total: 30.8721 | LL: -27.8899 | CE: 9.9407
+Iter 4 | Total: 29.0629 | LL: -26.1130 | CE: 9.8331
+Iter 5 | Total: 27.7553 | LL: -24.8291 | CE: 9.7540
+Iter 6 | Total: 26.6883 | LL: -23.7794 | CE: 9.6964
+Iter 7 | Total: 25.7617 | LL: -22.8648 | CE: 9.6563
+Iter 8 | Total: 24.9350 | LL: -22.0450 | CE: 9.6336
+Iter 9 | Total: 24.1901 | LL: -21.3011 | CE: 9.6300
+Iter 10 | Total: 23.5190 | LL: -20.6245 | CE: 9.6485
+Iter 11 | Total: 22.9183 | LL: -20.0108 | CE: 9.6918
+Iter 12 | Total: 22.3860 | LL: -19.4575 | CE: 9.7618
+Iter 13 | Total: 21.9205 | LL: -18.9627 | CE: 9.8594
+Iter 14 | Total: 21.5192 | LL: -18.5239 | CE: 9.9846
+Iter 15 | Total: 21.1785 | LL: -18.1375 | CE: 10.1367
+Iter 16 | Total: 20.8943 | LL: -17.7999 | CE: 10.3145
+Iter 17 | Total: 20.6622 | LL: -17.5073 | CE: 10.5164
+Iter 18 | Total: 20.4777 | LL: -17.2555 | CE: 10.7407
+Iter 19 | Total: 20.3350 | LL: -17.0394 | CE: 10.9853
+Iter 20 | Total: 20.2282 | LL: -16.8536 | CE: 11.2485
+Iter 21 | Total: 20.1516 | LL: -16.6931 | CE: 11.5283
+Iter 22 | Total: 20.1004 | LL: -16.5535 | CE: 11.8232
+Iter 23 | Total: 20.0706 | LL: -16.4311 | CE: 12.1315
+Iter 24 | Total: 20.0588 | LL: -16.3232 | CE: 12.4518
+Iter 25 | Total: 20.0624 | LL: -16.2276 | CE: 12.7825
+Iter 26 | Total: 20.0791 | LL: -16.1425 | CE: 13.1222
+Iter 27 | Total: 20.1071 | LL: -16.0664 | CE: 13.4692
+Iter 28 | Total: 20.1447 | LL: -15.9981 | CE: 13.8221
+Iter 29 | Total: 20.1903 | LL: -15.9366 | CE: 14.1792
+Iter 0 | Total: 41.0034 | LL: -37.8906 | CE: 10.3759
+Iter 1 | Total: 34.3827 | LL: -31.2969 | CE: 10.2861
+Iter 2 | Total: 30.9968 | LL: -27.9536 | CE: 10.1440
+Iter 3 | Total: 28.9878 | LL: -25.9779 | CE: 10.0331
+Iter 4 | Total: 27.5659 | LL: -24.5756 | CE: 9.9679
+Iter 5 | Total: 26.4237 | LL: -23.4389 | CE: 9.9492
+Iter 6 | Total: 25.4459 | LL: -22.4529 | CE: 9.9768
+Iter 7 | Total: 24.5897 | LL: -21.5746 | CE: 10.0504
+Iter 8 | Total: 23.8360 | LL: -20.7850 | CE: 10.1699
+Iter 9 | Total: 23.1735 | LL: -20.0732 | CE: 10.3344
+Iter 10 | Total: 22.5954 | LL: -19.4324 | CE: 10.5431
+Iter 11 | Total: 22.0979 | LL: -18.8595 | CE: 10.7945
+Iter 12 | Total: 21.6795 | LL: -18.3534 | CE: 11.0868
+Iter 13 | Total: 21.3384 | LL: -17.9130 | CE: 11.4181
+Iter 14 | Total: 21.0705 | LL: -17.5347 | CE: 11.7861
+Iter 15 | Total: 20.8690 | LL: -17.2125 | CE: 12.1884
+Iter 16 | Total: 20.7252 | LL: -16.9386 | CE: 12.6219
+Iter 17 | Total: 20.6301 | LL: -16.7050 | CE: 13.0836
+Iter 18 | Total: 20.5757 | LL: -16.5048 | CE: 13.5697
+Iter 19 | Total: 20.5550 | LL: -16.3321 | CE: 14.0766
+Iter 20 | Total: 20.5626 | LL: -16.1824 | CE: 14.6007
+Iter 21 | Total: 20.5937 | LL: -16.0521 | CE: 15.1387
+Iter 22 | Total: 20.6446 | LL: -15.9383 | CE: 15.6875
+Iter 23 | Total: 20.7117 | LL: -15.8384 | CE: 16.2441
+Iter 24 | Total: 20.7922 | LL: -15.7505 | CE: 16.8054
+Iter 25 | Total: 20.8834 | LL: -15.6729 | CE: 17.3684
+Iter 26 | Total: 20.9832 | LL: -15.6040 | CE: 17.9306
+Iter 27 | Total: 21.0895 | LL: -15.5427 | CE: 18.4895
+Iter 28 | Total: 21.2009 | LL: -15.4880 | CE: 19.0431
+Iter 29 | Total: 21.3159 | LL: -15.4390 | CE: 19.5897
+Iter 0 | Total: 43.1702 | LL: -40.1241 | CE: 10.1539
+Iter 1 | Total: 35.2614 | LL: -32.2394 | CE: 10.0736
+Iter 2 | Total: 31.4697 | LL: -28.4838 | CE: 9.9528
+Iter 3 | Total: 29.3437 | LL: -26.3867 | CE: 9.8566
+Iter 4 | Total: 27.8952 | LL: -24.9560 | CE: 9.7972
+Iter 5 | Total: 26.7457 | LL: -23.8117 | CE: 9.7798
+Iter 6 | Total: 25.7571 | LL: -22.8148 | CE: 9.8075
+Iter 7 | Total: 24.8837 | LL: -21.9188 | CE: 9.8830
+Iter 8 | Total: 24.1101 | LL: -21.1078 | CE: 10.0079
+Iter 9 | Total: 23.4289 | LL: -20.3740 | CE: 10.1830
+Iter 10 | Total: 22.8346 | LL: -19.7122 | CE: 10.4081
+Iter 11 | Total: 22.3232 | LL: -19.1185 | CE: 10.6822
+Iter 12 | Total: 21.8917 | LL: -18.5907 | CE: 11.0034
+Iter 13 | Total: 21.5378 | LL: -18.1270 | CE: 11.3693
+Iter 14 | Total: 21.2578 | LL: -17.7247 | CE: 11.7772
+Iter 15 | Total: 21.0462 | LL: -17.3791 | CE: 12.2238
+Iter 16 | Total: 20.8958 | LL: -17.0841 | CE: 12.7056
+Iter 17 | Total: 20.7984 | LL: -16.8328 | CE: 13.2187
+Iter 18 | Total: 20.7452 | LL: -16.6177 | CE: 13.7585
+Iter 19 | Total: 20.7285 | LL: -16.4324 | CE: 14.3205
+Iter 20 | Total: 20.7415 | LL: -16.2716 | CE: 14.8999
+Iter 21 | Total: 20.7790 | LL: -16.1312 | CE: 15.4926
+Iter 22 | Total: 20.8365 | LL: -16.0081 | CE: 16.0946
+Iter 23 | Total: 20.9103 | LL: -15.8997 | CE: 16.7021
+Iter 24 | Total: 20.9972 | LL: -15.8040 | CE: 17.3109
+Iter 25 | Total: 21.0943 | LL: -15.7191 | CE: 17.9174
+Iter 26 | Total: 21.1992 | LL: -15.6438 | CE: 18.5182
+Iter 27 | Total: 21.3098 | LL: -15.5767 | CE: 19.1105
+Iter 28 | Total: 21.4244 | LL: -15.5168 | CE: 19.6919
+Iter 29 | Total: 21.5413 | LL: -15.4632 | CE: 20.2604
+Iter 0 | Total: 41.0864 | LL: -37.9397 | CE: 10.4891
+Iter 1 | Total: 34.4097 | LL: -31.2894 | CE: 10.4010
+Iter 2 | Total: 31.0199 | LL: -27.9412 | CE: 10.2623
+Iter 3 | Total: 29.0308 | LL: -25.9839 | CE: 10.1561
+Iter 4 | Total: 27.6441 | LL: -24.6158 | CE: 10.0945
+Iter 5 | Total: 26.5569 | LL: -23.5335 | CE: 10.0779
+Iter 6 | Total: 25.6496 | LL: -22.6174 | CE: 10.1071
+Iter 7 | Total: 24.8680 | LL: -21.8131 | CE: 10.1828
+Iter 8 | Total: 24.1857 | LL: -21.0939 | CE: 10.3060
+Iter 9 | Total: 23.5895 | LL: -20.4465 | CE: 10.4769
+Iter 10 | Total: 23.0718 | LL: -19.8632 | CE: 10.6954
+Iter 11 | Total: 22.6271 | LL: -19.3389 | CE: 10.9608
+Iter 12 | Total: 22.2512 | LL: -18.8696 | CE: 11.2719
+Iter 13 | Total: 21.9398 | LL: -18.4518 | CE: 11.6269
+Iter 14 | Total: 21.6886 | LL: -18.0815 | CE: 12.0237
+Iter 15 | Total: 21.4930 | LL: -17.7550 | CE: 12.4600
+Iter 16 | Total: 21.3482 | LL: -17.4684 | CE: 12.9326
+Iter 17 | Total: 21.2492 | LL: -17.2177 | CE: 13.4383
+Iter 18 | Total: 21.1903 | LL: -16.9985 | CE: 13.9727
+Iter 19 | Total: 21.1657 | LL: -16.8064 | CE: 14.5313
+Iter 20 | Total: 21.1702 | LL: -16.6375 | CE: 15.1090
+Iter 21 | Total: 21.1992 | LL: -16.4888 | CE: 15.7014
+Iter 22 | Total: 21.2490 | LL: -16.3580 | CE: 16.3036
+Iter 23 | Total: 21.3163 | LL: -16.2431 | CE: 16.9109
+Iter 24 | Total: 21.3980 | LL: -16.1425 | CE: 17.5180
+Iter 25 | Total: 21.4909 | LL: -16.0548 | CE: 18.1205
+Iter 26 | Total: 21.5925 | LL: -15.9783 | CE: 18.7142
+Iter 27 | Total: 21.7005 | LL: -15.9116 | CE: 19.2962
+Iter 28 | Total: 21.8128 | LL: -15.8534 | CE: 19.8646
+Iter 29 | Total: 21.9280 | LL: -15.8025 | CE: 20.4183
+Iter 0 | Total: 52.2666 | LL: -49.1615 | CE: 10.3505
+Iter 1 | Total: 39.7993 | LL: -36.7134 | CE: 10.2863
+Iter 2 | Total: 34.0871 | LL: -31.0375 | CE: 10.1654
+Iter 3 | Total: 31.1466 | LL: -28.1297 | CE: 10.0563
+Iter 4 | Total: 29.3381 | LL: -26.3466 | CE: 9.9716
+Iter 5 | Total: 28.0165 | LL: -25.0423 | CE: 9.9142
+Iter 6 | Total: 26.9304 | LL: -23.9644 | CE: 9.8866
+Iter 7 | Total: 25.9816 | LL: -23.0144 | CE: 9.8907
+Iter 8 | Total: 25.1308 | LL: -22.1525 | CE: 9.9279
+Iter 9 | Total: 24.3623 | LL: -21.3625 | CE: 9.9994
+Iter 10 | Total: 23.6694 | LL: -20.6376 | CE: 10.1059
+Iter 11 | Total: 23.0488 | LL: -19.9745 | CE: 10.2478
+Iter 12 | Total: 22.4989 | LL: -19.3713 | CE: 10.4253
+Iter 13 | Total: 22.0192 | LL: -18.8277 | CE: 10.6382
+Iter 14 | Total: 21.6092 | LL: -18.3435 | CE: 10.8858
+Iter 15 | Total: 21.2670 | LL: -17.9170 | CE: 11.1668
+Iter 16 | Total: 20.9887 | LL: -17.5450 | CE: 11.4792
+Iter 17 | Total: 20.7687 | LL: -17.2225 | CE: 11.8206
+Iter 18 | Total: 20.6007 | LL: -16.9442 | CE: 12.1882
+Iter 19 | Total: 20.4777 | LL: -16.7041 | CE: 12.5788
+Iter 20 | Total: 20.3931 | LL: -16.4963 | CE: 12.9892
+Iter 21 | Total: 20.3406 | LL: -16.3157 | CE: 13.4164
+Iter 22 | Total: 20.3150 | LL: -16.1576 | CE: 13.8579
+Iter 23 | Total: 20.3118 | LL: -16.0184 | CE: 14.3111
+Iter 24 | Total: 20.3273 | LL: -15.8952 | CE: 14.7735
+Iter 25 | Total: 20.3585 | LL: -15.7856 | CE: 15.2429
+Iter 26 | Total: 20.4029 | LL: -15.6878 | CE: 15.7169
+Iter 27 | Total: 20.4584 | LL: -15.6003 | CE: 16.1934
+Iter 28 | Total: 20.5230 | LL: -15.5218 | CE: 16.6706
+Iter 29 | Total: 20.5953 | LL: -15.4512 | CE: 17.1469
+Iter 0 | Total: 44.8246 | LL: -41.7446 | CE: 10.2667
+Iter 1 | Total: 36.5958 | LL: -33.5426 | CE: 10.1773
+Iter 2 | Total: 32.4454 | LL: -29.4342 | CE: 10.0373
+Iter 3 | Total: 30.0133 | LL: -27.0353 | CE: 9.9266
+Iter 4 | Total: 28.3160 | LL: -25.3590 | CE: 9.8568
+Iter 5 | Total: 26.9713 | LL: -24.0219 | CE: 9.8315
+Iter 6 | Total: 25.8314 | LL: -22.8758 | CE: 9.8521
+Iter 7 | Total: 24.8377 | LL: -21.8619 | CE: 9.9192
+Iter 8 | Total: 23.9652 | LL: -20.9551 | CE: 10.0336
+Iter 9 | Total: 23.2014 | LL: -20.1428 | CE: 10.1954
+Iter 10 | Total: 22.5370 | LL: -19.4158 | CE: 10.4042
+Iter 11 | Total: 21.9635 | LL: -18.7659 | CE: 10.6586
+Iter 12 | Total: 21.4745 | LL: -18.1875 | CE: 10.9566
+Iter 13 | Total: 21.0655 | LL: -17.6770 | CE: 11.2951
+Iter 14 | Total: 20.7336 | LL: -17.2323 | CE: 11.6710
+Iter 15 | Total: 20.4743 | LL: -16.8500 | CE: 12.0810
+Iter 16 | Total: 20.2807 | LL: -16.5242 | CE: 12.5216
+Iter 17 | Total: 20.1442 | LL: -16.2474 | CE: 12.9892
+Iter 18 | Total: 20.0555 | LL: -16.0116 | CE: 13.4796
+Iter 19 | Total: 20.0064 | LL: -15.8097 | CE: 13.9888
+Iter 20 | Total: 19.9897 | LL: -15.6359 | CE: 14.5128
+Iter 21 | Total: 19.9996 | LL: -15.4853 | CE: 15.0478
+Iter 22 | Total: 20.0313 | LL: -15.3541 | CE: 15.5904
+Iter 23 | Total: 20.0805 | LL: -15.2394 | CE: 16.1369
+Iter 24 | Total: 20.1436 | LL: -15.1385 | CE: 16.6839
+Iter 25 | Total: 20.2177 | LL: -15.0493 | CE: 17.2280
+Iter 26 | Total: 20.3002 | LL: -14.9703 | CE: 17.7665
+Iter 27 | Total: 20.3890 | LL: -14.8999 | CE: 18.2969
+Iter 28 | Total: 20.4821 | LL: -14.8370 | CE: 18.8173
+Iter 29 | Total: 20.5783 | LL: -14.7805 | CE: 19.3259
+Iter 0 | Total: 50.0341 | LL: -46.9195 | CE: 10.3820
+Iter 1 | Total: 38.7810 | LL: -35.6884 | CE: 10.3087
+Iter 2 | Total: 33.4940 | LL: -30.4391 | CE: 10.1830
+Iter 3 | Total: 30.6526 | LL: -27.6359 | CE: 10.0557
+Iter 4 | Total: 28.8493 | LL: -25.8674 | CE: 9.9399
+Iter 5 | Total: 27.5187 | LL: -24.5675 | CE: 9.8373
+Iter 6 | Total: 26.4320 | LL: -23.5079 | CE: 9.7468
+Iter 7 | Total: 25.4912 | LL: -22.5907 | CE: 9.6681
+Iter 8 | Total: 24.6504 | LL: -21.7697 | CE: 9.6025
+Iter 9 | Total: 23.8876 | LL: -21.0218 | CE: 9.5528
+Iter 10 | Total: 23.1930 | LL: -20.3363 | CE: 9.5224
+Iter 11 | Total: 22.5636 | LL: -19.7091 | CE: 9.5151
+Iter 12 | Total: 21.9993 | LL: -19.1390 | CE: 9.5342
+Iter 13 | Total: 21.5004 | LL: -18.6257 | CE: 9.5823
+Iter 14 | Total: 21.0665 | LL: -18.1682 | CE: 9.6608
+Iter 15 | Total: 20.6958 | LL: -17.7648 | CE: 9.7700
+Iter 16 | Total: 20.3854 | LL: -17.4127 | CE: 9.9090
+Iter 17 | Total: 20.1312 | LL: -17.1083 | CE: 10.0763
+Iter 18 | Total: 19.9280 | LL: -16.8471 | CE: 10.2696
+Iter 19 | Total: 19.7697 | LL: -16.6239 | CE: 10.4862
+Iter 20 | Total: 19.6501 | LL: -16.4331 | CE: 10.7232
+Iter 21 | Total: 19.5628 | LL: -16.2695 | CE: 10.9776
+Iter 22 | Total: 19.5023 | LL: -16.1283 | CE: 11.2466
+Iter 23 | Total: 19.4639 | LL: -16.0057 | CE: 11.5274
+Iter 24 | Total: 19.4437 | LL: -15.8984 | CE: 11.8177
+Iter 25 | Total: 19.4386 | LL: -15.8040 | CE: 12.1153
+Iter 26 | Total: 19.4461 | LL: -15.7205 | CE: 12.4185
+Iter 27 | Total: 19.4641 | LL: -15.6463 | CE: 12.7259
+Iter 28 | Total: 19.4909 | LL: -15.5801 | CE: 13.0360
+Iter 29 | Total: 19.5250 | LL: -15.5207 | CE: 13.3478
+Iter 0 | Total: 35.5612 | LL: -32.4420 | CE: 10.3976
+Iter 1 | Total: 31.5711 | LL: -28.4751 | CE: 10.3199
+Iter 2 | Total: 29.1842 | LL: -26.1239 | CE: 10.2012
+Iter 3 | Total: 27.5473 | LL: -24.5049 | CE: 10.1412
+Iter 4 | Total: 26.2942 | LL: -23.2455 | CE: 10.1623
+Iter 5 | Total: 25.2754 | LL: -22.1943 | CE: 10.2705
+Iter 6 | Total: 24.4220 | LL: -21.2820 | CE: 10.4665
+Iter 7 | Total: 23.6993 | LL: -20.4749 | CE: 10.7481
+Iter 8 | Total: 23.0865 | LL: -19.7533 | CE: 11.1106
+Iter 9 | Total: 22.5674 | LL: -19.1029 | CE: 11.5482
+Iter 10 | Total: 22.1326 | LL: -18.5164 | CE: 12.0540
+Iter 11 | Total: 21.7806 | LL: -17.9943 | CE: 12.6210
+Iter 12 | Total: 21.5120 | LL: -17.5394 | CE: 13.2422
+Iter 13 | Total: 21.3239 | LL: -17.1506 | CE: 13.9107
+Iter 14 | Total: 21.2083 | LL: -16.8221 | CE: 14.6204
+Iter 15 | Total: 21.1548 | LL: -16.5453 | CE: 15.3652
+Iter 16 | Total: 21.1529 | LL: -16.3113 | CE: 16.1386
+Iter 17 | Total: 21.1924 | LL: -16.1124 | CE: 16.9334
+Iter 18 | Total: 21.2643 | LL: -15.9422 | CE: 17.7404
+Iter 19 | Total: 21.3605 | LL: -15.7957 | CE: 18.5495
+Iter 20 | Total: 21.4745 | LL: -15.6691 | CE: 19.3513
+Iter 21 | Total: 21.6010 | LL: -15.5594 | CE: 20.1387
+Iter 22 | Total: 21.7359 | LL: -15.4640 | CE: 20.9062
+Iter 23 | Total: 21.8760 | LL: -15.3810 | CE: 21.6500
+Iter 24 | Total: 22.0186 | LL: -15.3084 | CE: 22.3674
+Iter 25 | Total: 22.1618 | LL: -15.2447 | CE: 23.0567
+Iter 26 | Total: 22.3041 | LL: -15.1887 | CE: 23.7178
+Iter 27 | Total: 22.4445 | LL: -15.1393 | CE: 24.3508
+Iter 28 | Total: 22.5824 | LL: -15.0954 | CE: 24.9566
+Iter 29 | Total: 22.7175 | LL: -15.0565 | CE: 25.5366
+Iter 0 | Total: 46.0609 | LL: -42.9554 | CE: 10.3517
+Iter 1 | Total: 36.9343 | LL: -33.8537 | CE: 10.2689
+Iter 2 | Total: 32.5523 | LL: -29.5099 | CE: 10.1413
+Iter 3 | Total: 30.1261 | LL: -27.1147 | CE: 10.0378
+Iter 4 | Total: 28.5109 | LL: -25.5190 | CE: 9.9728
+Iter 5 | Total: 27.2577 | LL: -24.2724 | CE: 9.9509
+Iter 6 | Total: 26.1965 | LL: -23.2043 | CE: 9.9741
+Iter 7 | Total: 25.2654 | LL: -22.2522 | CE: 10.0440
+Iter 8 | Total: 24.4406 | LL: -21.3922 | CE: 10.1614
+Iter 9 | Total: 23.7101 | LL: -20.6120 | CE: 10.3269
+Iter 10 | Total: 23.0654 | LL: -19.9034 | CE: 10.5398
+Iter 11 | Total: 22.5004 | LL: -19.2606 | CE: 10.7992
+Iter 12 | Total: 22.0122 | LL: -18.6812 | CE: 11.1033
+Iter 13 | Total: 21.6003 | LL: -18.1654 | CE: 11.4497
+Iter 14 | Total: 21.2634 | LL: -17.7128 | CE: 11.8355
+Iter 15 | Total: 20.9975 | LL: -17.3202 | CE: 12.2575
+Iter 16 | Total: 20.7959 | LL: -16.9823 | CE: 12.7119
+Iter 17 | Total: 20.6510 | LL: -16.6926 | CE: 13.1948
+Iter 18 | Total: 20.5545 | LL: -16.4440 | CE: 13.7017
+Iter 19 | Total: 20.4985 | LL: -16.2301 | CE: 14.2281
+Iter 20 | Total: 20.4760 | LL: -16.0450 | CE: 14.7699
+Iter 21 | Total: 20.4810 | LL: -15.8840 | CE: 15.3234
+Iter 22 | Total: 20.5087 | LL: -15.7432 | CE: 15.8850
+Iter 23 | Total: 20.5549 | LL: -15.6195 | CE: 16.4514
+Iter 24 | Total: 20.6162 | LL: -15.5104 | CE: 17.0193
+Iter 25 | Total: 20.6894 | LL: -15.4138 | CE: 17.5855
+Iter 26 | Total: 20.7722 | LL: -15.3279 | CE: 18.1474
+Iter 27 | Total: 20.8621 | LL: -15.2514 | CE: 18.7024
+Iter 28 | Total: 20.9573 | LL: -15.1828 | CE: 19.2483
+Iter 29 | Total: 21.0561 | LL: -15.1211 | CE: 19.7832
+Iter 0 | Total: 52.7194 | LL: -49.6374 | CE: 10.2735
+Iter 1 | Total: 40.8600 | LL: -37.8032 | CE: 10.1893
+Iter 2 | Total: 35.0240 | LL: -32.0138 | CE: 10.0340
+Iter 3 | Total: 31.8255 | LL: -28.8595 | CE: 9.8867
+Iter 4 | Total: 29.8020 | LL: -26.8726 | CE: 9.7647
+Iter 5 | Total: 28.3296 | LL: -25.4275 | CE: 9.6737
+Iter 6 | Total: 27.1414 | LL: -24.2570 | CE: 9.6145
+Iter 7 | Total: 26.1215 | LL: -23.2457 | CE: 9.5858
+Iter 8 | Total: 25.2189 | LL: -22.3428 | CE: 9.5871
+Iter 9 | Total: 24.4143 | LL: -21.5287 | CE: 9.6188
+Iter 10 | Total: 23.7004 | LL: -20.7958 | CE: 9.6820
+Iter 11 | Total: 23.0702 | LL: -20.1368 | CE: 9.7779
+Iter 12 | Total: 22.5170 | LL: -19.5449 | CE: 9.9069
+Iter 13 | Total: 22.0369 | LL: -19.0162 | CE: 10.0688
+Iter 14 | Total: 21.6276 | LL: -18.5488 | CE: 10.2626
+Iter 15 | Total: 21.2858 | LL: -18.1398 | CE: 10.4866
+Iter 16 | Total: 21.0067 | LL: -17.7852 | CE: 10.7384
+Iter 17 | Total: 20.7843 | LL: -17.4796 | CE: 11.0156
+Iter 18 | Total: 20.6115 | LL: -17.2169 | CE: 11.3151
+Iter 19 | Total: 20.4808 | LL: -16.9905 | CE: 11.6342
+Iter 20 | Total: 20.3853 | LL: -16.7942 | CE: 11.9701
+Iter 21 | Total: 20.3189 | LL: -16.6228 | CE: 12.3205
+Iter 22 | Total: 20.2770 | LL: -16.4719 | CE: 12.6835
+Iter 23 | Total: 20.2555 | LL: -16.3383 | CE: 13.0572
+Iter 24 | Total: 20.2514 | LL: -16.2193 | CE: 13.4401
+Iter 25 | Total: 20.2621 | LL: -16.1130 | CE: 13.8306
+Iter 26 | Total: 20.2857 | LL: -16.0175 | CE: 14.2274
+Iter 27 | Total: 20.3204 | LL: -15.9317 | CE: 14.6290
+Iter 28 | Total: 20.3645 | LL: -15.8542 | CE: 15.0342
+Iter 29 | Total: 20.4166 | LL: -15.7842 | CE: 15.4416
+Iter 0 | Total: 55.5257 | LL: -52.4051 | CE: 10.4019
+Iter 1 | Total: 40.9893 | LL: -37.8874 | CE: 10.3397
+Iter 2 | Total: 34.6048 | LL: -31.5362 | CE: 10.2286
+Iter 3 | Total: 31.5169 | LL: -28.4783 | CE: 10.1289
+Iter 4 | Total: 29.7503 | LL: -26.7352 | CE: 10.0503
+Iter 5 | Total: 28.5243 | LL: -25.5264 | CE: 9.9931
+Iter 6 | Total: 27.5279 | LL: -24.5409 | CE: 9.9565
+Iter 7 | Total: 26.6395 | LL: -23.6574 | CE: 9.9405
+Iter 8 | Total: 25.8177 | LL: -22.8338 | CE: 9.9464
+Iter 9 | Total: 25.0529 | LL: -22.0601 | CE: 9.9757
+Iter 10 | Total: 24.3453 | LL: -21.3363 | CE: 10.0302
+Iter 11 | Total: 23.6965 | LL: -20.6631 | CE: 10.1112
+Iter 12 | Total: 23.1082 | LL: -20.0422 | CE: 10.2199
+Iter 13 | Total: 22.5827 | LL: -19.4757 | CE: 10.3566
+Iter 14 | Total: 22.1225 | LL: -18.9662 | CE: 10.5211
+Iter 15 | Total: 21.7277 | LL: -18.5140 | CE: 10.7124
+Iter 16 | Total: 21.3965 | LL: -18.1177 | CE: 10.9294
+Iter 17 | Total: 21.1251 | LL: -17.7738 | CE: 11.1707
+Iter 18 | Total: 20.9079 | LL: -17.4775 | CE: 11.4346
+Iter 19 | Total: 20.7383 | LL: -17.2225 | CE: 11.7192
+Iter 20 | Total: 20.6090 | LL: -17.0021 | CE: 12.0228
+Iter 21 | Total: 20.5136 | LL: -16.8105 | CE: 12.3437
+Iter 22 | Total: 20.4468 | LL: -16.6426 | CE: 12.6805
+Iter 23 | Total: 20.4042 | LL: -16.4947 | CE: 13.0317
+Iter 24 | Total: 20.3826 | LL: -16.3638 | CE: 13.3959
+Iter 25 | Total: 20.3790 | LL: -16.2475 | CE: 13.7717
+Iter 26 | Total: 20.3911 | LL: -16.1438 | CE: 14.1575
+Iter 27 | Total: 20.4166 | LL: -16.0511 | CE: 14.5518
+Iter 28 | Total: 20.4538 | LL: -15.9680 | CE: 14.9528
+Iter 29 | Total: 20.5008 | LL: -15.8932 | CE: 15.3588
+Iter 0 | Total: 42.0247 | LL: -38.9319 | CE: 10.3092
+Iter 1 | Total: 35.7173 | LL: -32.6525 | CE: 10.2159
+Iter 2 | Total: 32.2643 | LL: -29.2468 | CE: 10.0584
+Iter 3 | Total: 30.0974 | LL: -27.1150 | CE: 9.9416
+Iter 4 | Total: 28.4994 | LL: -25.5355 | CE: 9.8799
+Iter 5 | Total: 27.1902 | LL: -24.2285 | CE: 9.8721
+Iter 6 | Total: 26.0674 | LL: -23.0923 | CE: 9.9168
+Iter 7 | Total: 25.0944 | LL: -22.0906 | CE: 10.0128
+Iter 8 | Total: 24.2546 | LL: -21.2070 | CE: 10.1586
+Iter 9 | Total: 23.5342 | LL: -20.4288 | CE: 10.3515
+Iter 10 | Total: 22.9206 | LL: -19.7443 | CE: 10.5877
+Iter 11 | Total: 22.4036 | LL: -19.1444 | CE: 10.8638
+Iter 12 | Total: 21.9752 | LL: -18.6223 | CE: 11.1762
+Iter 13 | Total: 21.6290 | LL: -18.1722 | CE: 11.5225
+Iter 14 | Total: 21.3577 | LL: -17.7875 | CE: 11.9005
+Iter 15 | Total: 21.1524 | LL: -17.4600 | CE: 12.3082
+Iter 16 | Total: 21.0036 | LL: -17.1806 | CE: 12.7433
+Iter 17 | Total: 20.9021 | LL: -16.9413 | CE: 13.2029
+Iter 18 | Total: 20.8398 | LL: -16.7349 | CE: 13.6831
+Iter 19 | Total: 20.8099 | LL: -16.5561 | CE: 14.1795
+Iter 20 | Total: 20.8066 | LL: -16.4003 | CE: 14.6876
+Iter 21 | Total: 20.8250 | LL: -16.2640 | CE: 15.2032
+Iter 22 | Total: 20.8611 | LL: -16.1443 | CE: 15.7226
+Iter 23 | Total: 20.9113 | LL: -16.0387 | CE: 16.2419
+Iter 24 | Total: 20.9726 | LL: -15.9453 | CE: 16.7576
+Iter 25 | Total: 21.0423 | LL: -15.8622 | CE: 17.2669
+Iter 26 | Total: 21.1183 | LL: -15.7881 | CE: 17.7672
+Iter 27 | Total: 21.1990 | LL: -15.7219 | CE: 18.2571
+Iter 28 | Total: 21.2832 | LL: -15.6625 | CE: 18.7358
+Iter 29 | Total: 21.3699 | LL: -15.6090 | CE: 19.2030
+Iter 0 | Total: 37.7650 | LL: -34.6503 | CE: 10.3822
+Iter 1 | Total: 33.1352 | LL: -30.0486 | CE: 10.2885
+Iter 2 | Total: 30.2809 | LL: -27.2486 | CE: 10.1079
+Iter 3 | Total: 28.3282 | LL: -25.3419 | CE: 9.9541
+Iter 4 | Total: 26.8644 | LL: -23.9081 | CE: 9.8543
+Iter 5 | Total: 25.7000 | LL: -22.7565 | CE: 9.8118
+Iter 6 | Total: 24.7393 | LL: -21.7914 | CE: 9.8263
+Iter 7 | Total: 23.9314 | LL: -20.9618 | CE: 9.8987
+Iter 8 | Total: 23.2478 | LL: -20.2388 | CE: 10.0301
+Iter 9 | Total: 22.6690 | LL: -19.6029 | CE: 10.2204
+Iter 10 | Total: 22.1792 | LL: -19.0389 | CE: 10.4674
+Iter 11 | Total: 21.7663 | LL: -18.5362 | CE: 10.7671
+Iter 12 | Total: 21.4239 | LL: -18.0895 | CE: 11.1149
+Iter 13 | Total: 21.1498 | LL: -17.6981 | CE: 11.5057
+Iter 14 | Total: 20.9424 | LL: -17.3620 | CE: 11.9347
+Iter 15 | Total: 20.7972 | LL: -17.0780 | CE: 12.3974
+Iter 16 | Total: 20.7060 | LL: -16.8393 | CE: 12.8889
+Iter 17 | Total: 20.6592 | LL: -16.6379 | CE: 13.4041
+Iter 18 | Total: 20.6477 | LL: -16.4667 | CE: 13.9366
+Iter 19 | Total: 20.6640 | LL: -16.3201 | CE: 14.4796
+Iter 20 | Total: 20.7018 | LL: -16.1939 | CE: 15.0266
+Iter 21 | Total: 20.7563 | LL: -16.0846 | CE: 15.5724
+Iter 22 | Total: 20.8236 | LL: -15.9896 | CE: 16.1133
+Iter 23 | Total: 20.9008 | LL: -15.9067 | CE: 16.6468
+Iter 24 | Total: 20.9855 | LL: -15.8340 | CE: 17.1715
+Iter 25 | Total: 21.0761 | LL: -15.7700 | CE: 17.6869
+Iter 26 | Total: 21.1712 | LL: -15.7133 | CE: 18.1930
+Iter 27 | Total: 21.2700 | LL: -15.6630 | CE: 18.6902
+Iter 28 | Total: 21.3719 | LL: -15.6181 | CE: 19.1793
+Iter 29 | Total: 21.4762 | LL: -15.5779 | CE: 19.6611
+Iter 0 | Total: 50.3184 | LL: -47.1863 | CE: 10.4403
+Iter 1 | Total: 39.1006 | LL: -35.9937 | CE: 10.3562
+Iter 2 | Total: 33.8363 | LL: -30.7692 | CE: 10.2238
+Iter 3 | Total: 31.0156 | LL: -27.9849 | CE: 10.1023
+Iter 4 | Total: 29.2177 | LL: -26.2180 | CE: 9.9990
+Iter 5 | Total: 27.8859 | LL: -24.9115 | CE: 9.9146
+Iter 6 | Total: 26.7987 | LL: -23.8438 | CE: 9.8498
+Iter 7 | Total: 25.8638 | LL: -22.9220 | CE: 9.8059
+Iter 8 | Total: 25.0397 | LL: -22.1042 | CE: 9.7849
+Iter 9 | Total: 24.3055 | LL: -21.3687 | CE: 9.7891
+Iter 10 | Total: 23.6489 | LL: -20.7026 | CE: 9.8209
+Iter 11 | Total: 23.0620 | LL: -20.0973 | CE: 9.8824
+Iter 12 | Total: 22.5393 | LL: -19.5469 | CE: 9.9749
+Iter 13 | Total: 22.0775 | LL: -19.0478 | CE: 10.0991
+Iter 14 | Total: 21.6752 | LL: -18.5987 | CE: 10.2550
+Iter 15 | Total: 21.3319 | LL: -18.1994 | CE: 10.4417
+Iter 16 | Total: 21.0458 | LL: -17.8485 | CE: 10.6577
+Iter 17 | Total: 20.8132 | LL: -17.5429 | CE: 10.9010
+Iter 18 | Total: 20.6286 | LL: -17.2778 | CE: 11.1693
+Iter 19 | Total: 20.4858 | LL: -17.0479 | CE: 11.4599
+Iter 20 | Total: 20.3789 | LL: -16.8478 | CE: 11.7702
+Iter 21 | Total: 20.3022 | LL: -16.6730 | CE: 12.0975
+Iter 22 | Total: 20.2511 | LL: -16.5194 | CE: 12.4390
+Iter 23 | Total: 20.2217 | LL: -16.3840 | CE: 12.7922
+Iter 24 | Total: 20.2108 | LL: -16.2644 | CE: 13.1547
+Iter 25 | Total: 20.2158 | LL: -16.1585 | CE: 13.5243
+Iter 26 | Total: 20.2343 | LL: -16.0646 | CE: 13.8990
+Iter 27 | Total: 20.2643 | LL: -15.9812 | CE: 14.2771
+Iter 28 | Total: 20.3039 | LL: -15.9068 | CE: 14.6569
+Iter 29 | Total: 20.3515 | LL: -15.8404 | CE: 15.0370
+Iter 0 | Total: 55.8624 | LL: -52.7494 | CE: 10.3769
+Iter 1 | Total: 41.6324 | LL: -38.5439 | CE: 10.2952
+Iter 2 | Total: 35.1521 | LL: -32.1029 | CE: 10.1638
+Iter 3 | Total: 31.8684 | LL: -28.8554 | CE: 10.0432
+Iter 4 | Total: 29.9082 | LL: -26.9253 | CE: 9.9430
+Iter 5 | Total: 28.5109 | LL: -25.5516 | CE: 9.8642
+Iter 6 | Total: 27.3707 | LL: -24.4290 | CE: 9.8057
+Iter 7 | Total: 26.3685 | LL: -23.4384 | CE: 9.7671
+Iter 8 | Total: 25.4600 | LL: -22.5353 | CE: 9.7490
+Iter 9 | Total: 24.6277 | LL: -21.7020 | CE: 9.7524
+Iter 10 | Total: 23.8645 | LL: -20.9309 | CE: 9.7787
+Iter 11 | Total: 23.1699 | LL: -20.2212 | CE: 9.8291
+Iter 12 | Total: 22.5476 | LL: -19.5763 | CE: 9.9044
+Iter 13 | Total: 22.0012 | LL: -18.9996 | CE: 10.0052
+Iter 14 | Total: 21.5315 | LL: -18.4920 | CE: 10.1317
+Iter 15 | Total: 21.1359 | LL: -18.0509 | CE: 10.2835
+Iter 16 | Total: 20.8088 | LL: -17.6708 | CE: 10.4600
+Iter 17 | Total: 20.5427 | LL: -17.3446 | CE: 10.6602
+Iter 18 | Total: 20.3300 | LL: -17.0652 | CE: 10.8827
+Iter 19 | Total: 20.1634 | LL: -16.8256 | CE: 11.1259
+Iter 20 | Total: 20.0363 | LL: -16.6198 | CE: 11.3884
+Iter 21 | Total: 19.9429 | LL: -16.4424 | CE: 11.6684
+Iter 22 | Total: 19.8779 | LL: -16.2885 | CE: 11.9646
+Iter 23 | Total: 19.8371 | LL: -16.1544 | CE: 12.2756
+Iter 24 | Total: 19.8167 | LL: -16.0367 | CE: 12.6001
+Iter 25 | Total: 19.8138 | LL: -15.9328 | CE: 12.9367
+Iter 26 | Total: 19.8257 | LL: -15.8405 | CE: 13.2840
+Iter 27 | Total: 19.8503 | LL: -15.7582 | CE: 13.6406
+Iter 28 | Total: 19.8857 | LL: -15.6843 | CE: 14.0047
+Iter 29 | Total: 19.9302 | LL: -15.6178 | CE: 14.3747
+Iter 0 | Total: 47.2175 | LL: -44.1617 | CE: 10.1859
+Iter 1 | Total: 37.4266 | LL: -34.3942 | CE: 10.1081
+Iter 2 | Total: 32.8200 | LL: -29.8248 | CE: 9.9840
+Iter 3 | Total: 30.3451 | LL: -27.3782 | CE: 9.8896
+Iter 4 | Total: 28.7319 | LL: -25.7815 | CE: 9.8347
+Iter 5 | Total: 27.4958 | LL: -24.5489 | CE: 9.8227
+Iter 6 | Total: 26.4527 | LL: -23.4956 | CE: 9.8571
+Iter 7 | Total: 25.5344 | LL: -22.5521 | CE: 9.9410
+Iter 8 | Total: 24.7176 | LL: -21.6948 | CE: 10.0762
+Iter 9 | Total: 23.9942 | LL: -20.9150 | CE: 10.2640
+Iter 10 | Total: 23.3591 | LL: -20.2078 | CE: 10.5042
+Iter 11 | Total: 22.8085 | LL: -19.5698 | CE: 10.7957
+Iter 12 | Total: 22.3399 | LL: -18.9989 | CE: 11.1365
+Iter 13 | Total: 21.9504 | LL: -18.4932 | CE: 11.5241
+Iter 14 | Total: 21.6364 | LL: -18.0498 | CE: 11.9551
+Iter 15 | Total: 21.3924 | LL: -17.6646 | CE: 12.4261
+Iter 16 | Total: 21.2113 | LL: -17.3314 | CE: 12.9330
+Iter 17 | Total: 21.0851 | LL: -17.0437 | CE: 13.4715
+Iter 18 | Total: 21.0058 | LL: -16.7947 | CE: 14.0369
+Iter 19 | Total: 20.9659 | LL: -16.5785 | CE: 14.6245
+Iter 20 | Total: 20.9588 | LL: -16.3900 | CE: 15.2295
+Iter 21 | Total: 20.9790 | LL: -16.2247 | CE: 15.8478
+Iter 22 | Total: 21.0219 | LL: -16.0793 | CE: 16.4755
+Iter 23 | Total: 21.0836 | LL: -15.9510 | CE: 17.1089
+Iter 24 | Total: 21.1606 | LL: -15.8374 | CE: 17.7441
+Iter 25 | Total: 21.2497 | LL: -15.7365 | CE: 18.3774
+Iter 26 | Total: 21.3484 | LL: -15.6467 | CE: 19.0057
+Iter 27 | Total: 21.4543 | LL: -15.5665 | CE: 19.6260
+Iter 28 | Total: 21.5655 | LL: -15.4946 | CE: 20.2360
+Iter 29 | Total: 21.6802 | LL: -15.4301 | CE: 20.8337
+Iter 0 | Total: 38.2624 | LL: -35.0957 | CE: 10.5557
+Iter 1 | Total: 33.2280 | LL: -30.0910 | CE: 10.4566
+Iter 2 | Total: 30.2579 | LL: -27.1725 | CE: 10.2845
+Iter 3 | Total: 28.2699 | LL: -25.2263 | CE: 10.1453
+Iter 4 | Total: 26.7822 | LL: -23.7650 | CE: 10.0573
+Iter 5 | Total: 25.5951 | LL: -22.5887 | CE: 10.0213
+Iter 6 | Total: 24.6142 | LL: -21.6028 | CE: 10.0381
+Iter 7 | Total: 23.7899 | LL: -20.7566 | CE: 10.1110
+Iter 8 | Total: 23.0933 | LL: -20.0204 | CE: 10.2430
+Iter 9 | Total: 22.5049 | LL: -19.3743 | CE: 10.4351
+Iter 10 | Total: 22.0098 | LL: -18.8042 | CE: 10.6854
+Iter 11 | Total: 21.5966 | LL: -18.2997 | CE: 10.9897
+Iter 12 | Total: 21.2564 | LL: -17.8535 | CE: 11.3429
+Iter 13 | Total: 20.9822 | LL: -17.4603 | CE: 11.7395
+Iter 14 | Total: 20.7685 | LL: -17.1161 | CE: 12.1745
+Iter 15 | Total: 20.6102 | LL: -16.8173 | CE: 12.6430
+Iter 16 | Total: 20.5018 | LL: -16.5598 | CE: 13.1401
+Iter 17 | Total: 20.4371 | LL: -16.3389 | CE: 13.6607
+Iter 18 | Total: 20.4091 | LL: -16.1493 | CE: 14.1991
+Iter 19 | Total: 20.4108 | LL: -15.9861 | CE: 14.7490
+Iter 20 | Total: 20.4365 | LL: -15.8451 | CE: 15.3045
+Iter 21 | Total: 20.4814 | LL: -15.7232 | CE: 15.8608
+Iter 22 | Total: 20.5418 | LL: -15.6175 | CE: 16.4143
+Iter 23 | Total: 20.6143 | LL: -15.5257 | CE: 16.9621
+Iter 24 | Total: 20.6962 | LL: -15.4457 | CE: 17.5019
+Iter 25 | Total: 20.7853 | LL: -15.3758 | CE: 18.0319
+Iter 26 | Total: 20.8797 | LL: -15.3144 | CE: 18.5512
+Iter 27 | Total: 20.9780 | LL: -15.2603 | CE: 19.0591
+Iter 28 | Total: 21.0791 | LL: -15.2123 | CE: 19.5558
+Iter 29 | Total: 21.1823 | LL: -15.1698 | CE: 20.0417
+Iter 0 | Total: 59.3653 | LL: -56.3146 | CE: 10.1689
+Iter 1 | Total: 43.6406 | LL: -40.6095 | CE: 10.1036
+Iter 2 | Total: 36.4374 | LL: -33.4426 | CE: 9.9827
+Iter 3 | Total: 32.8040 | LL: -29.8440 | CE: 9.8668
+Iter 4 | Total: 30.6769 | LL: -27.7459 | CE: 9.7700
+Iter 5 | Total: 29.2036 | LL: -26.2947 | CE: 9.6961
+Iter 6 | Total: 28.0260 | LL: -25.1320 | CE: 9.6467
+Iter 7 | Total: 26.9965 | LL: -24.1097 | CE: 9.6226
+Iter 8 | Total: 26.0584 | LL: -23.1711 | CE: 9.6243
+Iter 9 | Total: 25.1920 | LL: -22.2963 | CE: 9.6524
+Iter 10 | Total: 24.3928 | LL: -21.4805 | CE: 9.7075
+Iter 11 | Total: 23.6613 | LL: -20.7243 | CE: 9.7900
+Iter 12 | Total: 23.0000 | LL: -20.0300 | CE: 9.9002
+Iter 13 | Total: 22.4124 | LL: -19.4009 | CE: 10.0383
+Iter 14 | Total: 21.9014 | LL: -18.8403 | CE: 10.2039
+Iter 15 | Total: 21.4676 | LL: -18.3486 | CE: 10.3965
+Iter 16 | Total: 21.1075 | LL: -17.9230 | CE: 10.6150
+Iter 17 | Total: 20.8144 | LL: -17.5569 | CE: 10.8581
+Iter 18 | Total: 20.5795 | LL: -17.2423 | CE: 11.1243
+Iter 19 | Total: 20.3943 | LL: -16.9707 | CE: 11.4118
+Iter 20 | Total: 20.2508 | LL: -16.7352 | CE: 11.7188
+Iter 21 | Total: 20.1430 | LL: -16.5298 | CE: 12.0438
+Iter 22 | Total: 20.0654 | LL: -16.3499 | CE: 12.3851
+Iter 23 | Total: 20.0140 | LL: -16.1916 | CE: 12.7412
+Iter 24 | Total: 19.9851 | LL: -16.0519 | CE: 13.1107
+Iter 25 | Total: 19.9755 | LL: -15.9279 | CE: 13.4919
+Iter 26 | Total: 19.9826 | LL: -15.8176 | CE: 13.8835
+Iter 27 | Total: 20.0040 | LL: -15.7189 | CE: 14.2837
+Iter 28 | Total: 20.0375 | LL: -15.6302 | CE: 14.6910
+Iter 29 | Total: 20.0813 | LL: -15.5502 | CE: 15.1037
+Iter 0 | Total: 48.0027 | LL: -44.9558 | CE: 10.1562
+Iter 1 | Total: 37.9803 | LL: -34.9567 | CE: 10.0788
+Iter 2 | Total: 33.2305 | LL: -30.2427 | CE: 9.9593
+Iter 3 | Total: 30.6380 | LL: -27.6788 | CE: 9.8641
+Iter 4 | Total: 28.9345 | LL: -25.9924 | CE: 9.8071
+Iter 5 | Total: 27.6280 | LL: -24.6899 | CE: 9.7939
+Iter 6 | Total: 26.5307 | LL: -23.5822 | CE: 9.8281
+Iter 7 | Total: 25.5715 | LL: -22.5979 | CE: 9.9118
+Iter 8 | Total: 24.7227 | LL: -21.7090 | CE: 10.0459
+Iter 9 | Total: 23.9718 | LL: -20.9028 | CE: 10.2302
+Iter 10 | Total: 23.3111 | LL: -20.1721 | CE: 10.4633
+Iter 11 | Total: 22.7347 | LL: -19.5116 | CE: 10.7434
+Iter 12 | Total: 22.2386 | LL: -18.9181 | CE: 11.0684
+Iter 13 | Total: 21.8195 | LL: -18.3887 | CE: 11.4359
+Iter 14 | Total: 21.4731 | LL: -17.9202 | CE: 11.8431
+Iter 15 | Total: 21.1943 | LL: -17.5081 | CE: 12.2875
+Iter 16 | Total: 20.9775 | LL: -17.1476 | CE: 12.7661
+Iter 17 | Total: 20.8165 | LL: -16.8337 | CE: 13.2759
+Iter 18 | Total: 20.7048 | LL: -16.5608 | CE: 13.8132
+Iter 19 | Total: 20.6354 | LL: -16.3231 | CE: 14.3743
+Iter 20 | Total: 20.6017 | LL: -16.1151 | CE: 14.9553
+Iter 21 | Total: 20.5980 | LL: -15.9323 | CE: 15.5524
+Iter 22 | Total: 20.6195 | LL: -15.7711 | CE: 16.1614
+Iter 23 | Total: 20.6619 | LL: -15.6285 | CE: 16.7779
+Iter 24 | Total: 20.7215 | LL: -15.5023 | CE: 17.3973
+Iter 25 | Total: 20.7950 | LL: -15.3905 | CE: 18.0152
+Iter 26 | Total: 20.8795 | LL: -15.2912 | CE: 18.6275
+Iter 27 | Total: 20.9723 | LL: -15.2030 | CE: 19.2311
+Iter 28 | Total: 21.0714 | LL: -15.1244 | CE: 19.8234
+Iter 29 | Total: 21.1749 | LL: -15.0542 | CE: 20.4022
+Iter 0 | Total: 48.2933 | LL: -45.1941 | CE: 10.3306
+Iter 1 | Total: 37.7299 | LL: -34.6517 | CE: 10.2607
+Iter 2 | Total: 32.9758 | LL: -29.9302 | CE: 10.1521
+Iter 3 | Total: 30.5192 | LL: -27.4997 | CE: 10.0650
+Iter 4 | Total: 28.9550 | LL: -25.9536 | CE: 10.0045
+Iter 5 | Total: 27.7615 | LL: -24.7704 | CE: 9.9705
+Iter 6 | Total: 26.7454 | LL: -23.7555 | CE: 9.9665
+Iter 7 | Total: 25.8360 | LL: -22.8368 | CE: 9.9976
+Iter 8 | Total: 25.0095 | LL: -21.9892 | CE: 10.0677
+Iter 9 | Total: 24.2593 | LL: -21.2054 | CE: 10.1796
+Iter 10 | Total: 23.5832 | LL: -20.4828 | CE: 10.3346
+Iter 11 | Total: 22.9792 | LL: -19.8194 | CE: 10.5328
+Iter 12 | Total: 22.4471 | LL: -19.2151 | CE: 10.7734
+Iter 13 | Total: 21.9888 | LL: -18.6723 | CE: 11.0551
+Iter 14 | Total: 21.6063 | LL: -18.1936 | CE: 11.3760
+Iter 15 | Total: 21.2981 | LL: -17.7780 | CE: 11.7336
+Iter 16 | Total: 21.0587 | LL: -17.4210 | CE: 12.1255
+Iter 17 | Total: 20.8802 | LL: -17.1157 | CE: 12.5484
+Iter 18 | Total: 20.7545 | LL: -16.8548 | CE: 12.9991
+Iter 19 | Total: 20.6735 | LL: -16.6313 | CE: 13.4741
+Iter 20 | Total: 20.6299 | LL: -16.4390 | CE: 13.9698
+Iter 21 | Total: 20.6172 | LL: -16.2723 | CE: 14.4829
+Iter 22 | Total: 20.6301 | LL: -16.1270 | CE: 15.0103
+Iter 23 | Total: 20.6640 | LL: -15.9994 | CE: 15.5488
+Iter 24 | Total: 20.7153 | LL: -15.8868 | CE: 16.0950
+Iter 25 | Total: 20.7808 | LL: -15.7870 | CE: 16.6458
+Iter 26 | Total: 20.8576 | LL: -15.6983 | CE: 17.1978
+Iter 27 | Total: 20.9434 | LL: -15.6190 | CE: 17.7480
+Iter 28 | Total: 21.0362 | LL: -15.5481 | CE: 18.2939
+Iter 29 | Total: 21.1345 | LL: -15.4844 | CE: 18.8337
+Iter 0 | Total: 47.0429 | LL: -43.9084 | CE: 10.4484
+Iter 1 | Total: 38.2017 | LL: -35.0955 | CE: 10.3541
+Iter 2 | Total: 33.7477 | LL: -30.6898 | CE: 10.1931
+Iter 3 | Total: 31.2218 | LL: -28.2077 | CE: 10.0470
+Iter 4 | Total: 29.5460 | LL: -26.5673 | CE: 9.9290
+Iter 5 | Total: 28.2794 | LL: -25.3275 | CE: 9.8399
+Iter 6 | Total: 27.2430 | LL: -24.3089 | CE: 9.7803
+Iter 7 | Total: 26.3595 | LL: -23.4340 | CE: 9.7516
+Iter 8 | Total: 25.5904 | LL: -22.6639 | CE: 9.7551
+Iter 9 | Total: 24.9125 | LL: -21.9751 | CE: 9.7914
+Iter 10 | Total: 24.3100 | LL: -21.3520 | CE: 9.8601
+Iter 11 | Total: 23.7718 | LL: -20.7837 | CE: 9.9603
+Iter 12 | Total: 23.2907 | LL: -20.2634 | CE: 10.0910
+Iter 13 | Total: 22.8628 | LL: -19.7875 | CE: 10.2511
+Iter 14 | Total: 22.4855 | LL: -19.3536 | CE: 10.4395
+Iter 15 | Total: 22.1561 | LL: -18.9596 | CE: 10.6551
+Iter 16 | Total: 21.8714 | LL: -18.6024 | CE: 10.8969
+Iter 17 | Total: 21.6280 | LL: -18.2789 | CE: 11.1639
+Iter 18 | Total: 21.4230 | LL: -17.9866 | CE: 11.4547
+Iter 19 | Total: 21.2541 | LL: -17.7237 | CE: 11.7679
+Iter 20 | Total: 21.1197 | LL: -17.4892 | CE: 12.1019
+Iter 21 | Total: 21.0180 | LL: -17.2816 | CE: 12.4549
+Iter 22 | Total: 20.9468 | LL: -17.0992 | CE: 12.8255
+Iter 23 | Total: 20.9035 | LL: -16.9400 | CE: 13.2116
+Iter 24 | Total: 20.8850 | LL: -16.8016 | CE: 13.6111
+Iter 25 | Total: 20.8881 | LL: -16.6817 | CE: 14.0214
+Iter 26 | Total: 20.9099 | LL: -16.5779 | CE: 14.4398
+Iter 27 | Total: 20.9472 | LL: -16.4881 | CE: 14.8638
+Iter 28 | Total: 20.9974 | LL: -16.4102 | CE: 15.2909
+Iter 29 | Total: 21.0583 | LL: -16.3425 | CE: 15.7194
+Iter 0 | Total: 46.6799 | LL: -43.6018 | CE: 10.2602
+Iter 1 | Total: 37.3702 | LL: -34.3159 | CE: 10.1808
+Iter 2 | Total: 32.8358 | LL: -29.8218 | CE: 10.0466
+Iter 3 | Total: 30.3155 | LL: -27.3347 | CE: 9.9361
+Iter 4 | Total: 28.6547 | LL: -25.6951 | CE: 9.8653
+Iter 5 | Total: 27.3910 | LL: -24.4392 | CE: 9.8393
+Iter 6 | Total: 26.3398 | LL: -23.3816 | CE: 9.8605
+Iter 7 | Total: 25.4256 | LL: -22.4466 | CE: 9.9300
+Iter 8 | Total: 24.6153 | LL: -21.6008 | CE: 10.0484
+Iter 9 | Total: 23.8943 | LL: -20.8296 | CE: 10.2158
+Iter 10 | Total: 23.2567 | LL: -20.1271 | CE: 10.4319
+Iter 11 | Total: 22.7006 | LL: -19.4918 | CE: 10.6959
+Iter 12 | Total: 22.2245 | LL: -18.9226 | CE: 11.0061
+Iter 13 | Total: 21.8259 | LL: -18.4177 | CE: 11.3605
+Iter 14 | Total: 21.5012 | LL: -17.9743 | CE: 11.7563
+Iter 15 | Total: 21.2459 | LL: -17.5889 | CE: 12.1900
+Iter 16 | Total: 21.0540 | LL: -17.2566 | CE: 12.6577
+Iter 17 | Total: 20.9179 | LL: -16.9714 | CE: 13.1551
+Iter 18 | Total: 20.8296 | LL: -16.7264 | CE: 13.6773
+Iter 19 | Total: 20.7813 | LL: -16.5155 | CE: 14.2194
+Iter 20 | Total: 20.7662 | LL: -16.3331 | CE: 14.7768
+Iter 21 | Total: 20.7784 | LL: -16.1747 | CE: 15.3457
+Iter 22 | Total: 20.8132 | LL: -16.0365 | CE: 15.9225
+Iter 23 | Total: 20.8664 | LL: -15.9152 | CE: 16.5039
+Iter 24 | Total: 20.9344 | LL: -15.8083 | CE: 17.0867
+Iter 25 | Total: 21.0142 | LL: -15.7138 | CE: 17.6682
+Iter 26 | Total: 21.1035 | LL: -15.6298 | CE: 18.2456
+Iter 27 | Total: 21.1998 | LL: -15.5549 | CE: 18.8166
+Iter 28 | Total: 21.3015 | LL: -15.4878 | CE: 19.3790
+Iter 29 | Total: 21.4068 | LL: -15.4275 | CE: 19.9309
+Iter 0 | Total: 47.8668 | LL: -44.7446 | CE: 10.4074
+Iter 1 | Total: 37.3369 | LL: -34.2378 | CE: 10.3305
+Iter 2 | Total: 32.5569 | LL: -29.4941 | CE: 10.2092
+Iter 3 | Total: 30.1026 | LL: -27.0710 | CE: 10.1053
+Iter 4 | Total: 28.5698 | LL: -25.5615 | CE: 10.0275
+Iter 5 | Total: 27.4174 | LL: -24.4245 | CE: 9.9765
+Iter 6 | Total: 26.4405 | LL: -23.4546 | CE: 9.9530
+Iter 7 | Total: 25.5651 | LL: -22.5775 | CE: 9.9584
+Iter 8 | Total: 24.7678 | LL: -21.7694 | CE: 9.9947
+Iter 9 | Total: 24.0424 | LL: -21.0234 | CE: 10.0634
+Iter 10 | Total: 23.3865 | LL: -20.3367 | CE: 10.1659
+Iter 11 | Total: 22.7985 | LL: -19.7078 | CE: 10.3025
+Iter 12 | Total: 22.2773 | LL: -19.1354 | CE: 10.4730
+Iter 13 | Total: 21.8227 | LL: -18.6196 | CE: 10.6769
+Iter 14 | Total: 21.4353 | LL: -18.1615 | CE: 10.9128
+Iter 15 | Total: 21.1157 | LL: -17.7618 | CE: 11.1796
+Iter 16 | Total: 20.8624 | LL: -17.4198 | CE: 11.4755
+Iter 17 | Total: 20.6704 | LL: -17.1307 | CE: 11.7988
+Iter 18 | Total: 20.5315 | LL: -16.8873 | CE: 12.1472
+Iter 19 | Total: 20.4370 | LL: -16.6814 | CE: 12.5186
+Iter 20 | Total: 20.3786 | LL: -16.5054 | CE: 12.9108
+Iter 21 | Total: 20.3498 | LL: -16.3533 | CE: 13.3216
+Iter 22 | Total: 20.3455 | LL: -16.2208 | CE: 13.7490
+Iter 23 | Total: 20.3615 | LL: -16.1042 | CE: 14.1910
+Iter 24 | Total: 20.3946 | LL: -16.0011 | CE: 14.6452
+Iter 25 | Total: 20.4421 | LL: -15.9093 | CE: 15.1093
+Iter 26 | Total: 20.5017 | LL: -15.8274 | CE: 15.5808
+Iter 27 | Total: 20.5713 | LL: -15.7540 | CE: 16.0576
+Iter 28 | Total: 20.6491 | LL: -15.6880 | CE: 16.5372
+Iter 29 | Total: 20.7337 | LL: -15.6284 | CE: 17.0176
+Iter 0 | Total: 47.5146 | LL: -44.3965 | CE: 10.3936
+Iter 1 | Total: 37.6386 | LL: -34.5432 | CE: 10.3180
+Iter 2 | Total: 32.9181 | LL: -29.8628 | CE: 10.1846
+Iter 3 | Total: 30.3607 | LL: -27.3413 | CE: 10.0646
+Iter 4 | Total: 28.7154 | LL: -25.7225 | CE: 9.9764
+Iter 5 | Total: 27.4747 | LL: -24.4975 | CE: 9.9238
+Iter 6 | Total: 26.4384 | LL: -23.4662 | CE: 9.9071
+Iter 7 | Total: 25.5285 | LL: -22.5506 | CE: 9.9265
+Iter 8 | Total: 24.7120 | LL: -21.7172 | CE: 9.9827
+Iter 9 | Total: 23.9732 | LL: -20.9502 | CE: 10.0767
+Iter 10 | Total: 23.3052 | LL: -20.2423 | CE: 10.2096
+Iter 11 | Total: 22.7059 | LL: -19.5913 | CE: 10.3819
+Iter 12 | Total: 22.1768 | LL: -18.9987 | CE: 10.5937
+Iter 13 | Total: 21.7217 | LL: -18.4684 | CE: 10.8443
+Iter 14 | Total: 21.3432 | LL: -18.0035 | CE: 11.1324
+Iter 15 | Total: 21.0399 | LL: -17.6032 | CE: 11.4556
+Iter 16 | Total: 20.8058 | LL: -17.2624 | CE: 11.8112
+Iter 17 | Total: 20.6322 | LL: -16.9733 | CE: 12.1960
+Iter 18 | Total: 20.5096 | LL: -16.7277 | CE: 12.6065
+Iter 19 | Total: 20.4296 | LL: -16.5179 | CE: 13.0388
+Iter 20 | Total: 20.3845 | LL: -16.3376 | CE: 13.4894
+Iter 21 | Total: 20.3683 | LL: -16.1817 | CE: 13.9552
+Iter 22 | Total: 20.3760 | LL: -16.0460 | CE: 14.4333
+Iter 23 | Total: 20.4035 | LL: -15.9271 | CE: 14.9213
+Iter 24 | Total: 20.4475 | LL: -15.8225 | CE: 15.4167
+Iter 25 | Total: 20.5052 | LL: -15.7299 | CE: 15.9175
+Iter 26 | Total: 20.5741 | LL: -15.6476 | CE: 16.4218
+Iter 27 | Total: 20.6524 | LL: -15.5742 | CE: 16.9274
+Iter 28 | Total: 20.7382 | LL: -15.5084 | CE: 17.4325
+Iter 29 | Total: 20.8299 | LL: -15.4493 | CE: 17.9352
+Iter 0 | Total: 41.4750 | LL: -38.3555 | CE: 10.3984
+Iter 1 | Total: 34.4970 | LL: -31.4017 | CE: 10.3175
+Iter 2 | Total: 31.0524 | LL: -27.9936 | CE: 10.1959
+Iter 3 | Total: 29.0630 | LL: -26.0318 | CE: 10.1038
+Iter 4 | Total: 27.6870 | LL: -24.6685 | CE: 10.0616
+Iter 5 | Total: 26.5966 | LL: -23.5734 | CE: 10.0776
+Iter 6 | Total: 25.6673 | LL: -22.6208 | CE: 10.1551
+Iter 7 | Total: 24.8509 | LL: -21.7622 | CE: 10.2958
+Iter 8 | Total: 24.1276 | LL: -20.9777 | CE: 10.4997
+Iter 9 | Total: 23.4881 | LL: -20.2583 | CE: 10.7659
+Iter 10 | Total: 22.9269 | LL: -19.5992 | CE: 11.0924
+Iter 11 | Total: 22.4401 | LL: -18.9973 | CE: 11.4762
+Iter 12 | Total: 22.0261 | LL: -18.4520 | CE: 11.9134
+Iter 13 | Total: 21.6859 | LL: -17.9659 | CE: 12.3999
+Iter 14 | Total: 21.4215 | LL: -17.5423 | CE: 12.9305
+Iter 15 | Total: 21.2321 | LL: -17.1820 | CE: 13.5003
+Iter 16 | Total: 21.1119 | LL: -16.8809 | CE: 14.1034
+Iter 17 | Total: 21.0512 | LL: -16.6309 | CE: 14.7342
+Iter 18 | Total: 21.0387 | LL: -16.4227 | CE: 15.3866
+Iter 19 | Total: 21.0640 | LL: -16.2477 | CE: 16.0545
+Iter 20 | Total: 21.1186 | LL: -16.0988 | CE: 16.7326
+Iter 21 | Total: 21.1959 | LL: -15.9709 | CE: 17.4166
+Iter 22 | Total: 21.2904 | LL: -15.8597 | CE: 18.1025
+Iter 23 | Total: 21.3982 | LL: -15.7623 | CE: 18.7864
+Iter 24 | Total: 21.5157 | LL: -15.6764 | CE: 19.4642
+Iter 25 | Total: 21.6399 | LL: -15.6002 | CE: 20.1325
+Iter 26 | Total: 21.7686 | LL: -15.5323 | CE: 20.7878
+Iter 27 | Total: 21.8997 | LL: -15.4715 | CE: 21.4271
+Iter 28 | Total: 22.0313 | LL: -15.4170 | CE: 22.0479
+Iter 29 | Total: 22.1623 | LL: -15.3678 | CE: 22.6484
+Iter 0 | Total: 48.8869 | LL: -45.8160 | CE: 10.2364
+Iter 1 | Total: 38.3131 | LL: -35.2610 | CE: 10.1735
+Iter 2 | Total: 33.4981 | LL: -30.4791 | CE: 10.0631
+Iter 3 | Total: 30.9832 | LL: -27.9910 | CE: 9.9738
+Iter 4 | Total: 29.3753 | LL: -26.4008 | CE: 9.9152
+Iter 5 | Total: 28.1476 | LL: -25.1810 | CE: 9.8885
+Iter 6 | Total: 27.1033 | LL: -24.1344 | CE: 9.8965
+Iter 7 | Total: 26.1726 | LL: -23.1898 | CE: 9.9427
+Iter 8 | Total: 25.3301 | LL: -22.3210 | CE: 10.0304
+Iter 9 | Total: 24.5653 | LL: -21.5169 | CE: 10.1614
+Iter 10 | Total: 23.8744 | LL: -20.7735 | CE: 10.3364
+Iter 11 | Total: 23.2561 | LL: -20.0896 | CE: 10.5550
+Iter 12 | Total: 22.7094 | LL: -19.4647 | CE: 10.8157
+Iter 13 | Total: 22.2334 | LL: -18.8984 | CE: 11.1167
+Iter 14 | Total: 21.8279 | LL: -18.3913 | CE: 11.4555
+Iter 15 | Total: 21.4922 | LL: -17.9434 | CE: 11.8294
+Iter 16 | Total: 21.2236 | LL: -17.5530 | CE: 12.2352
+Iter 17 | Total: 21.0172 | LL: -17.2163 | CE: 12.6696
+Iter 18 | Total: 20.8662 | LL: -16.9275 | CE: 13.1289
+Iter 19 | Total: 20.7630 | LL: -16.6802 | CE: 13.6093
+Iter 20 | Total: 20.7001 | LL: -16.4679 | CE: 14.1074
+Iter 21 | Total: 20.6708 | LL: -16.2848 | CE: 14.6199
+Iter 22 | Total: 20.6690 | LL: -16.1258 | CE: 15.1440
+Iter 23 | Total: 20.6899 | LL: -15.9868 | CE: 15.6771
+Iter 24 | Total: 20.7294 | LL: -15.8645 | CE: 16.2164
+Iter 25 | Total: 20.7840 | LL: -15.7564 | CE: 16.7589
+Iter 26 | Total: 20.8510 | LL: -15.6605 | CE: 17.3017
+Iter 27 | Total: 20.9277 | LL: -15.5751 | CE: 17.8423
+Iter 28 | Total: 21.0124 | LL: -15.4989 | CE: 18.3783
+Iter 29 | Total: 21.1030 | LL: -15.4306 | CE: 18.9080
+Iter 0 | Total: 55.8249 | LL: -52.7271 | CE: 10.3259
+Iter 1 | Total: 41.2798 | LL: -38.1983 | CE: 10.2717
+Iter 2 | Total: 34.8910 | LL: -31.8400 | CE: 10.1702
+Iter 3 | Total: 31.7121 | LL: -28.6907 | CE: 10.0711
+Iter 4 | Total: 29.8354 | LL: -26.8399 | CE: 9.9851
+Iter 5 | Total: 28.5122 | LL: -25.5368 | CE: 9.9180
+Iter 6 | Total: 27.4414 | LL: -24.4797 | CE: 9.8724
+Iter 7 | Total: 26.5038 | LL: -23.5490 | CE: 9.8495
+Iter 8 | Total: 25.6525 | LL: -22.6974 | CE: 9.8503
+Iter 9 | Total: 24.8678 | LL: -21.9051 | CE: 9.8758
+Iter 10 | Total: 24.1411 | LL: -21.1629 | CE: 9.9273
+Iter 11 | Total: 23.4689 | LL: -20.4671 | CE: 10.0061
+Iter 12 | Total: 22.8512 | LL: -19.8173 | CE: 10.1132
+Iter 13 | Total: 22.2906 | LL: -19.2158 | CE: 10.2494
+Iter 14 | Total: 21.7918 | LL: -18.6674 | CE: 10.4147
+Iter 15 | Total: 21.3603 | LL: -18.1777 | CE: 10.6087
+Iter 16 | Total: 20.9989 | LL: -17.7498 | CE: 10.8305
+Iter 17 | Total: 20.7063 | LL: -17.3827 | CE: 11.0787
+Iter 18 | Total: 20.4761 | LL: -17.0707 | CE: 11.3513
+Iter 19 | Total: 20.2998 | LL: -16.8058 | CE: 11.6464
+Iter 20 | Total: 20.1682 | LL: -16.5798 | CE: 11.9616
+Iter 21 | Total: 20.0738 | LL: -16.3854 | CE: 12.2947
+Iter 22 | Total: 20.0101 | LL: -16.2171 | CE: 12.6434
+Iter 23 | Total: 19.9719 | LL: -16.0702 | CE: 13.0054
+Iter 24 | Total: 19.9549 | LL: -15.9413 | CE: 13.3788
+Iter 25 | Total: 19.9559 | LL: -15.8274 | CE: 13.7615
+Iter 26 | Total: 19.9719 | LL: -15.7264 | CE: 14.1519
+Iter 27 | Total: 20.0008 | LL: -15.6362 | CE: 14.5486
+Iter 28 | Total: 20.0405 | LL: -15.5555 | CE: 14.9500
+Iter 29 | Total: 20.0894 | LL: -15.4830 | CE: 15.3547
+Iter 0 | Total: 47.7839 | LL: -44.6732 | CE: 10.3690
+Iter 1 | Total: 37.6117 | LL: -34.5264 | CE: 10.2844
+Iter 2 | Total: 32.7208 | LL: -29.6769 | CE: 10.1462
+Iter 3 | Total: 30.0657 | LL: -27.0583 | CE: 10.0246
+Iter 4 | Total: 28.3448 | LL: -25.3651 | CE: 9.9322
+Iter 5 | Total: 27.0470 | LL: -24.0867 | CE: 9.8677
+Iter 6 | Total: 25.9733 | LL: -23.0242 | CE: 9.8303
+Iter 7 | Total: 25.0409 | LL: -22.0944 | CE: 9.8216
+Iter 8 | Total: 24.2127 | LL: -21.2596 | CE: 9.8439
+Iter 9 | Total: 23.4715 | LL: -20.5017 | CE: 9.8994
+Iter 10 | Total: 22.8078 | LL: -19.8109 | CE: 9.9896
+Iter 11 | Total: 22.2161 | LL: -19.1815 | CE: 10.1155
+Iter 12 | Total: 21.6943 | LL: -18.6110 | CE: 10.2775
+Iter 13 | Total: 21.2425 | LL: -18.0999 | CE: 10.4753
+Iter 14 | Total: 20.8607 | LL: -17.6483 | CE: 10.7081
+Iter 15 | Total: 20.5464 | LL: -17.2541 | CE: 10.9744
+Iter 16 | Total: 20.2945 | LL: -16.9128 | CE: 11.2724
+Iter 17 | Total: 20.0984 | LL: -16.6185 | CE: 11.5997
+Iter 18 | Total: 19.9515 | LL: -16.3655 | CE: 11.9533
+Iter 19 | Total: 19.8469 | LL: -16.1479 | CE: 12.3300
+Iter 20 | Total: 19.7785 | LL: -15.9605 | CE: 12.7267
+Iter 21 | Total: 19.7405 | LL: -15.7984 | CE: 13.1404
+Iter 22 | Total: 19.7280 | LL: -15.6575 | CE: 13.5685
+Iter 23 | Total: 19.7369 | LL: -15.5344 | CE: 14.0082
+Iter 24 | Total: 19.7633 | LL: -15.4262 | CE: 14.4570
+Iter 25 | Total: 19.8044 | LL: -15.3308 | CE: 14.9119
+Iter 26 | Total: 19.8574 | LL: -15.2463 | CE: 15.3702
+Iter 27 | Total: 19.9199 | LL: -15.1712 | CE: 15.8292
+Iter 28 | Total: 19.9901 | LL: -15.1041 | CE: 16.2865
+Iter 29 | Total: 20.0663 | LL: -15.0442 | CE: 16.7404
+Iter 0 | Total: 44.9582 | LL: -41.8733 | CE: 10.2830
+Iter 1 | Total: 36.1125 | LL: -33.0503 | CE: 10.2073
+Iter 2 | Total: 31.9123 | LL: -28.8872 | CE: 10.0837
+Iter 3 | Total: 29.5996 | LL: -26.6064 | CE: 9.9773
+Iter 4 | Total: 28.0662 | LL: -25.0953 | CE: 9.9031
+Iter 5 | Total: 26.8800 | LL: -23.9197 | CE: 9.8679
+Iter 6 | Total: 25.8778 | LL: -22.9153 | CE: 9.8749
+Iter 7 | Total: 24.9982 | LL: -22.0203 | CE: 9.9262
+Iter 8 | Total: 24.2155 | LL: -21.2086 | CE: 10.0232
+Iter 9 | Total: 23.5172 | LL: -20.4671 | CE: 10.1670
+Iter 10 | Total: 22.8965 | LL: -19.7891 | CE: 10.3578
+Iter 11 | Total: 22.3498 | LL: -19.1712 | CE: 10.5955
+Iter 12 | Total: 21.8765 | LL: -18.6129 | CE: 10.8789
+Iter 13 | Total: 21.4773 | LL: -18.1154 | CE: 11.2062
+Iter 14 | Total: 21.1517 | LL: -17.6792 | CE: 11.5750
+Iter 15 | Total: 20.8968 | LL: -17.3022 | CE: 11.9820
+Iter 16 | Total: 20.7070 | LL: -16.9800 | CE: 12.4236
+Iter 17 | Total: 20.5748 | LL: -16.7062 | CE: 12.8954
+Iter 18 | Total: 20.4919 | LL: -16.4740 | CE: 13.3930
+Iter 19 | Total: 20.4499 | LL: -16.2764 | CE: 13.9118
+Iter 20 | Total: 20.4414 | LL: -16.1072 | CE: 14.4475
+Iter 21 | Total: 20.4601 | LL: -15.9612 | CE: 14.9963
+Iter 22 | Total: 20.5007 | LL: -15.8342 | CE: 15.5551
+Iter 23 | Total: 20.5592 | LL: -15.7229 | CE: 16.1210
+Iter 24 | Total: 20.6322 | LL: -15.6249 | CE: 16.6910
+Iter 25 | Total: 20.7168 | LL: -15.5381 | CE: 17.2622
+Iter 26 | Total: 20.8105 | LL: -15.4609 | CE: 17.8319
+Iter 27 | Total: 20.9112 | LL: -15.3920 | CE: 18.3974
+Iter 28 | Total: 21.0172 | LL: -15.3303 | CE: 18.9561
+Iter 29 | Total: 21.1266 | LL: -15.2749 | CE: 19.5059
+Iter 0 | Total: 56.1272 | LL: -52.9464 | CE: 10.6028
+Iter 1 | Total: 41.4942 | LL: -38.3328 | CE: 10.5381
+Iter 2 | Total: 35.0866 | LL: -31.9553 | CE: 10.4375
+Iter 3 | Total: 31.9167 | LL: -28.8134 | CE: 10.3445
+Iter 4 | Total: 30.0490 | LL: -26.9685 | CE: 10.2681
+Iter 5 | Total: 28.7285 | LL: -25.6647 | CE: 10.2128
+Iter 6 | Total: 27.6577 | LL: -24.6031 | CE: 10.1822
+Iter 7 | Total: 26.7213 | LL: -23.6674 | CE: 10.1796
+Iter 8 | Total: 25.8756 | LL: -22.8131 | CE: 10.2080
+Iter 9 | Total: 25.1032 | LL: -22.0222 | CE: 10.2700
+Iter 10 | Total: 24.3963 | LL: -21.2861 | CE: 10.3676
+Iter 11 | Total: 23.7517 | LL: -20.6011 | CE: 10.5018
+Iter 12 | Total: 23.1691 | LL: -19.9671 | CE: 10.6733
+Iter 13 | Total: 22.6508 | LL: -19.3862 | CE: 10.8820
+Iter 14 | Total: 22.1996 | LL: -18.8615 | CE: 11.1270
+Iter 15 | Total: 21.8168 | LL: -18.3947 | CE: 11.4069
+Iter 16 | Total: 21.5013 | LL: -17.9854 | CE: 11.7196
+Iter 17 | Total: 21.2491 | LL: -17.6303 | CE: 12.0624
+Iter 18 | Total: 21.0537 | LL: -17.3240 | CE: 12.4323
+Iter 19 | Total: 20.9074 | LL: -17.0596 | CE: 12.8260
+Iter 20 | Total: 20.8027 | LL: -16.8307 | CE: 13.2401
+Iter 21 | Total: 20.7330 | LL: -16.6315 | CE: 13.6716
+Iter 22 | Total: 20.6924 | LL: -16.4573 | CE: 14.1172
+Iter 23 | Total: 20.6765 | LL: -16.3043 | CE: 14.5739
+Iter 24 | Total: 20.6811 | LL: -16.1694 | CE: 15.0391
+Iter 25 | Total: 20.7031 | LL: -16.0500 | CE: 15.5104
+Iter 26 | Total: 20.7396 | LL: -15.9440 | CE: 15.9856
+Iter 27 | Total: 20.7883 | LL: -15.8494 | CE: 16.4628
+Iter 28 | Total: 20.8469 | LL: -15.7648 | CE: 16.9401
+Iter 29 | Total: 20.9137 | LL: -15.6889 | CE: 17.4158
+Iter 0 | Total: 49.1544 | LL: -46.1085 | CE: 10.1530
+Iter 1 | Total: 38.5031 | LL: -35.4758 | CE: 10.0912
+Iter 2 | Total: 33.5039 | LL: -30.5104 | CE: 9.9785
+Iter 3 | Total: 30.8094 | LL: -27.8485 | CE: 9.8694
+Iter 4 | Total: 29.0911 | LL: -26.1570 | CE: 9.7804
+Iter 5 | Total: 27.8109 | LL: -24.8949 | CE: 9.7200
+Iter 6 | Total: 26.7474 | LL: -23.8396 | CE: 9.6926
+Iter 7 | Total: 25.8113 | LL: -22.9011 | CE: 9.7005
+Iter 8 | Total: 24.9673 | LL: -22.0438 | CE: 9.7449
+Iter 9 | Total: 24.2017 | LL: -21.2536 | CE: 9.8270
+Iter 10 | Total: 23.5094 | LL: -20.5251 | CE: 9.9477
+Iter 11 | Total: 22.8890 | LL: -19.8567 | CE: 10.1077
+Iter 12 | Total: 22.3418 | LL: -19.2495 | CE: 10.3074
+Iter 13 | Total: 21.8697 | LL: -18.7058 | CE: 10.5463
+Iter 14 | Total: 21.4729 | LL: -18.2260 | CE: 10.8232
+Iter 15 | Total: 21.1484 | LL: -17.8075 | CE: 11.1362
+Iter 16 | Total: 20.8908 | LL: -17.4460 | CE: 11.4827
+Iter 17 | Total: 20.6935 | LL: -17.1356 | CE: 11.8595
+Iter 18 | Total: 20.5491 | LL: -16.8702 | CE: 12.2630
+Iter 19 | Total: 20.4496 | LL: -16.6429 | CE: 12.6890
+Iter 20 | Total: 20.3876 | LL: -16.4474 | CE: 13.1337
+Iter 21 | Total: 20.3563 | LL: -16.2784 | CE: 13.5933
+Iter 22 | Total: 20.3505 | LL: -16.1311 | CE: 14.0646
+Iter 23 | Total: 20.3655 | LL: -16.0021 | CE: 14.5447
+Iter 24 | Total: 20.3977 | LL: -15.8885 | CE: 15.0309
+Iter 25 | Total: 20.4441 | LL: -15.7878 | CE: 15.5209
+Iter 26 | Total: 20.5021 | LL: -15.6982 | CE: 16.0128
+Iter 27 | Total: 20.5696 | LL: -15.6182 | CE: 16.5047
+Iter 28 | Total: 20.6449 | LL: -15.5464 | CE: 16.9949
+Iter 29 | Total: 20.7264 | LL: -15.4818 | CE: 17.4820
+Iter 0 | Total: 47.7917 | LL: -44.6393 | CE: 10.5081
+Iter 1 | Total: 37.5481 | LL: -34.4212 | CE: 10.4232
+Iter 2 | Total: 32.7454 | LL: -29.6591 | CE: 10.2877
+Iter 3 | Total: 30.1987 | LL: -27.1497 | CE: 10.1630
+Iter 4 | Total: 28.5820 | LL: -25.5635 | CE: 10.0618
+Iter 5 | Total: 27.3647 | LL: -24.3698 | CE: 9.9830
+Iter 6 | Total: 26.3430 | LL: -23.3659 | CE: 9.9235
+Iter 7 | Total: 25.4420 | LL: -22.4773 | CE: 9.8823
+Iter 8 | Total: 24.6346 | LL: -21.6764 | CE: 9.8608
+Iter 9 | Total: 23.9090 | LL: -20.9507 | CE: 9.8612
+Iter 10 | Total: 23.2586 | LL: -20.2929 | CE: 9.8857
+Iter 11 | Total: 22.6794 | LL: -19.6984 | CE: 9.9364
+Iter 12 | Total: 22.1690 | LL: -19.1646 | CE: 10.0146
+Iter 13 | Total: 21.7251 | LL: -18.6889 | CE: 10.1208
+Iter 14 | Total: 21.3442 | LL: -18.2677 | CE: 10.2551
+Iter 15 | Total: 21.0224 | LL: -17.8973 | CE: 10.4171
+Iter 16 | Total: 20.7555 | LL: -17.5738 | CE: 10.6057
+Iter 17 | Total: 20.5392 | LL: -17.2933 | CE: 10.8198
+Iter 18 | Total: 20.3686 | LL: -17.0513 | CE: 11.0576
+Iter 19 | Total: 20.2380 | LL: -16.8428 | CE: 11.3175
+Iter 20 | Total: 20.1421 | LL: -16.6629 | CE: 11.5973
+Iter 21 | Total: 20.0757 | LL: -16.5071 | CE: 11.8954
+Iter 22 | Total: 20.0345 | LL: -16.3715 | CE: 12.2098
+Iter 23 | Total: 20.0148 | LL: -16.2531 | CE: 12.5390
+Iter 24 | Total: 20.0136 | LL: -16.1493 | CE: 12.8810
+Iter 25 | Total: 20.0281 | LL: -16.0578 | CE: 13.2340
+Iter 26 | Total: 20.0559 | LL: -15.9770 | CE: 13.5963
+Iter 27 | Total: 20.0949 | LL: -15.9051 | CE: 13.9659
+Iter 28 | Total: 20.1434 | LL: -15.8411 | CE: 14.3409
+Iter 29 | Total: 20.1996 | LL: -15.7837 | CE: 14.7195
+Iter 0 | Total: 55.7101 | LL: -52.6073 | CE: 10.3425
+Iter 1 | Total: 41.6365 | LL: -38.5552 | CE: 10.2711
+Iter 2 | Total: 35.2044 | LL: -32.1597 | CE: 10.1490
+Iter 3 | Total: 31.9411 | LL: -28.9319 | CE: 10.0306
+Iter 4 | Total: 29.9982 | LL: -27.0190 | CE: 9.9305
+Iter 5 | Total: 28.6227 | LL: -25.6668 | CE: 9.8530
+Iter 6 | Total: 27.5053 | LL: -24.5656 | CE: 9.7989
+Iter 7 | Total: 26.5220 | LL: -23.5914 | CE: 9.7686
+Iter 8 | Total: 25.6250 | LL: -22.6962 | CE: 9.7625
+Iter 9 | Total: 24.7963 | LL: -21.8618 | CE: 9.7816
+Iter 10 | Total: 24.0322 | LL: -21.0841 | CE: 9.8268
+Iter 11 | Total: 23.3345 | LL: -20.3648 | CE: 9.8992
+Iter 12 | Total: 22.7042 | LL: -19.7044 | CE: 9.9992
+Iter 13 | Total: 22.1424 | LL: -19.1042 | CE: 10.1272
+Iter 14 | Total: 21.6521 | LL: -18.5672 | CE: 10.2829
+Iter 15 | Total: 21.2356 | LL: -18.0960 | CE: 10.4655
+Iter 16 | Total: 20.8917 | LL: -17.6895 | CE: 10.6737
+Iter 17 | Total: 20.6149 | LL: -17.3431 | CE: 10.9059
+Iter 18 | Total: 20.3972 | LL: -17.0492 | CE: 11.1602
+Iter 19 | Total: 20.2298 | LL: -16.7996 | CE: 11.4343
+Iter 20 | Total: 20.1042 | LL: -16.5864 | CE: 11.7261
+Iter 21 | Total: 20.0129 | LL: -16.4027 | CE: 12.0338
+Iter 22 | Total: 19.9499 | LL: -16.2432 | CE: 12.3556
+Iter 23 | Total: 19.9104 | LL: -16.1034 | CE: 12.6898
+Iter 24 | Total: 19.8906 | LL: -15.9800 | CE: 13.0353
+Iter 25 | Total: 19.8876 | LL: -15.8703 | CE: 13.3907
+Iter 26 | Total: 19.8988 | LL: -15.7724 | CE: 13.7549
+Iter 27 | Total: 19.9224 | LL: -15.6844 | CE: 14.1265
+Iter 28 | Total: 19.9564 | LL: -15.6051 | CE: 14.5044
+Iter 29 | Total: 19.9995 | LL: -15.5333 | CE: 14.8873
+Iter 0 | Total: 47.1835 | LL: -44.0270 | CE: 10.5216
+Iter 1 | Total: 37.2784 | LL: -34.1442 | CE: 10.4476
+Iter 2 | Total: 32.7870 | LL: -29.6861 | CE: 10.3363
+Iter 3 | Total: 30.4417 | LL: -27.3688 | CE: 10.2430
+Iter 4 | Total: 28.9540 | LL: -25.9008 | CE: 10.1774
+Iter 5 | Total: 27.8280 | LL: -24.7851 | CE: 10.1431
+Iter 6 | Total: 26.8752 | LL: -23.8321 | CE: 10.1434
+Iter 7 | Total: 26.0252 | LL: -22.9707 | CE: 10.1816
+Iter 8 | Total: 25.2523 | LL: -22.1742 | CE: 10.2602
+Iter 9 | Total: 24.5470 | LL: -21.4328 | CE: 10.3806
+Iter 10 | Total: 23.9056 | LL: -20.7426 | CE: 10.5433
+Iter 11 | Total: 23.3263 | LL: -20.1020 | CE: 10.7479
+Iter 12 | Total: 22.8090 | LL: -19.5110 | CE: 10.9932
+Iter 13 | Total: 22.3552 | LL: -18.9718 | CE: 11.2780
+Iter 14 | Total: 21.9672 | LL: -18.4871 | CE: 11.6001
+Iter 15 | Total: 21.6458 | LL: -18.0586 | CE: 11.9574
+Iter 16 | Total: 21.3891 | LL: -17.6850 | CE: 12.3472
+Iter 17 | Total: 21.1924 | LL: -17.3624 | CE: 12.7665
+Iter 18 | Total: 21.0490 | LL: -17.0853 | CE: 13.2121
+Iter 19 | Total: 20.9516 | LL: -16.8475 | CE: 13.6803
+Iter 20 | Total: 20.8932 | LL: -16.6429 | CE: 14.1676
+Iter 21 | Total: 20.8673 | LL: -16.4661 | CE: 14.6706
+Iter 22 | Total: 20.8684 | LL: -16.3126 | CE: 15.1861
+Iter 23 | Total: 20.8920 | LL: -16.1787 | CE: 15.7110
+Iter 24 | Total: 20.9340 | LL: -16.0614 | CE: 16.2421
+Iter 25 | Total: 20.9911 | LL: -15.9582 | CE: 16.7762
+Iter 26 | Total: 21.0604 | LL: -15.8673 | CE: 17.3104
+Iter 27 | Total: 21.1393 | LL: -15.7868 | CE: 17.8417
+Iter 28 | Total: 21.2257 | LL: -15.7154 | CE: 18.3676
+Iter 29 | Total: 21.3176 | LL: -15.6518 | CE: 18.8862
+Iter 0 | Total: 57.3238 | LL: -54.2751 | CE: 10.1622
+Iter 1 | Total: 42.2744 | LL: -39.2461 | CE: 10.0943
+Iter 2 | Total: 35.4675 | LL: -32.4764 | CE: 9.9702
+Iter 3 | Total: 32.0757 | LL: -29.1170 | CE: 9.8626
+Iter 4 | Total: 30.0674 | LL: -27.1330 | CE: 9.7813
+Iter 5 | Total: 28.6383 | LL: -25.7205 | CE: 9.7261
+Iter 6 | Total: 27.4728 | LL: -24.5636 | CE: 9.6973
+Iter 7 | Total: 26.4468 | LL: -23.5380 | CE: 9.6961
+Iter 8 | Total: 25.5125 | LL: -22.5953 | CE: 9.7240
+Iter 9 | Total: 24.6555 | LL: -21.7208 | CE: 9.7825
+Iter 10 | Total: 23.8740 | LL: -20.9122 | CE: 9.8724
+Iter 11 | Total: 23.1679 | LL: -20.1696 | CE: 9.9942
+Iter 12 | Total: 22.5373 | LL: -19.4929 | CE: 10.1480
+Iter 13 | Total: 21.9840 | LL: -18.8839 | CE: 10.3334
+Iter 14 | Total: 21.5099 | LL: -18.3451 | CE: 10.5495
+Iter 15 | Total: 21.1151 | LL: -17.8765 | CE: 10.7951
+Iter 16 | Total: 20.7947 | LL: -17.4741 | CE: 11.0687
+Iter 17 | Total: 20.5407 | LL: -17.1302 | CE: 11.3683
+Iter 18 | Total: 20.3433 | LL: -16.8357 | CE: 11.6920
+Iter 19 | Total: 20.1934 | LL: -16.5821 | CE: 12.0376
+Iter 20 | Total: 20.0832 | LL: -16.3624 | CE: 12.4027
+Iter 21 | Total: 20.0064 | LL: -16.1708 | CE: 12.7854
+Iter 22 | Total: 19.9579 | LL: -16.0028 | CE: 13.1836
+Iter 23 | Total: 19.9335 | LL: -15.8548 | CE: 13.5955
+Iter 24 | Total: 19.9295 | LL: -15.7238 | CE: 14.0189
+Iter 25 | Total: 19.9430 | LL: -15.6074 | CE: 14.4521
+Iter 26 | Total: 19.9713 | LL: -15.5034 | CE: 14.8930
+Iter 27 | Total: 20.0121 | LL: -15.4102 | CE: 15.3396
+Iter 28 | Total: 20.0633 | LL: -15.3263 | CE: 15.7900
+Iter 29 | Total: 20.1233 | LL: -15.2506 | CE: 16.2424
+Iter 0 | Total: 54.2978 | LL: -51.1889 | CE: 10.3632
+Iter 1 | Total: 40.6047 | LL: -37.5179 | CE: 10.2893
+Iter 2 | Total: 34.5031 | LL: -31.4505 | CE: 10.1753
+Iter 3 | Total: 31.4782 | LL: -28.4549 | CE: 10.0778
+Iter 4 | Total: 29.6861 | LL: -26.6840 | CE: 10.0068
+Iter 5 | Total: 28.4011 | LL: -25.4119 | CE: 9.9641
+Iter 6 | Total: 27.3419 | LL: -24.3567 | CE: 9.9507
+Iter 7 | Total: 26.4032 | LL: -23.4126 | CE: 9.9686
+Iter 8 | Total: 25.5486 | LL: -22.5427 | CE: 10.0198
+Iter 9 | Total: 24.7666 | LL: -21.7348 | CE: 10.1060
+Iter 10 | Total: 24.0539 | LL: -20.9854 | CE: 10.2281
+Iter 11 | Total: 23.4099 | LL: -20.2939 | CE: 10.3867
+Iter 12 | Total: 22.8354 | LL: -19.6610 | CE: 10.5815
+Iter 13 | Total: 22.3316 | LL: -19.0881 | CE: 10.8117
+Iter 14 | Total: 21.8989 | LL: -18.5760 | CE: 11.0760
+Iter 15 | Total: 21.5356 | LL: -18.1236 | CE: 11.3730
+Iter 16 | Total: 21.2379 | LL: -17.7277 | CE: 11.7006
+Iter 17 | Total: 21.0003 | LL: -17.3834 | CE: 12.0564
+Iter 18 | Total: 20.8163 | LL: -17.0850 | CE: 12.4379
+Iter 19 | Total: 20.6791 | LL: -16.8264 | CE: 12.8421
+Iter 20 | Total: 20.5819 | LL: -16.6021 | CE: 13.2661
+Iter 21 | Total: 20.5190 | LL: -16.4068 | CE: 13.7074
+Iter 22 | Total: 20.4852 | LL: -16.2361 | CE: 14.1637
+Iter 23 | Total: 20.4761 | LL: -16.0863 | CE: 14.6325
+Iter 24 | Total: 20.4876 | LL: -15.9541 | CE: 15.1116
+Iter 25 | Total: 20.5167 | LL: -15.8370 | CE: 15.5988
+Iter 26 | Total: 20.5603 | LL: -15.7327 | CE: 16.0919
+Iter 27 | Total: 20.6161 | LL: -15.6395 | CE: 16.5887
+Iter 28 | Total: 20.6819 | LL: -15.5558 | CE: 17.0869
+Iter 29 | Total: 20.7557 | LL: -15.4804 | CE: 17.5843
+Iter 0 | Total: 45.8773 | LL: -42.8009 | CE: 10.2548
+Iter 1 | Total: 37.4057 | LL: -34.3576 | CE: 10.1602
+Iter 2 | Total: 33.1915 | LL: -30.1881 | CE: 10.0113
+Iter 3 | Total: 30.7997 | LL: -27.8302 | CE: 9.8983
+Iter 4 | Total: 29.1667 | LL: -26.2181 | CE: 9.8288
+Iter 5 | Total: 27.8838 | LL: -24.9435 | CE: 9.8010
+Iter 6 | Total: 26.7986 | LL: -23.8540 | CE: 9.8153
+Iter 7 | Total: 25.8557 | LL: -22.8936 | CE: 9.8735
+Iter 8 | Total: 25.0313 | LL: -22.0384 | CE: 9.9764
+Iter 9 | Total: 24.3100 | LL: -21.2730 | CE: 10.1233
+Iter 10 | Total: 23.6794 | LL: -20.5855 | CE: 10.3127
+Iter 11 | Total: 23.1318 | LL: -19.9691 | CE: 10.5425
+Iter 12 | Total: 22.6636 | LL: -19.4205 | CE: 10.8105
+Iter 13 | Total: 22.2727 | LL: -18.9382 | CE: 11.1150
+Iter 14 | Total: 21.9555 | LL: -18.5193 | CE: 11.4542
+Iter 15 | Total: 21.7066 | LL: -18.1586 | CE: 11.8266
+Iter 16 | Total: 21.5186 | LL: -17.8495 | CE: 12.2303
+Iter 17 | Total: 21.3835 | LL: -17.5846 | CE: 12.6631
+Iter 18 | Total: 21.2934 | LL: -17.3568 | CE: 13.1222
+Iter 19 | Total: 21.2412 | LL: -17.1599 | CE: 13.6044
+Iter 20 | Total: 21.2206 | LL: -16.9887 | CE: 14.1063
+Iter 21 | Total: 21.2264 | LL: -16.8391 | CE: 14.6244
+Iter 22 | Total: 21.2542 | LL: -16.7076 | CE: 15.1553
+Iter 23 | Total: 21.3000 | LL: -16.5914 | CE: 15.6953
+Iter 24 | Total: 21.3605 | LL: -16.4883 | CE: 16.2408
+Iter 25 | Total: 21.4328 | LL: -16.3964 | CE: 16.7882
+Iter 26 | Total: 21.5143 | LL: -16.3140 | CE: 17.3342
+Iter 27 | Total: 21.6029 | LL: -16.2401 | CE: 17.8762
+Iter 28 | Total: 21.6970 | LL: -16.1734 | CE: 18.4120
+Iter 29 | Total: 21.7951 | LL: -16.1132 | CE: 18.9398
+Iter 0 | Total: 48.0025 | LL: -44.9408 | CE: 10.2058
+Iter 1 | Total: 37.9780 | LL: -34.9409 | CE: 10.1238
+Iter 2 | Total: 33.1590 | LL: -30.1622 | CE: 9.9895
+Iter 3 | Total: 30.5043 | LL: -27.5432 | CE: 9.8704
+Iter 4 | Total: 28.7681 | LL: -25.8348 | CE: 9.7777
+Iter 5 | Total: 27.4529 | LL: -24.5382 | CE: 9.7158
+Iter 6 | Total: 26.3595 | LL: -23.4535 | CE: 9.6865
+Iter 7 | Total: 25.4068 | LL: -22.4995 | CE: 9.6909
+Iter 8 | Total: 24.5595 | LL: -21.6404 | CE: 9.7305
+Iter 9 | Total: 23.8020 | LL: -20.8600 | CE: 9.8067
+Iter 10 | Total: 23.1270 | LL: -20.1507 | CE: 9.9210
+Iter 11 | Total: 22.5298 | LL: -19.5075 | CE: 10.0743
+Iter 12 | Total: 22.0068 | LL: -18.9268 | CE: 10.2667
+Iter 13 | Total: 21.5559 | LL: -18.4067 | CE: 10.4974
+Iter 14 | Total: 21.1758 | LL: -17.9464 | CE: 10.7647
+Iter 15 | Total: 20.8643 | LL: -17.5444 | CE: 11.0661
+Iter 16 | Total: 20.6178 | LL: -17.1981 | CE: 11.3988
+Iter 17 | Total: 20.4301 | LL: -16.9024 | CE: 11.7591
+Iter 18 | Total: 20.2934 | LL: -16.6504 | CE: 12.1434
+Iter 19 | Total: 20.1995 | LL: -16.4352 | CE: 12.5476
+Iter 20 | Total: 20.1409 | LL: -16.2504 | CE: 12.9683
+Iter 21 | Total: 20.1113 | LL: -16.0907 | CE: 13.4022
+Iter 22 | Total: 20.1057 | LL: -15.9518 | CE: 13.8466
+Iter 23 | Total: 20.1199 | LL: -15.8302 | CE: 14.2990
+Iter 24 | Total: 20.1503 | LL: -15.7233 | CE: 14.7568
+Iter 25 | Total: 20.1942 | LL: -15.6287 | CE: 15.2181
+Iter 26 | Total: 20.2490 | LL: -15.5448 | CE: 15.6806
+Iter 27 | Total: 20.3127 | LL: -15.4699 | CE: 16.1427
+Iter 28 | Total: 20.3836 | LL: -15.4029 | CE: 16.6024
+Iter 29 | Total: 20.4601 | LL: -15.3426 | CE: 17.0581
+Iter 0 | Total: 52.3315 | LL: -49.1877 | CE: 10.4791
+Iter 1 | Total: 39.9053 | LL: -36.7809 | CE: 10.4144
+Iter 2 | Total: 34.1571 | LL: -31.0680 | CE: 10.2970
+Iter 3 | Total: 31.1557 | LL: -28.1036 | CE: 10.1736
+Iter 4 | Total: 29.3156 | LL: -26.2965 | CE: 10.0640
+Iter 5 | Total: 27.9861 | LL: -24.9941 | CE: 9.9736
+Iter 6 | Total: 26.9036 | LL: -23.9328 | CE: 9.9028
+Iter 7 | Total: 25.9619 | LL: -23.0066 | CE: 9.8510
+Iter 8 | Total: 25.1167 | LL: -22.1713 | CE: 9.8182
+Iter 9 | Total: 24.3486 | LL: -21.4069 | CE: 9.8056
+Iter 10 | Total: 23.6496 | LL: -20.7051 | CE: 9.8153
+Iter 11 | Total: 23.0175 | LL: -20.0626 | CE: 9.8497
+Iter 12 | Total: 22.4515 | LL: -19.4780 | CE: 9.9116
+Iter 13 | Total: 21.9506 | LL: -18.9497 | CE: 10.0031
+Iter 14 | Total: 21.5137 | LL: -18.4760 | CE: 10.1256
+Iter 15 | Total: 21.1391 | LL: -18.0553 | CE: 10.2793
+Iter 16 | Total: 20.8250 | LL: -17.6859 | CE: 10.4638
+Iter 17 | Total: 20.5681 | LL: -17.3649 | CE: 10.6774
+Iter 18 | Total: 20.3639 | LL: -17.0885 | CE: 10.9180
+Iter 19 | Total: 20.2061 | LL: -16.8511 | CE: 11.1832
+Iter 20 | Total: 20.0881 | LL: -16.6472 | CE: 11.4699
+Iter 21 | Total: 20.0037 | LL: -16.4712 | CE: 11.7751
+Iter 22 | Total: 19.9472 | LL: -16.3184 | CE: 12.0959
+Iter 23 | Total: 19.9138 | LL: -16.1850 | CE: 12.4291
+Iter 24 | Total: 19.8995 | LL: -16.0679 | CE: 12.7721
+Iter 25 | Total: 19.9013 | LL: -15.9645 | CE: 13.1226
+Iter 26 | Total: 19.9164 | LL: -15.8729 | CE: 13.4786
+Iter 27 | Total: 19.9428 | LL: -15.7913 | CE: 13.8382
+Iter 28 | Total: 19.9785 | LL: -15.7184 | CE: 14.2002
+Iter 29 | Total: 20.0221 | LL: -15.6531 | CE: 14.5631
+Iter 0 | Total: 52.2262 | LL: -49.1423 | CE: 10.2797
+Iter 1 | Total: 40.3536 | LL: -37.2984 | CE: 10.1842
+Iter 2 | Total: 34.7473 | LL: -31.7365 | CE: 10.0361
+Iter 3 | Total: 31.7637 | LL: -28.7899 | CE: 9.9128
+Iter 4 | Total: 29.8578 | LL: -26.9123 | CE: 9.8183
+Iter 5 | Total: 28.4245 | LL: -25.4991 | CE: 9.7513
+Iter 6 | Total: 27.2287 | LL: -24.3152 | CE: 9.7118
+Iter 7 | Total: 26.1799 | LL: -23.2695 | CE: 9.7014
+Iter 8 | Total: 25.2452 | LL: -22.3285 | CE: 9.7225
+Iter 9 | Total: 24.4121 | LL: -21.4789 | CE: 9.7775
+Iter 10 | Total: 23.6729 | LL: -20.7123 | CE: 9.8686
+Iter 11 | Total: 23.0211 | LL: -20.0221 | CE: 9.9966
+Iter 12 | Total: 22.4532 | LL: -19.4047 | CE: 10.1615
+Iter 13 | Total: 21.9674 | LL: -18.8587 | CE: 10.3623
+Iter 14 | Total: 21.5602 | LL: -18.3810 | CE: 10.5973
+Iter 15 | Total: 21.2253 | LL: -17.9661 | CE: 10.8640
+Iter 16 | Total: 20.9552 | LL: -17.6072 | CE: 11.1599
+Iter 17 | Total: 20.7419 | LL: -17.2973 | CE: 11.4819
+Iter 18 | Total: 20.5775 | LL: -17.0294 | CE: 11.8270
+Iter 19 | Total: 20.4547 | LL: -16.7971 | CE: 12.1921
+Iter 20 | Total: 20.3670 | LL: -16.5947 | CE: 12.5742
+Iter 21 | Total: 20.3089 | LL: -16.4176 | CE: 12.9708
+Iter 22 | Total: 20.2757 | LL: -16.2619 | CE: 13.3796
+Iter 23 | Total: 20.2638 | LL: -16.1242 | CE: 13.7984
+Iter 24 | Total: 20.2697 | LL: -16.0022 | CE: 14.2250
+Iter 25 | Total: 20.2907 | LL: -15.8934 | CE: 14.6574
+Iter 26 | Total: 20.3243 | LL: -15.7962 | CE: 15.0937
+Iter 27 | Total: 20.3685 | LL: -15.7089 | CE: 15.5321
+Iter 28 | Total: 20.4215 | LL: -15.6303 | CE: 15.9708
+Iter 29 | Total: 20.4817 | LL: -15.5593 | CE: 16.4080
+Iter 0 | Total: 51.5727 | LL: -48.4333 | CE: 10.4644
+Iter 1 | Total: 39.8680 | LL: -36.7572 | CE: 10.3693
+Iter 2 | Total: 34.3637 | LL: -31.2957 | CE: 10.2268
+Iter 3 | Total: 31.4383 | LL: -28.4060 | CE: 10.1077
+Iter 4 | Total: 29.5830 | LL: -26.5778 | CE: 10.0173
+Iter 5 | Total: 28.2069 | LL: -25.2202 | CE: 9.9557
+Iter 6 | Total: 27.0747 | LL: -24.0978 | CE: 9.9230
+Iter 7 | Total: 26.0895 | LL: -23.1137 | CE: 9.9193
+Iter 8 | Total: 25.2097 | LL: -22.2260 | CE: 9.9455
+Iter 9 | Total: 24.4175 | LL: -21.4168 | CE: 10.0026
+Iter 10 | Total: 23.7056 | LL: -20.6782 | CE: 10.0913
+Iter 11 | Total: 23.0697 | LL: -20.0061 | CE: 10.2121
+Iter 12 | Total: 22.5075 | LL: -19.3979 | CE: 10.3652
+Iter 13 | Total: 22.0176 | LL: -18.8526 | CE: 10.5500
+Iter 14 | Total: 21.5992 | LL: -18.3695 | CE: 10.7657
+Iter 15 | Total: 21.2501 | LL: -17.9469 | CE: 11.0107
+Iter 16 | Total: 20.9653 | LL: -17.5803 | CE: 11.2834
+Iter 17 | Total: 20.7376 | LL: -17.2630 | CE: 11.5819
+Iter 18 | Total: 20.5587 | LL: -16.9876 | CE: 11.9038
+Iter 19 | Total: 20.4211 | LL: -16.7471 | CE: 12.2469
+Iter 20 | Total: 20.3184 | LL: -16.5357 | CE: 12.6089
+Iter 21 | Total: 20.2453 | LL: -16.3489 | CE: 12.9879
+Iter 22 | Total: 20.1977 | LL: -16.1832 | CE: 13.3818
+Iter 23 | Total: 20.1722 | LL: -16.0357 | CE: 13.7884
+Iter 24 | Total: 20.1658 | LL: -15.9042 | CE: 14.2054
+Iter 25 | Total: 20.1758 | LL: -15.7866 | CE: 14.6305
+Iter 26 | Total: 20.1998 | LL: -15.6815 | CE: 15.0611
+Iter 27 | Total: 20.2358 | LL: -15.5872 | CE: 15.4952
+Iter 28 | Total: 20.2818 | LL: -15.5026 | CE: 15.9307
+Iter 29 | Total: 20.3363 | LL: -15.4266 | CE: 16.3659
+Iter 0 | Total: 40.9952 | LL: -37.8521 | CE: 10.4772
+Iter 1 | Total: 34.4058 | LL: -31.2874 | CE: 10.3946
+Iter 2 | Total: 31.0208 | LL: -27.9379 | CE: 10.2762
+Iter 3 | Total: 28.9819 | LL: -25.9209 | CE: 10.2033
+Iter 4 | Total: 27.5263 | LL: -24.4685 | CE: 10.1929
+Iter 5 | Total: 26.3604 | LL: -23.2858 | CE: 10.2488
+Iter 6 | Total: 25.3717 | LL: -22.2597 | CE: 10.3732
+Iter 7 | Total: 24.5148 | LL: -21.3447 | CE: 10.5670
+Iter 8 | Total: 23.7690 | LL: -20.5203 | CE: 10.8290
+Iter 9 | Total: 23.1220 | LL: -19.7752 | CE: 11.1559
+Iter 10 | Total: 22.5663 | LL: -19.1033 | CE: 11.5434
+Iter 11 | Total: 22.0994 | LL: -18.5034 | CE: 11.9868
+Iter 12 | Total: 21.7206 | LL: -17.9762 | CE: 12.4812
+Iter 13 | Total: 21.4264 | LL: -17.5197 | CE: 13.0223
+Iter 14 | Total: 21.2092 | LL: -17.1275 | CE: 13.6058
+Iter 15 | Total: 21.0594 | LL: -16.7910 | CE: 14.2278
+Iter 16 | Total: 20.9671 | LL: -16.5018 | CE: 14.8844
+Iter 17 | Total: 20.9233 | LL: -16.2519 | CE: 15.5713
+Iter 18 | Total: 20.9197 | LL: -16.0347 | CE: 16.2833
+Iter 19 | Total: 20.9494 | LL: -15.8450 | CE: 17.0145
+Iter 20 | Total: 21.0061 | LL: -15.6787 | CE: 17.7582
+Iter 21 | Total: 21.0849 | LL: -15.5326 | CE: 18.5078
+Iter 22 | Total: 21.1813 | LL: -15.4044 | CE: 19.2564
+Iter 23 | Total: 21.2912 | LL: -15.2920 | CE: 19.9974
+Iter 24 | Total: 21.4110 | LL: -15.1935 | CE: 20.7249
+Iter 25 | Total: 21.5373 | LL: -15.1071 | CE: 21.4342
+Iter 26 | Total: 21.6676 | LL: -15.0311 | CE: 22.1215
+Iter 27 | Total: 21.7996 | LL: -14.9642 | CE: 22.7845
+Iter 28 | Total: 21.9316 | LL: -14.9051 | CE: 23.4220
+Iter 29 | Total: 22.0627 | LL: -14.8526 | CE: 24.0336
+Iter 0 | Total: 48.7590 | LL: -45.5443 | CE: 10.7155
+Iter 1 | Total: 38.4333 | LL: -35.2442 | CE: 10.6305
+Iter 2 | Total: 33.5625 | LL: -30.4169 | CE: 10.4852
+Iter 3 | Total: 30.9562 | LL: -27.8496 | CE: 10.3551
+Iter 4 | Total: 29.2704 | LL: -26.1962 | CE: 10.2476
+Iter 5 | Total: 27.9858 | LL: -24.9373 | CE: 10.1617
+Iter 6 | Total: 26.9039 | LL: -23.8744 | CE: 10.0983
+Iter 7 | Total: 25.9505 | LL: -22.9327 | CE: 10.0593
+Iter 8 | Total: 25.0967 | LL: -22.0826 | CE: 10.0469
+Iter 9 | Total: 24.3287 | LL: -21.3098 | CE: 10.0631
+Iter 10 | Total: 23.6392 | LL: -20.6065 | CE: 10.1089
+Iter 11 | Total: 23.0242 | LL: -19.9687 | CE: 10.1848
+Iter 12 | Total: 22.4806 | LL: -19.3934 | CE: 10.2906
+Iter 13 | Total: 22.0045 | LL: -18.8768 | CE: 10.4254
+Iter 14 | Total: 21.5917 | LL: -18.4153 | CE: 10.5882
+Iter 15 | Total: 21.2389 | LL: -18.0056 | CE: 10.7776
+Iter 16 | Total: 20.9431 | LL: -17.6455 | CE: 10.9921
+Iter 17 | Total: 20.7008 | LL: -17.3318 | CE: 11.2299
+Iter 18 | Total: 20.5074 | LL: -17.0606 | CE: 11.4892
+Iter 19 | Total: 20.3570 | LL: -16.8267 | CE: 11.7679
+Iter 20 | Total: 20.2437 | LL: -16.6246 | CE: 12.0637
+Iter 21 | Total: 20.1617 | LL: -16.4493 | CE: 12.3747
+Iter 22 | Total: 20.1063 | LL: -16.2966 | CE: 12.6990
+Iter 23 | Total: 20.0736 | LL: -16.1631 | CE: 13.0349
+Iter 24 | Total: 20.0603 | LL: -16.0461 | CE: 13.3806
+Iter 25 | Total: 20.0635 | LL: -15.9432 | CE: 13.7343
+Iter 26 | Total: 20.0806 | LL: -15.8524 | CE: 14.0939
+Iter 27 | Total: 20.1092 | LL: -15.7719 | CE: 14.4579
+Iter 28 | Total: 20.1476 | LL: -15.7002 | CE: 14.8247
+Iter 29 | Total: 20.1941 | LL: -15.6362 | CE: 15.1929
+Iter 0 | Total: 55.8991 | LL: -52.8422 | CE: 10.1898
+Iter 1 | Total: 41.5418 | LL: -38.5064 | CE: 10.1181
+Iter 2 | Total: 35.0909 | LL: -32.0908 | CE: 10.0001
+Iter 3 | Total: 31.8576 | LL: -28.8890 | CE: 9.8953
+Iter 4 | Total: 29.9242 | LL: -26.9805 | CE: 9.8122
+Iter 5 | Total: 28.5380 | LL: -25.6125 | CE: 9.7518
+Iter 6 | Total: 27.4034 | LL: -24.4888 | CE: 9.7153
+Iter 7 | Total: 26.4075 | LL: -23.4963 | CE: 9.7041
+Iter 8 | Total: 25.5093 | LL: -22.5934 | CE: 9.7195
+Iter 9 | Total: 24.6934 | LL: -21.7645 | CE: 9.7630
+Iter 10 | Total: 23.9534 | LL: -21.0026 | CE: 9.8358
+Iter 11 | Total: 23.2867 | LL: -20.3050 | CE: 9.9388
+Iter 12 | Total: 22.6929 | LL: -19.6712 | CE: 10.0725
+Iter 13 | Total: 22.1722 | LL: -19.1011 | CE: 10.2370
+Iter 14 | Total: 21.7241 | LL: -18.5945 | CE: 10.4320
+Iter 15 | Total: 21.3468 | LL: -18.1498 | CE: 10.6565
+Iter 16 | Total: 21.0363 | LL: -17.7635 | CE: 10.9095
+Iter 17 | Total: 20.7864 | LL: -17.4297 | CE: 11.1892
+Iter 18 | Total: 20.5894 | LL: -17.1413 | CE: 11.4938
+Iter 19 | Total: 20.4377 | LL: -16.8914 | CE: 11.8212
+Iter 20 | Total: 20.3245 | LL: -16.6737 | CE: 12.1692
+Iter 21 | Total: 20.2439 | LL: -16.4832 | CE: 12.5357
+Iter 22 | Total: 20.1913 | LL: -16.3156 | CE: 12.9187
+Iter 23 | Total: 20.1626 | LL: -16.1677 | CE: 13.3163
+Iter 24 | Total: 20.1545 | LL: -16.0365 | CE: 13.7266
+Iter 25 | Total: 20.1642 | LL: -15.9199 | CE: 14.1477
+Iter 26 | Total: 20.1891 | LL: -15.8158 | CE: 14.5776
+Iter 27 | Total: 20.2269 | LL: -15.7226 | CE: 15.0145
+Iter 28 | Total: 20.2758 | LL: -15.6389 | CE: 15.4565
+Iter 29 | Total: 20.3341 | LL: -15.5635 | CE: 15.9020
+Iter 0 | Total: 49.7514 | LL: -46.6238 | CE: 10.4253
+Iter 1 | Total: 38.7545 | LL: -35.6543 | CE: 10.3339
+Iter 2 | Total: 33.5854 | LL: -30.5280 | CE: 10.1912
+Iter 3 | Total: 30.8648 | LL: -27.8455 | CE: 10.0645
+Iter 4 | Total: 29.1734 | LL: -26.1838 | CE: 9.9652
+Iter 5 | Total: 27.9360 | LL: -24.9677 | CE: 9.8942
+Iter 6 | Total: 26.9224 | LL: -23.9674 | CE: 9.8497
+Iter 7 | Total: 26.0403 | LL: -23.0912 | CE: 9.8305
+Iter 8 | Total: 25.2514 | LL: -22.3004 | CE: 9.8368
+Iter 9 | Total: 24.5386 | LL: -21.5775 | CE: 9.8703
+Iter 10 | Total: 23.8946 | LL: -20.9147 | CE: 9.9330
+Iter 11 | Total: 23.3174 | LL: -20.3094 | CE: 10.0268
+Iter 12 | Total: 22.8060 | LL: -19.7601 | CE: 10.1528
+Iter 13 | Total: 22.3582 | LL: -19.2648 | CE: 10.3114
+Iter 14 | Total: 21.9721 | LL: -18.8216 | CE: 10.5019
+Iter 15 | Total: 21.6456 | LL: -18.4287 | CE: 10.7229
+Iter 16 | Total: 21.3759 | LL: -18.0841 | CE: 10.9727
+Iter 17 | Total: 21.1592 | LL: -17.7846 | CE: 11.2488
+Iter 18 | Total: 20.9907 | LL: -17.5261 | CE: 11.5487
+Iter 19 | Total: 20.8643 | LL: -17.3035 | CE: 11.8696
+Iter 20 | Total: 20.7740 | LL: -17.1114 | CE: 12.2087
+Iter 21 | Total: 20.7139 | LL: -16.9449 | CE: 12.5634
+Iter 22 | Total: 20.6791 | LL: -16.7996 | CE: 12.9314
+Iter 23 | Total: 20.6653 | LL: -16.6722 | CE: 13.3104
+Iter 24 | Total: 20.6693 | LL: -16.5597 | CE: 13.6985
+Iter 25 | Total: 20.6880 | LL: -16.4599 | CE: 14.0938
+Iter 26 | Total: 20.7193 | LL: -16.3709 | CE: 14.4946
+Iter 27 | Total: 20.7612 | LL: -16.2913 | CE: 14.8995
+Iter 28 | Total: 20.8119 | LL: -16.2199 | CE: 15.3067
+Iter 29 | Total: 20.8699 | LL: -16.1555 | CE: 15.7147
+Iter 0 | Total: 41.1576 | LL: -38.0719 | CE: 10.2855
+Iter 1 | Total: 34.9290 | LL: -31.8723 | CE: 10.1890
+Iter 2 | Total: 31.5617 | LL: -28.5522 | CE: 10.0317
+Iter 3 | Total: 29.4724 | LL: -26.5007 | CE: 9.9058
+Iter 4 | Total: 27.9641 | LL: -25.0162 | CE: 9.8265
+Iter 5 | Total: 26.7537 | LL: -23.8149 | CE: 9.7961
+Iter 6 | Total: 25.7300 | LL: -22.7855 | CE: 9.8151
+Iter 7 | Total: 24.8494 | LL: -21.8837 | CE: 9.8858
+Iter 8 | Total: 24.0919 | LL: -21.0887 | CE: 10.0107
+Iter 9 | Total: 23.4441 | LL: -20.3868 | CE: 10.1908
+Iter 10 | Total: 22.8938 | LL: -19.7662 | CE: 10.4253
+Iter 11 | Total: 22.4301 | LL: -19.2168 | CE: 10.7112
+Iter 12 | Total: 22.0436 | LL: -18.7302 | CE: 11.0446
+Iter 13 | Total: 21.7260 | LL: -18.2997 | CE: 11.4210
+Iter 14 | Total: 21.4700 | LL: -17.9193 | CE: 11.8359
+Iter 15 | Total: 21.2690 | LL: -17.5835 | CE: 12.2852
+Iter 16 | Total: 21.1173 | LL: -17.2880 | CE: 12.7645
+Iter 17 | Total: 21.0101 | LL: -17.0294 | CE: 13.2693
+Iter 18 | Total: 20.9428 | LL: -16.8044 | CE: 13.7947
+Iter 19 | Total: 20.9107 | LL: -16.6102 | CE: 14.3353
+Iter 20 | Total: 20.9091 | LL: -16.4433 | CE: 14.8860
+Iter 21 | Total: 20.9330 | LL: -16.3002 | CE: 15.4426
+Iter 22 | Total: 20.9778 | LL: -16.1775 | CE: 16.0012
+Iter 23 | Total: 21.0393 | LL: -16.0718 | CE: 16.5584
+Iter 24 | Total: 21.1137 | LL: -15.9803 | CE: 17.1113
+Iter 25 | Total: 21.1979 | LL: -15.9006 | CE: 17.6574
+Iter 26 | Total: 21.2893 | LL: -15.8308 | CE: 18.1949
+Iter 27 | Total: 21.3859 | LL: -15.7693 | CE: 18.7223
+Iter 28 | Total: 21.4863 | LL: -15.7147 | CE: 19.2385
+Iter 29 | Total: 21.5890 | LL: -15.6662 | CE: 19.7427
+Iter 0 | Total: 58.3958 | LL: -55.3534 | CE: 10.1412
+Iter 1 | Total: 42.7784 | LL: -39.7541 | CE: 10.0808
+Iter 2 | Total: 35.8114 | LL: -32.8178 | CE: 9.9788
+Iter 3 | Total: 32.3309 | LL: -29.3682 | CE: 9.8754
+Iter 4 | Total: 30.2973 | LL: -27.3620 | CE: 9.7843
+Iter 5 | Total: 28.8872 | LL: -25.9741 | CE: 9.7104
+Iter 6 | Total: 27.7639 | LL: -24.8670 | CE: 9.6566
+Iter 7 | Total: 26.7906 | LL: -23.9030 | CE: 9.6255
+Iter 8 | Total: 25.9117 | LL: -23.0259 | CE: 9.6195
+Iter 9 | Total: 25.1046 | LL: -22.2124 | CE: 9.6408
+Iter 10 | Total: 24.3615 | LL: -21.4543 | CE: 9.6908
+Iter 11 | Total: 23.6817 | LL: -20.7506 | CE: 9.7706
+Iter 12 | Total: 23.0674 | LL: -20.1031 | CE: 9.8809
+Iter 13 | Total: 22.5209 | LL: -19.5143 | CE: 10.0218
+Iter 14 | Total: 22.0431 | LL: -18.9852 | CE: 10.1930
+Iter 15 | Total: 21.6332 | LL: -18.5151 | CE: 10.3938
+Iter 16 | Total: 21.2891 | LL: -18.1023 | CE: 10.6227
+Iter 17 | Total: 21.0073 | LL: -17.7438 | CE: 10.8782
+Iter 18 | Total: 20.7829 | LL: -17.4354 | CE: 11.1584
+Iter 19 | Total: 20.6098 | LL: -17.1715 | CE: 11.4609
+Iter 20 | Total: 20.4806 | LL: -16.9455 | CE: 11.7836
+Iter 21 | Total: 20.3883 | LL: -16.7511 | CE: 12.1240
+Iter 22 | Total: 20.3267 | LL: -16.5827 | CE: 12.4800
+Iter 23 | Total: 20.2906 | LL: -16.4358 | CE: 12.8492
+Iter 24 | Total: 20.2757 | LL: -16.3067 | CE: 13.2300
+Iter 25 | Total: 20.2786 | LL: -16.1924 | CE: 13.6205
+Iter 26 | Total: 20.2965 | LL: -16.0907 | CE: 14.0193
+Iter 27 | Total: 20.3273 | LL: -15.9998 | CE: 14.4250
+Iter 28 | Total: 20.3690 | LL: -15.9181 | CE: 14.8362
+Iter 29 | Total: 20.4199 | LL: -15.8444 | CE: 15.2515
+Iter 0 | Total: 54.8204 | LL: -51.7525 | CE: 10.2264
+Iter 1 | Total: 41.1087 | LL: -38.0619 | CE: 10.1563
+Iter 2 | Total: 34.8127 | LL: -31.8014 | CE: 10.0378
+Iter 3 | Total: 31.5682 | LL: -28.5908 | CE: 9.9245
+Iter 4 | Total: 29.5879 | LL: -26.6385 | CE: 9.8314
+Iter 5 | Total: 28.1553 | LL: -25.2274 | CE: 9.7598
+Iter 6 | Total: 26.9928 | LL: -24.0801 | CE: 9.7091
+Iter 7 | Total: 25.9915 | LL: -23.0875 | CE: 9.6801
+Iter 8 | Total: 25.1040 | LL: -22.2015 | CE: 9.6749
+Iter 9 | Total: 24.3066 | LL: -21.3978 | CE: 9.6960
+Iter 10 | Total: 23.5868 | LL: -20.6632 | CE: 9.7450
+Iter 11 | Total: 22.9377 | LL: -19.9906 | CE: 9.8234
+Iter 12 | Total: 22.3565 | LL: -19.3769 | CE: 9.9320
+Iter 13 | Total: 21.8431 | LL: -18.8218 | CE: 10.0709
+Iter 14 | Total: 21.3976 | LL: -18.3256 | CE: 10.2400
+Iter 15 | Total: 21.0188 | LL: -17.8873 | CE: 10.4386
+Iter 16 | Total: 20.7039 | LL: -17.5042 | CE: 10.6654
+Iter 17 | Total: 20.4476 | LL: -17.1719 | CE: 10.9190
+Iter 18 | Total: 20.2437 | LL: -16.8845 | CE: 11.1973
+Iter 19 | Total: 20.0852 | LL: -16.6357 | CE: 11.4983
+Iter 20 | Total: 19.9655 | LL: -16.4197 | CE: 11.8194
+Iter 21 | Total: 19.8789 | LL: -16.2313 | CE: 12.1584
+Iter 22 | Total: 19.8202 | LL: -16.0663 | CE: 12.5129
+Iter 23 | Total: 19.7852 | LL: -15.9210 | CE: 12.8806
+Iter 24 | Total: 19.7704 | LL: -15.7927 | CE: 13.2593
+Iter 25 | Total: 19.7728 | LL: -15.6787 | CE: 13.6468
+Iter 26 | Total: 19.7896 | LL: -15.5772 | CE: 14.0412
+Iter 27 | Total: 19.8185 | LL: -15.4864 | CE: 14.4404
+Iter 28 | Total: 19.8576 | LL: -15.4049 | CE: 14.8421
+Iter 29 | Total: 19.9050 | LL: -15.3316 | CE: 15.2446
+Iter 0 | Total: 59.9086 | LL: -56.8236 | CE: 10.2834
+Iter 1 | Total: 43.5900 | LL: -40.5282 | CE: 10.2058
+Iter 2 | Total: 36.3131 | LL: -33.2882 | CE: 10.0829
+Iter 3 | Total: 32.7244 | LL: -29.7322 | CE: 9.9739
+Iter 4 | Total: 30.6359 | LL: -27.6715 | CE: 9.8816
+Iter 5 | Total: 29.1909 | LL: -26.2495 | CE: 9.8046
+Iter 6 | Total: 28.0444 | LL: -25.1214 | CE: 9.7434
+Iter 7 | Total: 27.0551 | LL: -24.1453 | CE: 9.6994
+Iter 8 | Total: 26.1639 | LL: -23.2616 | CE: 9.6744
+Iter 9 | Total: 25.3457 | LL: -22.4448 | CE: 9.6697
+Iter 10 | Total: 24.5910 | LL: -21.6849 | CE: 9.6870
+Iter 11 | Total: 23.8992 | LL: -20.9809 | CE: 9.7277
+Iter 12 | Total: 23.2736 | LL: -20.3356 | CE: 9.7932
+Iter 13 | Total: 22.7176 | LL: -19.7524 | CE: 9.8842
+Iter 14 | Total: 22.2324 | LL: -19.2320 | CE: 10.0013
+Iter 15 | Total: 21.8161 | LL: -18.7728 | CE: 10.1445
+Iter 16 | Total: 21.4647 | LL: -18.3708 | CE: 10.3131
+Iter 17 | Total: 21.1725 | LL: -18.0207 | CE: 10.5062
+Iter 18 | Total: 20.9330 | LL: -17.7163 | CE: 10.7225
+Iter 19 | Total: 20.7394 | LL: -17.4513 | CE: 10.9603
+Iter 20 | Total: 20.5852 | LL: -17.2199 | CE: 11.2179
+Iter 21 | Total: 20.4652 | LL: -17.0171 | CE: 11.4936
+Iter 22 | Total: 20.3744 | LL: -16.8387 | CE: 11.7859
+Iter 23 | Total: 20.3091 | LL: -16.6811 | CE: 12.0932
+Iter 24 | Total: 20.2658 | LL: -16.5415 | CE: 12.4142
+Iter 25 | Total: 20.2415 | LL: -16.4173 | CE: 12.7475
+Iter 26 | Total: 20.2339 | LL: -16.3065 | CE: 13.0914
+Iter 27 | Total: 20.2406 | LL: -16.2072 | CE: 13.4444
+Iter 28 | Total: 20.2597 | LL: -16.1181 | CE: 13.8052
+Iter 29 | Total: 20.2894 | LL: -16.0378 | CE: 14.1721
+Iter 0 | Total: 66.8528 | LL: -63.7238 | CE: 10.4301
+Iter 1 | Total: 46.7264 | LL: -43.6143 | CE: 10.3737
+Iter 2 | Total: 38.1337 | LL: -35.0468 | CE: 10.2894
+Iter 3 | Total: 33.9491 | LL: -30.8894 | CE: 10.1989
+Iter 4 | Total: 31.5727 | LL: -28.5402 | CE: 10.1084
+Iter 5 | Total: 29.9923 | LL: -26.9849 | CE: 10.0248
+Iter 6 | Total: 28.7859 | LL: -25.7998 | CE: 9.9535
+Iter 7 | Total: 27.7691 | LL: -24.7997 | CE: 9.8978
+Iter 8 | Total: 26.8606 | LL: -23.9026 | CE: 9.8598
+Iter 9 | Total: 26.0244 | LL: -23.0723 | CE: 9.8404
+Iter 10 | Total: 25.2449 | LL: -22.2928 | CE: 9.8402
+Iter 11 | Total: 24.5164 | LL: -21.5584 | CE: 9.8598
+Iter 12 | Total: 23.8396 | LL: -20.8698 | CE: 9.8993
+Iter 13 | Total: 23.2200 | LL: -20.2322 | CE: 9.9593
+Iter 14 | Total: 22.6633 | LL: -19.6513 | CE: 10.0399
+Iter 15 | Total: 22.1721 | LL: -19.1298 | CE: 10.1411
+Iter 16 | Total: 21.7462 | LL: -18.6673 | CE: 10.2628
+Iter 17 | Total: 21.3827 | LL: -18.2613 | CE: 10.4045
+Iter 18 | Total: 21.0769 | LL: -17.9073 | CE: 10.5654
+Iter 19 | Total: 20.8229 | LL: -17.5995 | CE: 10.7445
+Iter 20 | Total: 20.6139 | LL: -17.3317 | CE: 10.9407
+Iter 21 | Total: 20.4437 | LL: -17.0979 | CE: 11.1526
+Iter 22 | Total: 20.3065 | LL: -16.8929 | CE: 11.3788
+Iter 23 | Total: 20.1976 | LL: -16.7121 | CE: 11.6181
+Iter 24 | Total: 20.1128 | LL: -16.5520 | CE: 11.8690
+Iter 25 | Total: 20.0488 | LL: -16.4097 | CE: 12.1302
+Iter 26 | Total: 20.0028 | LL: -16.2826 | CE: 12.4006
+Iter 27 | Total: 19.9724 | LL: -16.1687 | CE: 12.6791
+Iter 28 | Total: 19.9558 | LL: -16.0664 | CE: 12.9647
+Iter 29 | Total: 19.9511 | LL: -15.9741 | CE: 13.2566
+Iter 0 | Total: 43.6134 | LL: -40.5274 | CE: 10.2867
+Iter 1 | Total: 35.9276 | LL: -32.8668 | CE: 10.2025
+Iter 2 | Total: 32.0788 | LL: -29.0571 | CE: 10.0722
+Iter 3 | Total: 29.8569 | LL: -26.8627 | CE: 9.9806
+Iter 4 | Total: 28.3211 | LL: -25.3377 | CE: 9.9445
+Iter 5 | Total: 27.1033 | LL: -24.1126 | CE: 9.9689
+Iter 6 | Total: 26.0652 | LL: -23.0482 | CE: 10.0565
+Iter 7 | Total: 25.1575 | LL: -22.0949 | CE: 10.2084
+Iter 8 | Total: 24.3617 | LL: -21.2345 | CE: 10.4241
+Iter 9 | Total: 23.6675 | LL: -20.4571 | CE: 10.7016
+Iter 10 | Total: 23.0684 | LL: -19.7570 | CE: 11.0383
+Iter 11 | Total: 22.5619 | LL: -19.1328 | CE: 11.4305
+Iter 12 | Total: 22.1470 | LL: -18.5847 | CE: 11.8743
+Iter 13 | Total: 21.8196 | LL: -18.1100 | CE: 12.3655
+Iter 14 | Total: 21.5715 | LL: -17.7016 | CE: 12.8999
+Iter 15 | Total: 21.3921 | LL: -17.3503 | CE: 13.4729
+Iter 16 | Total: 21.2711 | LL: -17.0471 | CE: 14.0799
+Iter 17 | Total: 21.1995 | LL: -16.7847 | CE: 14.7160
+Iter 18 | Total: 21.1696 | LL: -16.5569 | CE: 15.3757
+Iter 19 | Total: 21.1745 | LL: -16.3586 | CE: 16.0531
+Iter 20 | Total: 21.2083 | LL: -16.1856 | CE: 16.7425
+Iter 21 | Total: 21.2658 | LL: -16.0343 | CE: 17.4383
+Iter 22 | Total: 21.3424 | LL: -15.9018 | CE: 18.1355
+Iter 23 | Total: 21.4340 | LL: -15.7854 | CE: 18.8287
+Iter 24 | Total: 21.5368 | LL: -15.6828 | CE: 19.5132
+Iter 25 | Total: 21.6477 | LL: -15.5923 | CE: 20.1848
+Iter 26 | Total: 21.7641 | LL: -15.5121 | CE: 20.8401
+Iter 27 | Total: 21.8837 | LL: -15.4407 | CE: 21.4767
+Iter 28 | Total: 22.0049 | LL: -15.3770 | CE: 22.0929
+Iter 29 | Total: 22.1263 | LL: -15.3199 | CE: 22.6878
+Iter 0 | Total: 52.0253 | LL: -48.9199 | CE: 10.3513
+Iter 1 | Total: 39.6109 | LL: -36.5239 | CE: 10.2901
+Iter 2 | Total: 34.0577 | LL: -31.0055 | CE: 10.1740
+Iter 3 | Total: 31.2806 | LL: -28.2578 | CE: 10.0760
+Iter 4 | Total: 29.5992 | LL: -26.5970 | CE: 10.0071
+Iter 5 | Total: 28.3653 | LL: -25.3750 | CE: 9.9677
+Iter 6 | Total: 27.3326 | LL: -24.3450 | CE: 9.9587
+Iter 7 | Total: 26.4113 | LL: -23.4165 | CE: 9.9827
+Iter 8 | Total: 25.5709 | LL: -22.5583 | CE: 10.0422
+Iter 9 | Total: 24.8026 | LL: -21.7606 | CE: 10.1398
+Iter 10 | Total: 24.1038 | LL: -21.0207 | CE: 10.2771
+Iter 11 | Total: 23.4744 | LL: -20.3379 | CE: 10.4547
+Iter 12 | Total: 22.9139 | LL: -19.7121 | CE: 10.6725
+Iter 13 | Total: 22.4226 | LL: -19.1438 | CE: 10.9292
+Iter 14 | Total: 22.0014 | LL: -18.6346 | CE: 11.2227
+Iter 15 | Total: 21.6507 | LL: -18.1856 | CE: 11.5503
+Iter 16 | Total: 21.3687 | LL: -17.7960 | CE: 11.9091
+Iter 17 | Total: 21.1506 | LL: -17.4618 | CE: 12.2958
+Iter 18 | Total: 20.9884 | LL: -17.1762 | CE: 12.7071
+Iter 19 | Total: 20.8734 | LL: -16.9316 | CE: 13.1395
+Iter 20 | Total: 20.7975 | LL: -16.7206 | CE: 13.5899
+Iter 21 | Total: 20.7539 | LL: -16.5372 | CE: 14.0555
+Iter 22 | Total: 20.7368 | LL: -16.3766 | CE: 14.5341
+Iter 23 | Total: 20.7420 | LL: -16.2350 | CE: 15.0233
+Iter 24 | Total: 20.7658 | LL: -16.1095 | CE: 15.5211
+Iter 25 | Total: 20.8053 | LL: -15.9977 | CE: 16.0253
+Iter 26 | Total: 20.8580 | LL: -15.8979 | CE: 16.5336
+Iter 27 | Total: 20.9217 | LL: -15.8085 | CE: 17.0440
+Iter 28 | Total: 20.9945 | LL: -15.7282 | CE: 17.5541
+Iter 29 | Total: 21.0745 | LL: -15.6559 | CE: 18.0620
+Iter 0 | Total: 45.5525 | LL: -42.4673 | CE: 10.2842
+Iter 1 | Total: 36.7358 | LL: -33.6748 | CE: 10.2035
+Iter 2 | Total: 32.3747 | LL: -29.3549 | CE: 10.0660
+Iter 3 | Total: 29.9019 | LL: -26.9145 | CE: 9.9579
+Iter 4 | Total: 28.2267 | LL: -25.2579 | CE: 9.8961
+Iter 5 | Total: 26.9202 | LL: -23.9545 | CE: 9.8854
+Iter 6 | Total: 25.8171 | LL: -22.8385 | CE: 9.9286
+Iter 7 | Total: 24.8531 | LL: -21.8451 | CE: 10.0265
+Iter 8 | Total: 24.0006 | LL: -20.9469 | CE: 10.1789
+Iter 9 | Total: 23.2458 | LL: -20.1304 | CE: 10.3847
+Iter 10 | Total: 22.5823 | LL: -19.3896 | CE: 10.6424
+Iter 11 | Total: 22.0081 | LL: -18.7231 | CE: 10.9498
+Iter 12 | Total: 21.5224 | LL: -18.1311 | CE: 11.3042
+Iter 13 | Total: 21.1239 | LL: -17.6130 | CE: 11.7029
+Iter 14 | Total: 20.8091 | LL: -17.1664 | CE: 12.1423
+Iter 15 | Total: 20.5709 | LL: -16.7853 | CE: 12.6187
+Iter 16 | Total: 20.3999 | LL: -16.4615 | CE: 13.1280
+Iter 17 | Total: 20.2856 | LL: -16.1859 | CE: 13.6657
+Iter 18 | Total: 20.2182 | LL: -15.9501 | CE: 14.2271
+Iter 19 | Total: 20.1893 | LL: -15.7471 | CE: 14.8072
+Iter 20 | Total: 20.1915 | LL: -15.5711 | CE: 15.4013
+Iter 21 | Total: 20.2189 | LL: -15.4173 | CE: 16.0053
+Iter 22 | Total: 20.2669 | LL: -15.2822 | CE: 16.6155
+Iter 23 | Total: 20.3314 | LL: -15.1629 | CE: 17.2283
+Iter 24 | Total: 20.4092 | LL: -15.0572 | CE: 17.8401
+Iter 25 | Total: 20.4975 | LL: -14.9631 | CE: 18.4478
+Iter 26 | Total: 20.5937 | LL: -14.8792 | CE: 19.0482
+Iter 27 | Total: 20.6958 | LL: -14.8041 | CE: 19.6389
+Iter 28 | Total: 20.8020 | LL: -14.7367 | CE: 20.2175
+Iter 29 | Total: 20.9108 | LL: -14.6761 | CE: 20.7822
+Iter 0 | Total: 51.7317 | LL: -48.6466 | CE: 10.2834
+Iter 1 | Total: 39.6057 | LL: -36.5441 | CE: 10.2053
+Iter 2 | Total: 34.0461 | LL: -31.0218 | CE: 10.0810
+Iter 3 | Total: 31.1527 | LL: -28.1612 | CE: 9.9719
+Iter 4 | Total: 29.3372 | LL: -26.3717 | CE: 9.8851
+Iter 5 | Total: 27.9810 | LL: -25.0352 | CE: 9.8193
+Iter 6 | Total: 26.8479 | LL: -23.9160 | CE: 9.7731
+Iter 7 | Total: 25.8492 | LL: -22.9251 | CE: 9.7470
+Iter 8 | Total: 24.9500 | LL: -22.0272 | CE: 9.7426
+Iter 9 | Total: 24.1345 | LL: -21.2059 | CE: 9.7618
+Iter 10 | Total: 23.3956 | LL: -20.4536 | CE: 9.8066
+Iter 11 | Total: 22.7302 | LL: -19.7667 | CE: 9.8784
+Iter 12 | Total: 22.1361 | LL: -19.1426 | CE: 9.9781
+Iter 13 | Total: 21.6104 | LL: -18.5786 | CE: 10.1061
+Iter 14 | Total: 21.1510 | LL: -18.0723 | CE: 10.2625
+Iter 15 | Total: 20.7562 | LL: -17.6221 | CE: 10.4471
+Iter 16 | Total: 20.4239 | LL: -17.2260 | CE: 10.6594
+Iter 17 | Total: 20.1503 | LL: -16.8808 | CE: 10.8986
+Iter 18 | Total: 19.9306 | LL: -16.5816 | CE: 11.1633
+Iter 19 | Total: 19.7584 | LL: -16.3229 | CE: 11.4518
+Iter 20 | Total: 19.6277 | LL: -16.0991 | CE: 11.7620
+Iter 21 | Total: 19.5326 | LL: -15.9052 | CE: 12.0916
+Iter 22 | Total: 19.4681 | LL: -15.7366 | CE: 12.4383
+Iter 23 | Total: 19.4297 | LL: -15.5897 | CE: 12.7999
+Iter 24 | Total: 19.4134 | LL: -15.4612 | CE: 13.1740
+Iter 25 | Total: 19.4158 | LL: -15.3483 | CE: 13.5584
+Iter 26 | Total: 19.4338 | LL: -15.2487 | CE: 13.9506
+Iter 27 | Total: 19.4650 | LL: -15.1604 | CE: 14.3486
+Iter 28 | Total: 19.5069 | LL: -15.0819 | CE: 14.7500
+Iter 29 | Total: 19.5577 | LL: -15.0118 | CE: 15.1529
+Iter 0 | Total: 62.5898 | LL: -59.4804 | CE: 10.3646
+Iter 1 | Total: 45.4089 | LL: -42.3220 | CE: 10.2896
+Iter 2 | Total: 37.5465 | LL: -34.4986 | CE: 10.1599
+Iter 3 | Total: 33.6093 | LL: -30.5986 | CE: 10.0355
+Iter 4 | Total: 31.3340 | LL: -28.3553 | CE: 9.9292
+Iter 5 | Total: 29.7771 | LL: -26.8242 | CE: 9.8429
+Iter 6 | Total: 28.5404 | LL: -25.6076 | CE: 9.7758
+Iter 7 | Total: 27.4591 | LL: -24.5410 | CE: 9.7270
+Iter 8 | Total: 26.4694 | LL: -23.5606 | CE: 9.6961
+Iter 9 | Total: 25.5493 | LL: -22.6444 | CE: 9.6833
+Iter 10 | Total: 24.6941 | LL: -21.7875 | CE: 9.6887
+Iter 11 | Total: 23.9072 | LL: -20.9933 | CE: 9.7131
+Iter 12 | Total: 23.1953 | LL: -20.2683 | CE: 9.7569
+Iter 13 | Total: 22.5629 | LL: -19.6167 | CE: 9.8207
+Iter 14 | Total: 22.0099 | LL: -19.0385 | CE: 9.9048
+Iter 15 | Total: 21.5331 | LL: -18.5305 | CE: 10.0089
+Iter 16 | Total: 21.1281 | LL: -18.0883 | CE: 10.1327
+Iter 17 | Total: 20.7891 | LL: -17.7065 | CE: 10.2754
+Iter 18 | Total: 20.5090 | LL: -17.3781 | CE: 10.4363
+Iter 19 | Total: 20.2797 | LL: -17.0955 | CE: 10.6142
+Iter 20 | Total: 20.0936 | LL: -16.8511 | CE: 10.8082
+Iter 21 | Total: 19.9438 | LL: -16.6387 | CE: 11.0171
+Iter 22 | Total: 19.8249 | LL: -16.4529 | CE: 11.2400
+Iter 23 | Total: 19.7323 | LL: -16.2896 | CE: 11.4758
+Iter 24 | Total: 19.6624 | LL: -16.1453 | CE: 11.7238
+Iter 25 | Total: 19.6121 | LL: -16.0172 | CE: 11.9829
+Iter 26 | Total: 19.5787 | LL: -15.9030 | CE: 12.2521
+Iter 27 | Total: 19.5599 | LL: -15.8008 | CE: 12.5306
+Iter 28 | Total: 19.5539 | LL: -15.7088 | CE: 12.8170
+Iter 29 | Total: 19.5588 | LL: -15.6257 | CE: 13.1103
+Iter 0 | Total: 46.8351 | LL: -43.6113 | CE: 10.7459
+Iter 1 | Total: 37.1616 | LL: -33.9650 | CE: 10.6553
+Iter 2 | Total: 32.5870 | LL: -29.4319 | CE: 10.5170
+Iter 3 | Total: 30.1332 | LL: -27.0127 | CE: 10.4017
+Iter 4 | Total: 28.5433 | LL: -25.4470 | CE: 10.3213
+Iter 5 | Total: 27.3323 | LL: -24.2499 | CE: 10.2748
+Iter 6 | Total: 26.3192 | LL: -23.2407 | CE: 10.2614
+Iter 7 | Total: 25.4343 | LL: -22.3497 | CE: 10.2818
+Iter 8 | Total: 24.6483 | LL: -21.5471 | CE: 10.3371
+Iter 9 | Total: 23.9470 | LL: -20.8184 | CE: 10.4285
+Iter 10 | Total: 23.3223 | LL: -20.1553 | CE: 10.5565
+Iter 11 | Total: 22.7693 | LL: -19.5528 | CE: 10.7214
+Iter 12 | Total: 22.2855 | LL: -19.0087 | CE: 10.9227
+Iter 13 | Total: 21.8703 | LL: -18.5224 | CE: 11.1597
+Iter 14 | Total: 21.5220 | LL: -18.0926 | CE: 11.4312
+Iter 15 | Total: 21.2371 | LL: -17.7164 | CE: 11.7358
+Iter 16 | Total: 21.0104 | LL: -17.3888 | CE: 12.0717
+Iter 17 | Total: 20.8354 | LL: -17.1044 | CE: 12.4367
+Iter 18 | Total: 20.7057 | LL: -16.8572 | CE: 12.8283
+Iter 19 | Total: 20.6149 | LL: -16.6418 | CE: 13.2437
+Iter 20 | Total: 20.5573 | LL: -16.4534 | CE: 13.6798
+Iter 21 | Total: 20.5281 | LL: -16.2880 | CE: 14.1337
+Iter 22 | Total: 20.5232 | LL: -16.1425 | CE: 14.6023
+Iter 23 | Total: 20.5388 | LL: -16.0141 | CE: 15.0825
+Iter 24 | Total: 20.5721 | LL: -15.9008 | CE: 15.5710
+Iter 25 | Total: 20.6201 | LL: -15.8008 | CE: 16.0644
+Iter 26 | Total: 20.6803 | LL: -15.7124 | CE: 16.5596
+Iter 27 | Total: 20.7504 | LL: -15.6343 | CE: 17.0539
+Iter 28 | Total: 20.8284 | LL: -15.5650 | CE: 17.5449
+Iter 29 | Total: 20.9126 | LL: -15.5034 | CE: 18.0308
+Iter 0 | Total: 70.5133 | LL: -67.4072 | CE: 10.3537
+Iter 1 | Total: 49.2458 | LL: -46.1631 | CE: 10.2759
+Iter 2 | Total: 39.7704 | LL: -36.7255 | CE: 10.1497
+Iter 3 | Total: 35.1179 | LL: -32.1091 | CE: 10.0293
+Iter 4 | Total: 32.4957 | LL: -29.5197 | CE: 9.9199
+Iter 5 | Total: 30.7745 | LL: -27.8271 | CE: 9.8244
+Iter 6 | Total: 29.4772 | LL: -26.5542 | CE: 9.7432
+Iter 7 | Total: 28.3999 | LL: -25.4973 | CE: 9.6753
+Iter 8 | Total: 27.4540 | LL: -24.5681 | CE: 9.6196
+Iter 9 | Total: 26.5986 | LL: -23.7259 | CE: 9.5759
+Iter 10 | Total: 25.8141 | LL: -22.9506 | CE: 9.5448
+Iter 11 | Total: 25.0912 | LL: -22.2330 | CE: 9.5273
+Iter 12 | Total: 24.4263 | LL: -21.5689 | CE: 9.5246
+Iter 13 | Total: 23.8193 | LL: -20.9579 | CE: 9.5379
+Iter 14 | Total: 23.2717 | LL: -20.4012 | CE: 9.5681
+Iter 15 | Total: 22.7848 | LL: -19.9001 | CE: 9.6157
+Iter 16 | Total: 22.3585 | LL: -19.4542 | CE: 9.6809
+Iter 17 | Total: 21.9902 | LL: -19.0612 | CE: 9.7633
+Iter 18 | Total: 21.6755 | LL: -18.7167 | CE: 9.8626
+Iter 19 | Total: 21.4089 | LL: -18.4155 | CE: 9.9778
+Iter 20 | Total: 21.1843 | LL: -18.1518 | CE: 10.1082
+Iter 21 | Total: 20.9959 | LL: -17.9202 | CE: 10.2525
+Iter 22 | Total: 20.8388 | LL: -17.7159 | CE: 10.4098
+Iter 23 | Total: 20.7086 | LL: -17.5350 | CE: 10.5787
+Iter 24 | Total: 20.6017 | LL: -17.3742 | CE: 10.7583
+Iter 25 | Total: 20.5150 | LL: -17.2308 | CE: 10.9473
+Iter 26 | Total: 20.4459 | LL: -17.1024 | CE: 11.1448
+Iter 27 | Total: 20.3921 | LL: -16.9871 | CE: 11.3501
+Iter 28 | Total: 20.3518 | LL: -16.8831 | CE: 11.5623
+Iter 29 | Total: 20.3233 | LL: -16.7890 | CE: 11.7809
+Iter 0 | Total: 37.5293 | LL: -34.4355 | CE: 10.3127
+Iter 1 | Total: 32.8342 | LL: -29.7669 | CE: 10.2245
+Iter 2 | Total: 29.9805 | LL: -26.9601 | CE: 10.0678
+Iter 3 | Total: 28.0444 | LL: -25.0570 | CE: 9.9580
+Iter 4 | Total: 26.6003 | LL: -23.6242 | CE: 9.9202
+Iter 5 | Total: 25.4564 | LL: -22.4692 | CE: 9.9572
+Iter 6 | Total: 24.5141 | LL: -21.4944 | CE: 10.0656
+Iter 7 | Total: 23.7206 | LL: -20.6481 | CE: 10.2415
+Iter 8 | Total: 23.0477 | LL: -19.9034 | CE: 10.4810
+Iter 9 | Total: 22.4787 | LL: -19.2445 | CE: 10.7805
+Iter 10 | Total: 22.0016 | LL: -18.6607 | CE: 11.1364
+Iter 11 | Total: 21.6087 | LL: -18.1454 | CE: 11.5442
+Iter 12 | Total: 21.2952 | LL: -17.6953 | CE: 11.9996
+Iter 13 | Total: 21.0570 | LL: -17.3076 | CE: 12.4979
+Iter 14 | Total: 20.8884 | LL: -16.9779 | CE: 13.0348
+Iter 15 | Total: 20.7818 | LL: -16.7001 | CE: 13.6059
+Iter 16 | Total: 20.7285 | LL: -16.4665 | CE: 14.2066
+Iter 17 | Total: 20.7190 | LL: -16.2695 | CE: 14.8317
+Iter 18 | Total: 20.7445 | LL: -16.1020 | CE: 15.4748
+Iter 19 | Total: 20.7972 | LL: -15.9585 | CE: 16.1292
+Iter 20 | Total: 20.8710 | LL: -15.8346 | CE: 16.7880
+Iter 21 | Total: 20.9606 | LL: -15.7269 | CE: 17.4456
+Iter 22 | Total: 21.0621 | LL: -15.6329 | CE: 18.0974
+Iter 23 | Total: 21.1722 | LL: -15.5504 | CE: 18.7393
+Iter 24 | Total: 21.2881 | LL: -15.4777 | CE: 19.3682
+Iter 25 | Total: 21.4079 | LL: -15.4133 | CE: 19.9819
+Iter 26 | Total: 21.5298 | LL: -15.3561 | CE: 20.5789
+Iter 27 | Total: 21.6528 | LL: -15.3052 | CE: 21.1587
+Iter 28 | Total: 21.7759 | LL: -15.2596 | CE: 21.7210
+Iter 29 | Total: 21.8987 | LL: -15.2189 | CE: 22.2663
+Iter 0 | Total: 83.6838 | LL: -80.4719 | CE: 10.7066
+Iter 1 | Total: 54.6884 | LL: -51.5013 | CE: 10.6236
+Iter 2 | Total: 42.3126 | LL: -39.1607 | CE: 10.5063
+Iter 3 | Total: 36.5822 | LL: -33.4616 | CE: 10.4022
+Iter 4 | Total: 33.5258 | LL: -30.4330 | CE: 10.3094
+Iter 5 | Total: 31.6050 | LL: -28.5381 | CE: 10.2231
+Iter 6 | Total: 30.2012 | LL: -27.1593 | CE: 10.1396
+Iter 7 | Total: 29.0549 | LL: -26.0381 | CE: 10.0557
+Iter 8 | Total: 28.0520 | LL: -25.0610 | CE: 9.9701
+Iter 9 | Total: 27.1401 | LL: -24.1753 | CE: 9.8828
+Iter 10 | Total: 26.2947 | LL: -23.3562 | CE: 9.7949
+Iter 11 | Total: 25.5048 | LL: -22.5924 | CE: 9.7080
+Iter 12 | Total: 24.7661 | LL: -21.8788 | CE: 9.6244
+Iter 13 | Total: 24.0778 | LL: -21.2139 | CE: 9.5462
+Iter 14 | Total: 23.4418 | LL: -20.5991 | CE: 9.4757
+Iter 15 | Total: 22.8616 | LL: -20.0373 | CE: 9.4146
+Iter 16 | Total: 22.3399 | LL: -19.5305 | CE: 9.3645
+Iter 17 | Total: 21.8764 | LL: -19.0784 | CE: 9.3266
+Iter 18 | Total: 21.4683 | LL: -18.6778 | CE: 9.3016
+Iter 19 | Total: 21.1111 | LL: -18.3241 | CE: 9.2899
+Iter 20 | Total: 20.7998 | LL: -18.0124 | CE: 9.2916
+Iter 21 | Total: 20.5295 | LL: -17.7376 | CE: 9.3063
+Iter 22 | Total: 20.2953 | LL: -17.4953 | CE: 9.3335
+Iter 23 | Total: 20.0931 | LL: -17.2813 | CE: 9.3728
+Iter 24 | Total: 19.9188 | LL: -17.0919 | CE: 9.4231
+Iter 25 | Total: 19.7689 | LL: -16.9238 | CE: 9.4837
+Iter 26 | Total: 19.6403 | LL: -16.7742 | CE: 9.5537
+Iter 27 | Total: 19.5302 | LL: -16.6406 | CE: 9.6321
+Iter 28 | Total: 19.4362 | LL: -16.5208 | CE: 9.7180
+Iter 29 | Total: 19.3563 | LL: -16.4131 | CE: 9.8107
+Iter 0 | Total: 39.5852 | LL: -36.4999 | CE: 10.2842
+Iter 1 | Total: 33.6545 | LL: -30.5921 | CE: 10.2081
+Iter 2 | Total: 30.5378 | LL: -27.5107 | CE: 10.0903
+Iter 3 | Total: 28.6060 | LL: -25.6021 | CE: 10.0130
+Iter 4 | Total: 27.2032 | LL: -24.2040 | CE: 9.9972
+Iter 5 | Total: 26.0791 | LL: -23.0637 | CE: 10.0512
+Iter 6 | Total: 25.1336 | LL: -22.0801 | CE: 10.1783
+Iter 7 | Total: 24.3219 | LL: -21.2083 | CE: 10.3788
+Iter 8 | Total: 23.6220 | LL: -20.4268 | CE: 10.6509
+Iter 9 | Total: 23.0209 | LL: -19.7234 | CE: 10.9917
+Iter 10 | Total: 22.5096 | LL: -19.0904 | CE: 11.3973
+Iter 11 | Total: 22.0829 | LL: -18.5238 | CE: 11.8638
+Iter 12 | Total: 21.7379 | LL: -18.0219 | CE: 12.3867
+Iter 13 | Total: 21.4713 | LL: -17.5829 | CE: 12.9612
+Iter 14 | Total: 21.2780 | LL: -17.2034 | CE: 13.5822
+Iter 15 | Total: 21.1507 | LL: -16.8774 | CE: 14.2443
+Iter 16 | Total: 21.0808 | LL: -16.5983 | CE: 14.9418
+Iter 17 | Total: 21.0592 | LL: -16.3587 | CE: 15.6682
+Iter 18 | Total: 21.0770 | LL: -16.1522 | CE: 16.4162
+Iter 19 | Total: 21.1264 | LL: -15.9730 | CE: 17.1780
+Iter 20 | Total: 21.2006 | LL: -15.8169 | CE: 17.9457
+Iter 21 | Total: 21.2940 | LL: -15.6804 | CE: 18.7121
+Iter 22 | Total: 21.4019 | LL: -15.5609 | CE: 19.4702
+Iter 23 | Total: 21.5202 | LL: -15.4561 | CE: 20.2138
+Iter 24 | Total: 21.6455 | LL: -15.3642 | CE: 20.9376
+Iter 25 | Total: 21.7748 | LL: -15.2835 | CE: 21.6378
+Iter 26 | Total: 21.9060 | LL: -15.2125 | CE: 22.3116
+Iter 27 | Total: 22.0372 | LL: -15.1499 | CE: 22.9576
+Iter 28 | Total: 22.1671 | LL: -15.0946 | CE: 23.5750
+Iter 29 | Total: 22.2948 | LL: -15.0455 | CE: 24.1641
+Iter 0 | Total: 61.4101 | LL: -58.3071 | CE: 10.3434
+Iter 1 | Total: 43.9666 | LL: -40.8833 | CE: 10.2778
+Iter 2 | Total: 36.3578 | LL: -33.3057 | CE: 10.1737
+Iter 3 | Total: 32.6564 | LL: -29.6333 | CE: 10.0769
+Iter 4 | Total: 30.5374 | LL: -27.5393 | CE: 9.9936
+Iter 5 | Total: 29.0887 | LL: -26.1107 | CE: 9.9266
+Iter 6 | Total: 27.9448 | LL: -24.9814 | CE: 9.8779
+Iter 7 | Total: 26.9586 | LL: -24.0039 | CE: 9.8489
+Iter 8 | Total: 26.0711 | LL: -23.1188 | CE: 9.8410
+Iter 9 | Total: 25.2582 | LL: -22.3015 | CE: 9.8558
+Iter 10 | Total: 24.5095 | LL: -21.5410 | CE: 9.8952
+Iter 11 | Total: 23.8200 | LL: -20.8318 | CE: 9.9607
+Iter 12 | Total: 23.1888 | LL: -20.1726 | CE: 10.0538
+Iter 13 | Total: 22.6181 | LL: -19.5655 | CE: 10.1755
+Iter 14 | Total: 22.1120 | LL: -19.0140 | CE: 10.3265
+Iter 15 | Total: 21.6731 | LL: -18.5211 | CE: 10.5068
+Iter 16 | Total: 21.3017 | LL: -18.0870 | CE: 10.7157
+Iter 17 | Total: 20.9947 | LL: -17.7090 | CE: 10.9521
+Iter 18 | Total: 20.7461 | LL: -17.3818 | CE: 11.2145
+Iter 19 | Total: 20.5488 | LL: -17.0985 | CE: 11.5008
+Iter 20 | Total: 20.3955 | LL: -16.8528 | CE: 11.8091
+Iter 21 | Total: 20.2799 | LL: -16.6388 | CE: 12.1369
+Iter 22 | Total: 20.1962 | LL: -16.4516 | CE: 12.4819
+Iter 23 | Total: 20.1396 | LL: -16.2870 | CE: 12.8418
+Iter 24 | Total: 20.1059 | LL: -16.1416 | CE: 13.2143
+Iter 25 | Total: 20.0917 | LL: -16.0125 | CE: 13.5973
+Iter 26 | Total: 20.0942 | LL: -15.8974 | CE: 13.9890
+Iter 27 | Total: 20.1107 | LL: -15.7944 | CE: 14.3877
+Iter 28 | Total: 20.1394 | LL: -15.7019 | CE: 14.7919
+Iter 29 | Total: 20.1785 | LL: -15.6184 | CE: 15.2002
+  0%|          | 0/64 [00:00<?, ?it/s]  2%|▏         | 1/64 [00:00<00:08,  7.37it/s]  3%|▎         | 2/64 [00:00<00:09,  6.85it/s]  5%|▍         | 3/64 [00:00<00:10,  6.07it/s]  6%|▋         | 4/64 [00:00<00:08,  6.95it/s]  8%|▊         | 5/64 [00:00<00:10,  5.41it/s]  9%|▉         | 6/64 [00:01<00:10,  5.29it/s] 11%|█         | 7/64 [00:01<00:09,  5.75it/s] 12%|█▎        | 8/64 [00:01<00:09,  5.78it/s] 14%|█▍        | 9/64 [00:01<00:09,  5.53it/s] 16%|█▌        | 10/64 [00:01<00:09,  5.87it/s] 17%|█▋        | 11/64 [00:01<00:08,  6.12it/s] 19%|█▉        | 12/64 [00:01<00:07,  6.57it/s] 20%|██        | 13/64 [00:02<00:07,  6.47it/s] 22%|██▏       | 14/64 [00:02<00:07,  6.89it/s] 23%|██▎       | 15/64 [00:02<00:06,  7.21it/s] 25%|██▌       | 16/64 [00:02<00:07,  6.53it/s] 27%|██▋       | 17/64 [00:02<00:07,  6.26it/s] 28%|██▊       | 18/64 [00:02<00:07,  6.12it/s] 30%|██▉       | 19/64 [00:03<00:07,  6.38it/s] 31%|███▏      | 20/64 [00:03<00:06,  6.34it/s] 33%|███▎      | 21/64 [00:03<00:06,  6.93it/s] 34%|███▍      | 22/64 [00:03<00:06,  6.63it/s] 36%|███▌      | 23/64 [00:04<00:13,  2.94it/s] 38%|███▊      | 24/64 [00:04<00:10,  3.73it/s] 39%|███▉      | 25/64 [00:04<00:08,  4.48it/s] 41%|████      | 26/64 [00:04<00:07,  5.30it/s] 42%|████▏     | 27/64 [00:04<00:06,  6.07it/s] 44%|████▍     | 28/64 [00:04<00:05,  6.68it/s] 45%|████▌     | 29/64 [00:04<00:04,  7.36it/s] 47%|████▋     | 30/64 [00:05<00:04,  7.94it/s] 48%|████▊     | 31/64 [00:05<00:03,  8.45it/s] 50%|█████     | 32/64 [00:05<00:03,  8.63it/s] 52%|█████▏    | 33/64 [00:05<00:03,  8.66it/s] 53%|█████▎    | 34/64 [00:05<00:03,  8.79it/s] 55%|█████▍    | 35/64 [00:05<00:03,  9.10it/s] 56%|█████▋    | 36/64 [00:05<00:03,  9.24it/s] 58%|█████▊    | 37/64 [00:05<00:02,  9.17it/s] 59%|█████▉    | 38/64 [00:05<00:02,  9.13it/s] 61%|██████    | 39/64 [00:06<00:02,  9.18it/s] 62%|██████▎   | 40/64 [00:06<00:02,  8.94it/s] 66%|██████▌   | 42/64 [00:06<00:02,  9.47it/s] 67%|██████▋   | 43/64 [00:06<00:02,  9.40it/s] 69%|██████▉   | 44/64 [00:06<00:02,  9.54it/s] 70%|███████   | 45/64 [00:06<00:02,  8.67it/s] 72%|███████▏  | 46/64 [00:06<00:02,  8.31it/s] 73%|███████▎  | 47/64 [00:07<00:02,  6.73it/s] 75%|███████▌  | 48/64 [00:07<00:02,  6.00it/s] 77%|███████▋  | 49/64 [00:07<00:02,  5.83it/s] 78%|███████▊  | 50/64 [00:07<00:02,  4.93it/s] 80%|███████▉  | 51/64 [00:07<00:02,  4.60it/s] 81%|████████▏ | 52/64 [00:08<00:02,  4.83it/s] 83%|████████▎ | 53/64 [00:08<00:02,  5.03it/s] 84%|████████▍ | 54/64 [00:08<00:01,  5.01it/s] 86%|████████▌ | 55/64 [00:08<00:01,  5.65it/s] 88%|████████▊ | 56/64 [00:08<00:01,  5.75it/s] 89%|████████▉ | 57/64 [00:09<00:01,  5.23it/s] 91%|█████████ | 58/64 [00:09<00:01,  5.64it/s] 92%|█████████▏| 59/64 [00:09<00:00,  5.98it/s] 94%|█████████▍| 60/64 [00:09<00:00,  5.45it/s] 95%|█████████▌| 61/64 [00:09<00:00,  5.04it/s] 97%|█████████▋| 62/64 [00:09<00:00,  5.61it/s]100%|██████████| 64/64 [00:10<00:00,  6.61it/s]100%|██████████| 64/64 [00:10<00:00,  6.31it/s]
+  0%|          | 0/248287 [00:00<?, ?it/s]  1%|▏         | 3320/248287 [00:00<00:07, 33195.20it/s]  3%|▎         | 6640/248287 [00:00<00:08, 30021.14it/s]  4%|▍         | 9663/248287 [00:00<00:08, 28299.19it/s]  5%|▌         | 13127/248287 [00:00<00:07, 30622.63it/s]  7%|▋         | 16216/248287 [00:00<00:08, 28064.52it/s]  8%|▊         | 19876/248287 [00:00<00:07, 30706.42it/s]  9%|▉         | 23001/248287 [00:00<00:08, 27354.81it/s] 11%|█         | 26636/248287 [00:00<00:07, 28888.10it/s] 12%|█▏        | 29592/248287 [00:01<00:08, 24483.71it/s] 13%|█▎        | 32177/248287 [00:01<00:09, 23227.44it/s] 14%|█▍        | 35683/248287 [00:01<00:08, 26199.05it/s] 16%|█▌        | 39533/248287 [00:01<00:07, 29446.78it/s] 17%|█▋        | 42616/248287 [00:01<00:07, 27361.84it/s] 19%|█▉        | 46878/248287 [00:01<00:06, 31391.76it/s] 20%|██        | 50156/248287 [00:01<00:06, 28340.31it/s] 21%|██▏       | 53131/248287 [00:01<00:07, 26871.61it/s] 23%|██▎       | 56148/248287 [00:02<00:06, 27716.80it/s] 24%|██▍       | 59179/248287 [00:02<00:06, 28411.66it/s] 25%|██▌       | 62088/248287 [00:02<00:06, 27528.85it/s] 26%|██▌       | 64890/248287 [00:02<00:06, 27496.25it/s] 27%|██▋       | 67791/248287 [00:02<00:06, 27921.29it/s] 28%|██▊       | 70610/248287 [00:02<00:06, 26392.47it/s] 30%|██▉       | 73281/248287 [00:02<00:07, 24655.08it/s] 31%|███       | 76132/248287 [00:02<00:06, 25692.15it/s] 32%|███▏      | 78739/248287 [00:02<00:07, 22415.86it/s] 33%|███▎      | 81071/248287 [00:03<00:08, 20819.75it/s] 34%|███▎      | 83225/248287 [00:03<00:09, 18100.76it/s] 34%|███▍      | 85128/248287 [00:03<00:09, 17790.51it/s] 35%|███▌      | 86968/248287 [00:03<00:09, 17195.68it/s] 36%|███▌      | 88786/248287 [00:03<00:09, 17444.14it/s] 36%|███▋      | 90562/248287 [00:03<00:09, 17511.20it/s] 37%|███▋      | 93051/248287 [00:03<00:07, 19536.10it/s] 38%|███▊      | 95039/248287 [00:03<00:08, 18031.46it/s] 39%|███▉      | 97888/248287 [00:03<00:07, 20848.36it/s] 41%|████      | 101581/248287 [00:04<00:05, 25308.29it/s] 43%|████▎     | 106206/248287 [00:04<00:04, 31259.75it/s] 44%|████▍     | 110410/248287 [00:04<00:04, 34361.83it/s] 46%|████▌     | 114812/248287 [00:04<00:03, 36934.69it/s] 48%|████▊     | 119029/248287 [00:04<00:03, 38467.41it/s] 50%|████▉     | 123230/248287 [00:04<00:03, 39505.72it/s] 51%|█████▏    | 127701/248287 [00:04<00:02, 41047.03it/s] 54%|█████▎    | 133393/248287 [00:04<00:02, 45766.03it/s] 56%|█████▌    | 138772/248287 [00:04<00:02, 48157.88it/s] 58%|█████▊    | 143604/248287 [00:04<00:02, 47849.95it/s] 60%|██████    | 149885/248287 [00:05<00:01, 52299.10it/s] 62%|██████▏   | 155127/248287 [00:05<00:01, 50729.46it/s] 65%|██████▍   | 160313/248287 [00:05<00:01, 51057.67it/s] 67%|██████▋   | 165433/248287 [00:05<00:01, 51056.33it/s] 69%|██████▊   | 170548/248287 [00:05<00:01, 50784.10it/s] 71%|███████▏  | 176912/248287 [00:05<00:01, 54586.87it/s] 74%|███████▎  | 183034/248287 [00:05<00:01, 56556.54it/s] 76%|███████▌  | 188699/248287 [00:05<00:01, 53734.59it/s] 78%|███████▊  | 194715/248287 [00:05<00:00, 55581.98it/s] 81%|████████  | 201233/248287 [00:06<00:00, 58376.90it/s] 83%|████████▎ | 207102/248287 [00:06<00:00, 54351.68it/s] 86%|████████▌ | 212610/248287 [00:06<00:00, 53360.62it/s] 88%|████████▊ | 217996/248287 [00:06<00:00, 41358.93it/s] 90%|████████▉ | 222558/248287 [00:06<00:00, 30671.81it/s] 91%|█████████ | 226276/248287 [00:06<00:00, 30815.41it/s] 93%|█████████▎| 231459/248287 [00:06<00:00, 35301.63it/s] 95%|█████████▍| 235493/248287 [00:07<00:00, 31608.70it/s] 96%|█████████▋| 239047/248287 [00:07<00:00, 28555.74it/s] 98%|█████████▊| 244165/248287 [00:07<00:00, 33526.34it/s]100%|█████████▉| 247904/248287 [00:07<00:00, 30238.63it/s]100%|██████████| 248287/248287 [00:07<00:00, 32924.00it/s]

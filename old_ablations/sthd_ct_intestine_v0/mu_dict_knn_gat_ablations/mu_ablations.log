@@ -1,0 +1,17 @@
+nohup: ignoring input
+Loading B004 Dataset...
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+
+==================================================
+Starting Ablation: Graph = KNN | Model = GCN | Seed = 43
+==================================================
+Building Standard KNN (k=10)...
+Traceback (most recent call last):
+  File "/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py", line 198, in <module>
+    ari = run_ablation(adata.copy(), graph_type=graph, model_type=model, epochs=200)
+  File "/hpc/group/yizhanglab/vk93/sthd-codex/run_mu_ablations.py", line 129, in run_ablation
+    alpha, _ = model.encode(x_tensor, edge_index, edge_weight)
+  File "/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/torch_geometric/nn/models/autoencoder.py", line 170, in encode
+    self.__logstd__ = self.__logstd__.clamp(max=MAX_LOGSTD)
+AttributeError: 'NoneType' object has no attribute 'clamp'

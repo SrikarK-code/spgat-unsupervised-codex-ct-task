@@ -1,0 +1,32 @@
+nohup: ignoring input
+Applying SCL...
+
+--- Running Comparative Deep Analysis on B004_Descending ---
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+1. Generating Comparative Marker Expression Heatmaps...
+2. Discovering Comparative Microenvironments...
+/hpc/group/yizhanglab/vk93/sthd-codex/comparative_spatial_bio_intestine.py:501: FutureWarning: Use `squidpy.pl.spatial_scatter` instead.
+  sc.pl.spatial(adata, color="Curated_GT_Env", spot_size=15, ax=axes[0], show=False)
+/hpc/group/yizhanglab/vk93/sthd-codex/comparative_spatial_bio_intestine.py:504: FutureWarning: Use `squidpy.pl.spatial_scatter` instead.
+  sc.pl.spatial(adata, color="KMeans_GT_Env", spot_size=15, ax=axes[1], show=False)
+/hpc/group/yizhanglab/vk93/sthd-codex/comparative_spatial_bio_intestine.py:507: FutureWarning: Use `squidpy.pl.spatial_scatter` instead.
+  sc.pl.spatial(adata, color="KMeans_spGAT_Env", spot_size=15, ax=axes[2], show=False)
+3. Running Spatial Threshold (K-Neighbors) Ablation...
+   Tested K=3, Seed=41 -> F1: 0.6952
+   Tested K=3, Seed=42 -> F1: 0.6947
+   Tested K=3, Seed=43 -> F1: 0.6952
+   Tested K=6, Seed=41 -> F1: 0.6947
+   Tested K=6, Seed=42 -> F1: 0.6945
+   Tested K=6, Seed=43 -> F1: 0.6945
+   Tested K=10, Seed=41 -> F1: 0.6937
+   Tested K=10, Seed=42 -> F1: 0.6936
+   Tested K=10, Seed=43 -> F1: 0.6940
+   Tested K=15, Seed=41 -> F1: 0.6926
+   Tested K=15, Seed=42 -> F1: 0.6924
+   Tested K=15, Seed=43 -> F1: 0.6931
+   Tested K=20, Seed=41 -> F1: 0.6913
+   Tested K=20, Seed=42 -> F1: 0.6917
+   Tested K=20, Seed=43 -> F1: 0.6926
+
+Intestine comparative analysis complete! Check the generated PNG files.

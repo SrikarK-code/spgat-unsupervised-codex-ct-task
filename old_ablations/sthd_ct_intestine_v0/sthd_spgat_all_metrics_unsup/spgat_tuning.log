@@ -1,0 +1,120 @@
+nohup: ignoring input
+Loading Base Data...
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Loading Dictionary: /hpc/home/vk93/lab_vk93/sthd-codex/sthd_ct_intestine_v0/mu_dict_knn_gat_ablations/ablation_knn_gcn/profiles.tsv
+Building Spatial Adjacency Matrix...
+
+--------------------------------------------------
+Testing Config: Beta_0.01_HighLR | Beta: 0.01 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 33.1667 | LL: -33.1220 | CE: 4.4639
+  Epoch 20 | Total: 22.9492 | LL: -22.9044 | CE: 4.4805
+  Epoch 40 | Total: 17.6062 | LL: -17.5603 | CE: 4.5915
+  Epoch 60 | Total: 14.4826 | LL: -14.4347 | CE: 4.7900
+  Epoch 80 | Total: 13.2496 | LL: -13.1967 | CE: 5.2863
+  Epoch 99 | Total: 12.8299 | LL: -12.7711 | CE: 5.8791
+--> Final ARI: 0.4386
+
+--------------------------------------------------
+Testing Config: Beta_0.1_HighLR | Beta: 0.1 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 33.5684 | LL: -33.1220 | CE: 4.4639
+  Epoch 20 | Total: 23.3475 | LL: -22.9038 | CE: 4.4374
+  Epoch 40 | Total: 18.0080 | LL: -17.5614 | CE: 4.4665
+  Epoch 60 | Total: 14.8843 | LL: -14.4387 | CE: 4.4562
+  Epoch 80 | Total: 13.6428 | LL: -13.2064 | CE: 4.3638
+  Epoch 99 | Total: 13.1916 | LL: -12.8023 | CE: 3.8928
+--> Final ARI: 0.4176
+
+--------------------------------------------------
+Testing Config: Beta_1.0_HighLR | Beta: 1.0 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 37.5859 | LL: -33.1220 | CE: 4.4639
+  Epoch 20 | Total: 27.2788 | LL: -22.9194 | CE: 4.3594
+  Epoch 40 | Total: 21.9944 | LL: -17.8137 | CE: 4.1807
+  Epoch 60 | Total: 18.4109 | LL: -14.9700 | CE: 3.4409
+  Epoch 80 | Total: 16.0802 | LL: -14.0611 | CE: 2.0190
+  Epoch 99 | Total: 14.9959 | LL: -13.8477 | CE: 1.1483
+--> Final ARI: 0.1634
+
+--------------------------------------------------
+Testing Config: Beta_2.0_HighLR | Beta: 2.0 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 42.0498 | LL: -33.1220 | CE: 4.4639
+  Epoch 20 | Total: 31.5487 | LL: -22.9797 | CE: 4.2845
+  Epoch 40 | Total: 26.0082 | LL: -18.3066 | CE: 3.8508
+  Epoch 60 | Total: 21.5796 | LL: -16.0636 | CE: 2.7580
+  Epoch 80 | Total: 18.2680 | LL: -15.4680 | CE: 1.4000
+  Epoch 99 | Total: 16.7574 | LL: -15.2658 | CE: 0.7458
+--> Final ARI: 0.0791
+
+--------------------------------------------------
+Testing Config: Beta_3.0_HighLR | Beta: 3.0 | LR_W: 0.1 | LR_GAT: 0.01
+  Epoch 00 | Total: 46.5137 | LL: -33.1220 | CE: 4.4639
+  Epoch 20 | Total: 35.6903 | LL: -23.0008 | CE: 4.2298
+  Epoch 40 | Total: 29.5461 | LL: -18.6072 | CE: 3.6463
+  Epoch 60 | Total: 24.2246 | LL: -16.6705 | CE: 2.5180
+  Epoch 80 | Total: 19.7840 | LL: -16.1507 | CE: 1.2111
+  Epoch 99 | Total: 17.6733 | LL: -15.9463 | CE: 0.5757
+--> Final ARI: 0.0574
+
+--------------------------------------------------
+Testing Config: Beta_0.01_LowLR | Beta: 0.01 | LR_W: 0.01 | LR_GAT: 0.001
+  Epoch 00 | Total: 33.1667 | LL: -33.1220 | CE: 4.4639
+  Epoch 20 | Total: 28.4547 | LL: -28.4101 | CE: 4.4611
+  Epoch 40 | Total: 25.8966 | LL: -25.8521 | CE: 4.4570
+  Epoch 60 | Total: 24.5599 | LL: -24.5153 | CE: 4.4569
+  Epoch 80 | Total: 23.8278 | LL: -23.7832 | CE: 4.4623
+  Epoch 99 | Total: 23.3745 | LL: -23.3298 | CE: 4.4720
+--> Final ARI: 0.2936
+
+--------------------------------------------------
+Testing Config: Beta_0.1_LowLR | Beta: 0.1 | LR_W: 0.01 | LR_GAT: 0.001
+  Epoch 00 | Total: 33.5684 | LL: -33.1220 | CE: 4.4639
+  Epoch 20 | Total: 28.8561 | LL: -28.4101 | CE: 4.4607
+  Epoch 40 | Total: 26.2976 | LL: -25.8520 | CE: 4.4554
+  Epoch 60 | Total: 24.9608 | LL: -24.5154 | CE: 4.4539
+  Epoch 80 | Total: 24.2293 | LL: -23.7836 | CE: 4.4571
+  Epoch 99 | Total: 23.7767 | LL: -23.3306 | CE: 4.4606
+--> Final ARI: 0.2984
+
+--------------------------------------------------
+Testing Config: Beta_1.0_LowLR | Beta: 1.0 | LR_W: 0.01 | LR_GAT: 0.001
+  Epoch 00 | Total: 37.5859 | LL: -33.1220 | CE: 4.4639
+  Epoch 20 | Total: 32.8694 | LL: -28.4096 | CE: 4.4598
+  Epoch 40 | Total: 30.3038 | LL: -25.8514 | CE: 4.4525
+  Epoch 60 | Total: 28.9637 | LL: -24.5167 | CE: 4.4469
+  Epoch 80 | Total: 28.2322 | LL: -23.7890 | CE: 4.4432
+  Epoch 99 | Total: 27.7807 | LL: -23.3414 | CE: 4.4393
+--> Final ARI: 0.3119
+
+--------------------------------------------------
+Testing Config: Beta_2.0_LowLR | Beta: 2.0 | LR_W: 0.01 | LR_GAT: 0.001
+  Epoch 00 | Total: 42.0498 | LL: -33.1220 | CE: 4.4639
+  Epoch 20 | Total: 37.3278 | LL: -28.4092 | CE: 4.4593
+  Epoch 40 | Total: 34.7514 | LL: -25.8508 | CE: 4.4503
+  Epoch 60 | Total: 33.4003 | LL: -24.5193 | CE: 4.4405
+  Epoch 80 | Total: 32.6552 | LL: -23.7975 | CE: 4.4288
+  Epoch 99 | Total: 32.1852 | LL: -23.3574 | CE: 4.4139
+--> Final ARI: 0.2827
+
+--------------------------------------------------
+Testing Config: Beta_3.0_LowLR | Beta: 3.0 | LR_W: 0.01 | LR_GAT: 0.001
+  Epoch 00 | Total: 46.5137 | LL: -33.1220 | CE: 4.4639
+  Epoch 20 | Total: 41.7939 | LL: -28.4103 | CE: 4.4612
+  Epoch 40 | Total: 39.2169 | LL: -25.8573 | CE: 4.4532
+  Epoch 60 | Total: 37.8527 | LL: -24.5336 | CE: 4.4397
+  Epoch 80 | Total: 37.0803 | LL: -23.8204 | CE: 4.4200
+  Epoch 99 | Total: 36.5722 | LL: -23.3903 | CE: 4.3940
+--> Final ARI: 0.2275
+
+==================================================
+SpGAT HYPERPARAMETER LEADERBOARD:
+Beta_0.01_HighLR    : 0.4386
+Beta_0.1_HighLR     : 0.4176
+Beta_1.0_LowLR      : 0.3119
+Beta_0.1_LowLR      : 0.2984
+Beta_0.01_LowLR     : 0.2936
+Beta_2.0_LowLR      : 0.2827
+Beta_3.0_LowLR      : 0.2275
+Beta_1.0_HighLR     : 0.1634
+Beta_2.0_HighLR     : 0.0791
+Beta_3.0_HighLR     : 0.0574
+==================================================

@@ -1,0 +1,4 @@
+Seed: 42
+Cluster Method: leiden
+Latent ARI: 0.1090
+Final STHD ARI: 0.3990

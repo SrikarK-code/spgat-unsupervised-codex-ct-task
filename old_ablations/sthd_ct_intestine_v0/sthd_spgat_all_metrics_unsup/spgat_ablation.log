@@ -1,0 +1,10 @@
+nohup: ignoring input
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+PHASE 1: Extracting Unsupervised Dictionary...
+/hpc/group/yizhanglab/vk93/sthd-codex/run_dir_vgae_spgat.py:141: FutureWarning: In the future, the default backend for leiden will be igraph instead of leidenalg.
+
+ To achieve the future defaults please pass: flavor="igraph" and n_iterations=2.  directed must also be False to work with igraph's implementation.
+  sc.tl.leiden(adata, resolution=1.0, random_state=args.seed, key_added='vgae_leiden')
+PHASE 2: Running SpGAT Spatial Optimization with 86 cell states...
+PIPELINE COMPLETE. Final SpGAT ARI: 0.2390

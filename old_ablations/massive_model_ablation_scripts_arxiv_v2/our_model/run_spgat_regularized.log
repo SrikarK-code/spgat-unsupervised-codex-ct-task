@@ -1,0 +1,212 @@
+nohup: ignoring input
+Loading Dataset...
+[1] Extracting Meso Prior: B004_Ascending
+[1] Extracting Macro Prior: B008
+[1] Extracting Macro Prior: B012
+
+[2] Running Evaluations...
+
+==================================================
+Testing Region: B004_Descending (30547 cells)
+==================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Tuning Hyperparameters on LOCAL (Oracle) Prior...
+     [Grid] parts=1, ce=0.01 -> F1: 0.7029
+     [Grid] parts=1, ce=0.05 -> F1: 0.7016
+     [Grid] parts=1, ce=0.1 -> F1: 0.7013
+     [Grid] parts=1, ce=0.5 -> F1: 0.6860
+     [Grid] parts=1, ce=1 -> F1: 0.6593
+     [Grid] parts=50, ce=0.01 -> F1: 0.6988
+     [Grid] parts=50, ce=0.05 -> F1: 0.6966
+     [Grid] parts=50, ce=0.1 -> F1: 0.6946
+     [Grid] parts=50, ce=0.5 -> F1: 0.6693
+     [Grid] parts=50, ce=1 -> F1: 0.6660
+     [Grid] parts=100, ce=0.01 -> F1: 0.6654
+     [Grid] parts=100, ce=0.05 -> F1: 0.6626
+     [Grid] parts=100, ce=0.1 -> F1: 0.6622
+     [Grid] parts=100, ce=0.5 -> F1: 0.6566
+     [Grid] parts=100, ce=1 -> F1: 0.6564
+  => Best Params chosen: {'num_parts': 1, 'ce_weight': 0.01}
+  -> Testing MESO Prior (B004_Ascending)...
+     [SUCCESS] ARI: 0.3746 | F1: 0.5894
+  -> Testing MACRO Prior (B008)...
+     [SUCCESS] ARI: 0.1574 | F1: 0.2937
+  -> Testing MACRO Prior (B012)...
+     [SUCCESS] ARI: 0.2070 | F1: 0.4049
+
+==================================================
+Testing Region: B004_Duodenum (44170 cells)
+==================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Tuning Hyperparameters on LOCAL (Oracle) Prior...
+     [Grid] parts=1, ce=0.01 -> F1: 0.6027
+     [Grid] parts=1, ce=0.05 -> F1: 0.5944
+     [Grid] parts=1, ce=0.1 -> F1: 0.5896
+     [Grid] parts=1, ce=0.5 -> F1: 0.5227
+     [Grid] parts=1, ce=1 -> F1: 0.4415
+     [Grid] parts=50, ce=0.01 -> F1: 0.6761
+     [Grid] parts=50, ce=0.05 -> F1: 0.6733
+     [Grid] parts=50, ce=0.1 -> F1: 0.6694
+     [Grid] parts=50, ce=0.5 -> F1: 0.6616
+     [Grid] parts=50, ce=1 -> F1: 0.6552
+     [Grid] parts=100, ce=0.01 -> F1: 0.6478
+     [Grid] parts=100, ce=0.05 -> F1: 0.6422
+     [Grid] parts=100, ce=0.1 -> F1: 0.6406
+     [Grid] parts=100, ce=0.5 -> F1: 0.6343
+     [Grid] parts=100, ce=1 -> F1: 0.6334
+  => Best Params chosen: {'num_parts': 50, 'ce_weight': 0.01}
+  -> Testing MESO Prior (B004_Ascending)...
+     [SUCCESS] ARI: 0.3275 | F1: 0.5740
+  -> Testing MACRO Prior (B008)...
+     [SUCCESS] ARI: 0.2650 | F1: 0.5333
+  -> Testing MACRO Prior (B012)...
+     [SUCCESS] ARI: 0.4650 | F1: 0.6790
+
+==================================================
+Testing Region: B004_Ileum (26494 cells)
+==================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Tuning Hyperparameters on LOCAL (Oracle) Prior...
+     [Grid] parts=1, ce=0.01 -> F1: 0.7031
+     [Grid] parts=1, ce=0.05 -> F1: 0.7026
+     [Grid] parts=1, ce=0.1 -> F1: 0.7019
+     [Grid] parts=1, ce=0.5 -> F1: 0.6810
+     [Grid] parts=1, ce=1 -> F1: 0.6537
+     [Grid] parts=50, ce=0.01 -> F1: 0.7064
+     [Grid] parts=50, ce=0.05 -> F1: 0.7051
+     [Grid] parts=50, ce=0.1 -> F1: 0.7023
+     [Grid] parts=50, ce=0.5 -> F1: 0.6963
+     [Grid] parts=50, ce=1 -> F1: 0.6927
+     [Grid] parts=100, ce=0.01 -> F1: 0.6977
+     [Grid] parts=100, ce=0.05 -> F1: 0.6947
+     [Grid] parts=100, ce=0.1 -> F1: 0.6946
+     [Grid] parts=100, ce=0.5 -> F1: 0.6903
+     [Grid] parts=100, ce=1 -> F1: 0.6881
+  => Best Params chosen: {'num_parts': 50, 'ce_weight': 0.01}
+  -> Testing MESO Prior (B004_Ascending)...
+     [SUCCESS] ARI: 0.3586 | F1: 0.6246
+  -> Testing MACRO Prior (B008)...
+     [SUCCESS] ARI: 0.3494 | F1: 0.5539
+  -> Testing MACRO Prior (B012)...
+     [SUCCESS] ARI: 0.2972 | F1: 0.5565
+
+==================================================
+Testing Region: B004_Mid-jejunum (36921 cells)
+==================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Tuning Hyperparameters on LOCAL (Oracle) Prior...
+     [Grid] parts=1, ce=0.01 -> F1: 0.7158
+     [Grid] parts=1, ce=0.05 -> F1: 0.7170
+     [Grid] parts=1, ce=0.1 -> F1: 0.7176
+     [Grid] parts=1, ce=0.5 -> F1: 0.7029
+     [Grid] parts=1, ce=1 -> F1: 0.6638
+     [Grid] parts=50, ce=0.01 -> F1: 0.7235
+     [Grid] parts=50, ce=0.05 -> F1: 0.7195
+     [Grid] parts=50, ce=0.1 -> F1: 0.7165
+     [Grid] parts=50, ce=0.5 -> F1: 0.7150
+     [Grid] parts=50, ce=1 -> F1: 0.7137
+     [Grid] parts=100, ce=0.01 -> F1: 0.7045
+     [Grid] parts=100, ce=0.05 -> F1: 0.6997
+     [Grid] parts=100, ce=0.1 -> F1: 0.6983
+     [Grid] parts=100, ce=0.5 -> F1: 0.6962
+     [Grid] parts=100, ce=1 -> F1: 0.6958
+  => Best Params chosen: {'num_parts': 50, 'ce_weight': 0.01}
+  -> Testing MESO Prior (B004_Ascending)...
+     [SUCCESS] ARI: 0.4292 | F1: 0.6454
+  -> Testing MACRO Prior (B008)...
+     [SUCCESS] ARI: 0.3181 | F1: 0.5642
+  -> Testing MACRO Prior (B012)...
+     [SUCCESS] ARI: 0.3319 | F1: 0.6142
+
+==================================================
+Testing Region: B004_Proximal Jejunum (30067 cells)
+==================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Tuning Hyperparameters on LOCAL (Oracle) Prior...
+     [Grid] parts=1, ce=0.01 -> F1: 0.6511
+     [Grid] parts=1, ce=0.05 -> F1: 0.6481
+     [Grid] parts=1, ce=0.1 -> F1: 0.6450
+     [Grid] parts=1, ce=0.5 -> F1: 0.6018
+     [Grid] parts=1, ce=1 -> F1: 0.5581
+     [Grid] parts=50, ce=0.01 -> F1: 0.7071
+     [Grid] parts=50, ce=0.05 -> F1: 0.7086
+     [Grid] parts=50, ce=0.1 -> F1: 0.7090
+     [Grid] parts=50, ce=0.5 -> F1: 0.7103
+     [Grid] parts=50, ce=1 -> F1: 0.7105
+     [Grid] parts=100, ce=0.01 -> F1: 0.6969
+     [Grid] parts=100, ce=0.05 -> F1: 0.6957
+     [Grid] parts=100, ce=0.1 -> F1: 0.6959
+     [Grid] parts=100, ce=0.5 -> F1: 0.7000
+     [Grid] parts=100, ce=1 -> F1: 0.6985
+  => Best Params chosen: {'num_parts': 50, 'ce_weight': 1}
+  -> Testing MESO Prior (B004_Ascending)...
+     [SUCCESS] ARI: 0.4048 | F1: 0.6200
+  -> Testing MACRO Prior (B008)...
+     [SUCCESS] ARI: 0.3395 | F1: 0.5890
+  -> Testing MACRO Prior (B012)...
+     [SUCCESS] ARI: 0.4148 | F1: 0.6437
+
+==================================================
+Testing Region: B004_Descending - Sigmoid (25063 cells)
+==================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Tuning Hyperparameters on LOCAL (Oracle) Prior...
+     [Grid] parts=1, ce=0.01 -> F1: 0.7011
+     [Grid] parts=1, ce=0.05 -> F1: 0.7010
+     [Grid] parts=1, ce=0.1 -> F1: 0.6999
+     [Grid] parts=1, ce=0.5 -> F1: 0.6802
+     [Grid] parts=1, ce=1 -> F1: 0.6550
+     [Grid] parts=50, ce=0.01 -> F1: 0.6997
+     [Grid] parts=50, ce=0.05 -> F1: 0.7088
+     [Grid] parts=50, ce=0.1 -> F1: 0.7006
+     [Grid] parts=50, ce=0.5 -> F1: 0.7097
+     [Grid] parts=50, ce=1 -> F1: 0.7048
+     [Grid] parts=100, ce=0.01 -> F1: 0.7053
+     [Grid] parts=100, ce=0.05 -> F1: 0.7055
+     [Grid] parts=100, ce=0.1 -> F1: 0.7056
+     [Grid] parts=100, ce=0.5 -> F1: 0.6962
+     [Grid] parts=100, ce=1 -> F1: 0.7053
+  => Best Params chosen: {'num_parts': 50, 'ce_weight': 0.5}
+  -> Testing MESO Prior (B004_Ascending)...
+     [SUCCESS] ARI: 0.4361 | F1: 0.6011
+  -> Testing MACRO Prior (B008)...
+     [SUCCESS] ARI: 0.3872 | F1: 0.5307
+  -> Testing MACRO Prior (B012)...
+     [SUCCESS] ARI: 0.4344 | F1: 0.5883
+
+==================================================
+Testing Region: B004_Transverse (33793 cells)
+==================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Tuning Hyperparameters on LOCAL (Oracle) Prior...
+     [Grid] parts=1, ce=0.01 -> F1: 0.6612
+     [Grid] parts=1, ce=0.05 -> F1: 0.6618
+     [Grid] parts=1, ce=0.1 -> F1: 0.6619
+     [Grid] parts=1, ce=0.5 -> F1: 0.6408
+     [Grid] parts=1, ce=1 -> F1: 0.5977
+     [Grid] parts=50, ce=0.01 -> F1: 0.6875
+     [Grid] parts=50, ce=0.05 -> F1: 0.6914
+     [Grid] parts=50, ce=0.1 -> F1: 0.6913
+     [Grid] parts=50, ce=0.5 -> F1: 0.6931
+     [Grid] parts=50, ce=1 -> F1: 0.6968
+     [Grid] parts=100, ce=0.01 -> F1: 0.6947
+     [Grid] parts=100, ce=0.05 -> F1: 0.6937
+     [Grid] parts=100, ce=0.1 -> F1: 0.6965
+     [Grid] parts=100, ce=0.5 -> F1: 0.6964
+     [Grid] parts=100, ce=1 -> F1: 0.6954
+  => Best Params chosen: {'num_parts': 50, 'ce_weight': 1}
+  -> Testing MESO Prior (B004_Ascending)...
+     [SUCCESS] ARI: 0.4751 | F1: 0.6755
+  -> Testing MACRO Prior (B008)...
+     [SUCCESS] ARI: 0.2567 | F1: 0.5191
+  -> Testing MACRO Prior (B012)...
+     [SUCCESS] ARI: 0.3848 | F1: 0.6055
+
+Finished all regularized spGAT baselines.

@@ -1,0 +1,45 @@
+nohup: ignoring input
+Package 'mclust' version 6.1.2
+Type 'citation("mclust")' for citing this R package in publications.
+Loading required package: sp
+Loading required package: maps
+
+Attaching package: ‘maps’
+
+The following object is masked from ‘package:mclust’:
+
+    map
+
+Loading required package: shapefiles
+Loading required package: foreign
+
+Attaching package: ‘shapefiles’
+
+The following objects are masked from ‘package:foreign’:
+
+    read.dbf, write.dbf
+
+
+Attaching package: ‘dplyr’
+
+The following object is masked from ‘package:mclust’:
+
+    count
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+[1] "Loading B004 Ground Truth Data..."
+New names:
+• `` -> `...1`
+
+======================================================
+FINAL TACIT LEADERBOARD (Tested on B004)
+======================================================
+TACIT_Prior_B008     : [TOTAL] ARI=0.2576 | F1=0.3641
+TACIT_Prior_B012     : [TOTAL] ARI=0.2411 | F1=0.2516

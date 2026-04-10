@@ -1,0 +1,27 @@
+nohup: ignoring input
+Using device: cuda
+1. Loading CSV Data...
+2. Computing Feature KNN Graph...
+3. Computing Spatial KNN Graph...
+
+Starting 25-Config Ablation Sweep...
+[Exact30_H64_E0.01   ] Mapped ARI: 0.1374 | Weighted F1: 0.4059
+[Exact30_H128_E0.01  ] Mapped ARI: 0.0967 | Weighted F1: 0.3376
+[Exact30_H128_E0.05  ] Mapped ARI: 0.0978 | Weighted F1: 0.3358
+[Exact30_H128_E0.1   ] Mapped ARI: 0.1000 | Weighted F1: 0.2426
+[Exact30_H128_E0.001 ] Mapped ARI: 0.1006 | Weighted F1: 0.3488
+[Over60_H64_E0.01    ] Mapped ARI: 0.1003 | Weighted F1: 0.3179
+[Over60_H128_E0.01   ] Mapped ARI: 0.1135 | Weighted F1: 0.3798
+[Over60_H128_E0.05   ] Mapped ARI: 0.1128 | Weighted F1: 0.3515
+[Over60_H128_E0.1    ] Mapped ARI: 0.0971 | Weighted F1: 0.3098
+[Over60_H128_E0.001  ] Mapped ARI: 0.1179 | Weighted F1: 0.3827
+Traceback (most recent call last):
+  File "/hpc/group/yizhanglab/vk93/sthd-codex/run_pibd_ablations.py", line 268, in <module>
+    loss.backward()
+  File "/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/torch/_tensor.py", line 648, in backward
+    torch.autograd.backward(
+  File "/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/torch/autograd/__init__.py", line 353, in backward
+    _engine_run_backward(
+  File "/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/torch/autograd/graph.py", line 824, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 938.00 MiB. GPU 0 has a total capacity of 10.57 GiB of which 424.12 MiB is free. Including non-PyTorch memory, this process has 10.15 GiB memory in use. Of the allocated memory 7.14 GiB is allocated by PyTorch, and 2.82 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

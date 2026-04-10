@@ -1,0 +1,19 @@
+nohup: ignoring input
+Loading Melanoma Dataset...
+Cleaning Missing Data...
+Applying Static Spillover Compensation (SCL) per image...
+
+[1] Running UNSUPERVISED LOCAL Evaluations for ALL 19 images...
+
+==================================================
+Testing Region: 05_06_23_reg001.tsv (66784 cells)
+==================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+  -> Discovering Latent Priors (Dir-VGAE)...
+Traceback (most recent call last):
+  File "/hpc/group/yizhanglab/vk93/sthd-codex/melanoma_cosine_scl.py", line 440, in <module>
+    mu_discovered = run_dir_vgae_and_extract_mu(adata, device, num_latent_clusters=10, epochs=150)
+  File "/hpc/group/yizhanglab/vk93/sthd-codex/melanoma_cosine_scl.py", line 330, in run_dir_vgae_and_extract_mu
+    adj_dense = torch.tensor(A_space.toarray(), dtype=torch.float).to(device)
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 16.62 GiB. GPU 0 has a total capacity of 10.57 GiB of which 10.38 GiB is free. Including non-PyTorch memory, this process has 194.00 MiB memory in use. Of the allocated memory 20.91 MiB is allocated by PyTorch, and 17.09 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

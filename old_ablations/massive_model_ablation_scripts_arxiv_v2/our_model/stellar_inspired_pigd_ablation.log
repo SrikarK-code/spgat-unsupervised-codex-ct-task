@@ -1,0 +1,162 @@
+nohup: ignoring input
+Loading Data...
+
+------------------------------------------------------------
+Running: DIRICHLET_STATIC (Parts: 50)
+--> [TOTAL] ARI 0.0041 | [CLEAN] ARI 0.0006 | [MIXED] ARI 0.0015
+
+------------------------------------------------------------
+Running: DIRICHLET_STATIC (Parts: 100)
+--> [TOTAL] ARI 0.0012 | [CLEAN] ARI 0.0002 | [MIXED] ARI 0.0001
+
+------------------------------------------------------------
+Running: BASE_STATIC (Parts: 50)
+--> [TOTAL] ARI 0.0034 | [CLEAN] ARI 0.0005 | [MIXED] ARI 0.0007
+
+------------------------------------------------------------
+Running: BASE_STATIC (Parts: 100)
+--> [TOTAL] ARI 0.0013 | [CLEAN] ARI 0.0002 | [MIXED] ARI 0.0009
+
+------------------------------------------------------------
+Running: LEARNED_K_STATIC (Parts: 50)
+--> [TOTAL] ARI 0.0039 | [CLEAN] ARI 0.0006 | [MIXED] ARI 0.0011
+
+------------------------------------------------------------
+Running: LEARNED_K_STATIC (Parts: 100)
+--> [TOTAL] ARI 0.0012 | [CLEAN] ARI 0.0002 | [MIXED] ARI 0.0002
+
+------------------------------------------------------------
+Running: SAGD_STATIC (Parts: 50)
+--> [TOTAL] ARI 0.0039 | [CLEAN] ARI 0.0005 | [MIXED] ARI 0.0013
+
+------------------------------------------------------------
+Running: SAGD_STATIC (Parts: 100)
+--> [TOTAL] ARI 0.0012 | [CLEAN] ARI 0.0002 | [MIXED] ARI 0.0003
+
+------------------------------------------------------------
+Running: ANTI_SMOOTH_STATIC (Parts: 50)
+--> [TOTAL] ARI 0.0044 | [CLEAN] ARI 0.0006 | [MIXED] ARI 0.0017
+
+------------------------------------------------------------
+Running: ANTI_SMOOTH_STATIC (Parts: 100)
+--> [TOTAL] ARI 0.0013 | [CLEAN] ARI 0.0003 | [MIXED] ARI 0.0007
+
+------------------------------------------------------------
+Running: ANTI_SMOOTH_LEARNED_K_STATIC (Parts: 50)
+--> [TOTAL] ARI 0.0044 | [CLEAN] ARI 0.0006 | [MIXED] ARI 0.0017
+
+------------------------------------------------------------
+Running: ANTI_SMOOTH_LEARNED_K_STATIC (Parts: 100)
+--> [TOTAL] ARI 0.0012 | [CLEAN] ARI 0.0002 | [MIXED] ARI -0.0001
+
+------------------------------------------------------------
+Running: ANTI_SMOOTH_SAGD_STATIC (Parts: 50)
+--> [TOTAL] ARI 0.0046 | [CLEAN] ARI 0.0007 | [MIXED] ARI 0.0021
+
+------------------------------------------------------------
+Running: ANTI_SMOOTH_SAGD_STATIC (Parts: 100)
+--> [TOTAL] ARI 0.0012 | [CLEAN] ARI 0.0002 | [MIXED] ARI -0.0001
+
+------------------------------------------------------------
+Running: EDGE_MIX_STATIC (Parts: 50)
+--> [TOTAL] ARI 0.0040 | [CLEAN] ARI 0.0006 | [MIXED] ARI 0.0013
+
+------------------------------------------------------------
+Running: EDGE_MIX_STATIC (Parts: 100)
+--> [TOTAL] ARI 0.0021 | [CLEAN] ARI 0.0004 | [MIXED] ARI 0.0011
+
+------------------------------------------------------------
+Running: EDGE_MIX_LEARNED_K_STATIC (Parts: 50)
+--> [TOTAL] ARI 0.0044 | [CLEAN] ARI 0.0006 | [MIXED] ARI 0.0009
+
+------------------------------------------------------------
+Running: EDGE_MIX_LEARNED_K_STATIC (Parts: 100)
+--> [TOTAL] ARI 0.0012 | [CLEAN] ARI 0.0002 | [MIXED] ARI 0.0000
+
+------------------------------------------------------------
+Running: EDGE_MIX_SAGD_STATIC (Parts: 50)
+--> [TOTAL] ARI 0.0048 | [CLEAN] ARI 0.0007 | [MIXED] ARI 0.0019
+
+------------------------------------------------------------
+Running: EDGE_MIX_SAGD_STATIC (Parts: 100)
+--> [TOTAL] ARI 0.0013 | [CLEAN] ARI 0.0002 | [MIXED] ARI 0.0004
+
+------------------------------------------------------------
+Running: DIRICHLET_DYNAMIC (Parts: 50)
+--> [TOTAL] ARI 0.0048 | [CLEAN] ARI 0.0006 | [MIXED] ARI 0.0021
+
+------------------------------------------------------------
+Running: DIRICHLET_DYNAMIC (Parts: 100)
+--> [TOTAL] ARI 0.0013 | [CLEAN] ARI 0.0002 | [MIXED] ARI -0.0005
+
+------------------------------------------------------------
+Running: BASE_DYNAMIC (Parts: 50)
+--> [TOTAL] ARI 0.0041 | [CLEAN] ARI 0.0006 | [MIXED] ARI 0.0013
+
+------------------------------------------------------------
+Running: BASE_DYNAMIC (Parts: 100)
+--> [TOTAL] ARI 0.0013 | [CLEAN] ARI 0.0003 | [MIXED] ARI 0.0003
+
+------------------------------------------------------------
+Running: LEARNED_K_DYNAMIC (Parts: 50)
+--> [TOTAL] ARI 0.0039 | [CLEAN] ARI 0.0006 | [MIXED] ARI 0.0010
+
+------------------------------------------------------------
+Running: LEARNED_K_DYNAMIC (Parts: 100)
+--> [TOTAL] ARI 0.0012 | [CLEAN] ARI 0.0003 | [MIXED] ARI 0.0009
+
+------------------------------------------------------------
+Running: SAGD_DYNAMIC (Parts: 50)
+--> [TOTAL] ARI 0.0048 | [CLEAN] ARI 0.0006 | [MIXED] ARI 0.0020
+
+------------------------------------------------------------
+Running: SAGD_DYNAMIC (Parts: 100)
+--> [TOTAL] ARI 0.0014 | [CLEAN] ARI 0.0003 | [MIXED] ARI 0.0003
+
+------------------------------------------------------------
+Running: ANTI_SMOOTH_DYNAMIC (Parts: 50)
+--> [TOTAL] ARI 0.0045 | [CLEAN] ARI 0.0006 | [MIXED] ARI 0.0017
+
+------------------------------------------------------------
+Running: ANTI_SMOOTH_DYNAMIC (Parts: 100)
+--> [TOTAL] ARI 0.0018 | [CLEAN] ARI 0.0008 | [MIXED] ARI 0.0034
+
+------------------------------------------------------------
+Running: ANTI_SMOOTH_LEARNED_K_DYNAMIC (Parts: 50)
+--> [TOTAL] ARI 0.0044 | [CLEAN] ARI 0.0006 | [MIXED] ARI 0.0018
+
+------------------------------------------------------------
+Running: ANTI_SMOOTH_LEARNED_K_DYNAMIC (Parts: 100)
+--> [TOTAL] ARI 0.0012 | [CLEAN] ARI 0.0002 | [MIXED] ARI -0.0001
+
+------------------------------------------------------------
+Running: ANTI_SMOOTH_SAGD_DYNAMIC (Parts: 50)
+--> [TOTAL] ARI 0.0046 | [CLEAN] ARI 0.0006 | [MIXED] ARI 0.0020
+
+------------------------------------------------------------
+Running: ANTI_SMOOTH_SAGD_DYNAMIC (Parts: 100)
+--> [TOTAL] ARI 0.0013 | [CLEAN] ARI 0.0002 | [MIXED] ARI 0.0004
+
+------------------------------------------------------------
+Running: EDGE_MIX_DYNAMIC (Parts: 50)
+--> [TOTAL] ARI 0.0038 | [CLEAN] ARI 0.0005 | [MIXED] ARI 0.0001
+
+------------------------------------------------------------
+Running: EDGE_MIX_DYNAMIC (Parts: 100)
+--> [TOTAL] ARI 0.0020 | [CLEAN] ARI 0.0005 | [MIXED] ARI 0.0010
+
+------------------------------------------------------------
+Running: EDGE_MIX_LEARNED_K_DYNAMIC (Parts: 50)
+--> [TOTAL] ARI 0.0041 | [CLEAN] ARI 0.0006 | [MIXED] ARI 0.0013
+
+------------------------------------------------------------
+Running: EDGE_MIX_LEARNED_K_DYNAMIC (Parts: 100)
+--> [TOTAL] ARI 0.0013 | [CLEAN] ARI 0.0002 | [MIXED] ARI 0.0001
+
+------------------------------------------------------------
+Running: EDGE_MIX_SAGD_DYNAMIC (Parts: 50)
+--> [TOTAL] ARI 0.0044 | [CLEAN] ARI 0.0007 | [MIXED] ARI 0.0020
+
+------------------------------------------------------------
+Running: EDGE_MIX_SAGD_DYNAMIC (Parts: 100)
+--> [TOTAL] ARI 0.0014 | [CLEAN] ARI 0.0002 | [MIXED] ARI -0.0003

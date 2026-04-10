@@ -1,0 +1,97 @@
+nohup: ignoring input
+Applying Static Spillover Compensation (SCL)...
+
+============================================================
+Exploring Biological Signatures in B004_Descending...
+============================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+ -> Discovering Latent Clusters...
+ -> Running spGAT Spatial Deconvolution...
+
+--- LATENT CLUSTER MAPPING ---
+Saved full Latent->Human cell breakdown to B004_Descending_Latent_to_Human_Mapping.csv
+Summary of mapping for the first 10 discovered clusters:
+   Latent Cluster 0  -> Mapped to 'Goblet' (456/1130 cells)
+   Latent Cluster 1  -> Mapped to 'B' (333/577 cells)
+   Latent Cluster 10 -> Mapped to 'CD66+ Enterocyte' (208/432 cells)
+   Latent Cluster 11 -> Mapped to 'Cycling TA' (568/670 cells)
+   Latent Cluster 12 -> Mapped to 'Goblet' (171/226 cells)
+   Latent Cluster 13 -> Mapped to 'Goblet' (105/189 cells)
+   Latent Cluster 14 -> Mapped to 'Goblet' (33/50 cells)
+   Latent Cluster 15 -> Mapped to 'Smooth muscle' (70/140 cells)
+   Latent Cluster 16 -> Mapped to 'Goblet' (11/18 cells)
+   Latent Cluster 17 -> Mapped to 'CD66+ Enterocyte' (54/127 cells)
+
+--- GENERATING CONFUSION MATRIX ---
+Saved Confusion Matrix to B004_Descending_Confusion_Matrix.png
+--- GENERATING SYNCHRONIZED SPATIAL PLOTS ---
+/hpc/group/yizhanglab/vk93/sthd-codex/spatial_bio.py:249: FutureWarning: Use `squidpy.pl.spatial_scatter` instead.
+  sc.pl.spatial(adata, color="Cell Type", spot_size=15, ax=axes[0], show=False)
+/hpc/group/yizhanglab/vk93/sthd-codex/spatial_bio.py:253: FutureWarning: Use `squidpy.pl.spatial_scatter` instead.
+  sc.pl.spatial(adata, color="spGAT_Mapped", spot_size=15, ax=axes[1], show=False)
+Saved Spatial Comparison to B004_Descending_Synchronized_Spatial.png
+
+============================================================
+Exploring Biological Signatures in B004_Proximal Jejunum...
+============================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+ -> Discovering Latent Clusters...
+ -> Running spGAT Spatial Deconvolution...
+
+--- LATENT CLUSTER MAPPING ---
+Saved full Latent->Human cell breakdown to B004_Proximal Jejunum_Latent_to_Human_Mapping.csv
+Summary of mapping for the first 10 discovered clusters:
+   Latent Cluster 0  -> Mapped to 'Stroma' (75/104 cells)
+   Latent Cluster 1  -> Mapped to 'Nerve' (32/51 cells)
+   Latent Cluster 10 -> Mapped to 'Enterocyte' (62/75 cells)
+   Latent Cluster 11 -> Mapped to 'Enterocyte' (440/481 cells)
+   Latent Cluster 12 -> Mapped to 'Enterocyte' (858/1382 cells)
+   Latent Cluster 13 -> Mapped to 'Lymphatic' (40/112 cells)
+   Latent Cluster 14 -> Mapped to 'Neuroendocrine' (57/102 cells)
+   Latent Cluster 15 -> Mapped to 'Enterocyte' (327/362 cells)
+   Latent Cluster 16 -> Mapped to 'Enterocyte' (392/455 cells)
+   Latent Cluster 17 -> Mapped to 'Enterocyte' (242/362 cells)
+
+--- GENERATING CONFUSION MATRIX ---
+Saved Confusion Matrix to B004_Proximal Jejunum_Confusion_Matrix.png
+--- GENERATING SYNCHRONIZED SPATIAL PLOTS ---
+/hpc/group/yizhanglab/vk93/sthd-codex/spatial_bio.py:249: FutureWarning: Use `squidpy.pl.spatial_scatter` instead.
+  sc.pl.spatial(adata, color="Cell Type", spot_size=15, ax=axes[0], show=False)
+/hpc/group/yizhanglab/vk93/sthd-codex/spatial_bio.py:253: FutureWarning: Use `squidpy.pl.spatial_scatter` instead.
+  sc.pl.spatial(adata, color="spGAT_Mapped", spot_size=15, ax=axes[1], show=False)
+Saved Spatial Comparison to B004_Proximal Jejunum_Synchronized_Spatial.png
+
+============================================================
+Exploring Biological Signatures in B004_Ileum...
+============================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+ -> Discovering Latent Clusters...
+ -> Running spGAT Spatial Deconvolution...
+
+--- LATENT CLUSTER MAPPING ---
+Saved full Latent->Human cell breakdown to B004_Ileum_Latent_to_Human_Mapping.csv
+Summary of mapping for the first 10 discovered clusters:
+   Latent Cluster 0  -> Mapped to 'CD8+ T' (170/215 cells)
+   Latent Cluster 1  -> Mapped to 'CD8+ T' (67/150 cells)
+   Latent Cluster 10 -> Mapped to 'ICC' (309/927 cells)
+   Latent Cluster 11 -> Mapped to 'Lymphatic' (84/137 cells)
+   Latent Cluster 12 -> Mapped to 'ICC' (1/1 cells)
+   Latent Cluster 13 -> Mapped to 'Enterocyte' (886/1085 cells)
+   Latent Cluster 14 -> Mapped to 'Nerve' (926/1069 cells)
+   Latent Cluster 15 -> Mapped to 'CD4+ T cell' (379/613 cells)
+   Latent Cluster 16 -> Mapped to 'Plasma' (66/123 cells)
+   Latent Cluster 17 -> Mapped to 'Plasma' (273/386 cells)
+
+--- GENERATING CONFUSION MATRIX ---
+Saved Confusion Matrix to B004_Ileum_Confusion_Matrix.png
+--- GENERATING SYNCHRONIZED SPATIAL PLOTS ---
+/hpc/group/yizhanglab/vk93/sthd-codex/spatial_bio.py:249: FutureWarning: Use `squidpy.pl.spatial_scatter` instead.
+  sc.pl.spatial(adata, color="Cell Type", spot_size=15, ax=axes[0], show=False)
+/hpc/group/yizhanglab/vk93/sthd-codex/spatial_bio.py:253: FutureWarning: Use `squidpy.pl.spatial_scatter` instead.
+  sc.pl.spatial(adata, color="spGAT_Mapped", spot_size=15, ax=axes[1], show=False)
+Saved Spatial Comparison to B004_Ileum_Synchronized_Spatial.png
+
+Finished exploring all regions.

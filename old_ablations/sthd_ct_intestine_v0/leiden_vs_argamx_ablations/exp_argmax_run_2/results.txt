@@ -1,0 +1,4 @@
+Seed: 44
+Cluster Method: argmax
+Latent ARI: 0.3764
+Final STHD ARI: 0.1890

@@ -1,0 +1,107 @@
+nohup: ignoring input
+Loading Data...
+Loading cached graphs instantly...
+
+------------------------------------------------------------
+Running: DIRICHLET_STATIC
+--> [TOTAL] ARI 0.1754 | [CLEAN] ARI 0.1360 | [MIXED] ARI 0.2238
+
+------------------------------------------------------------
+Running: BASE_STATIC
+--> [TOTAL] ARI 0.2922 | [CLEAN] ARI 0.2413 | [MIXED] ARI 0.3454
+
+------------------------------------------------------------
+Running: LEARNED_K_STATIC
+--> [TOTAL] ARI 0.2107 | [CLEAN] ARI 0.1771 | [MIXED] ARI 0.2668
+
+------------------------------------------------------------
+Running: SAGD_STATIC
+--> [TOTAL] ARI 0.1776 | [CLEAN] ARI 0.1374 | [MIXED] ARI 0.2302
+
+------------------------------------------------------------
+Running: ANTI_SMOOTH_STATIC
+--> [TOTAL] ARI 0.1492 | [CLEAN] ARI 0.1455 | [MIXED] ARI 0.1576
+
+------------------------------------------------------------
+Running: ANTI_SMOOTH_LEARNED_K_STATIC
+--> [TOTAL] ARI 0.1559 | [CLEAN] ARI 0.1628 | [MIXED] ARI 0.1572
+
+------------------------------------------------------------
+Running: ANTI_SMOOTH_SAGD_STATIC
+--> [TOTAL] ARI 0.2104 | [CLEAN] ARI 0.1900 | [MIXED] ARI 0.2299
+
+------------------------------------------------------------
+Running: EDGE_MIX_STATIC
+--> [TOTAL] ARI 0.2971 | [CLEAN] ARI 0.2346 | [MIXED] ARI 0.3417
+
+------------------------------------------------------------
+Running: EDGE_MIX_LEARNED_K_STATIC
+--> [TOTAL] ARI 0.1722 | [CLEAN] ARI 0.1432 | [MIXED] ARI 0.2155
+
+------------------------------------------------------------
+Running: EDGE_MIX_SAGD_STATIC
+--> [TOTAL] ARI 0.1709 | [CLEAN] ARI 0.1329 | [MIXED] ARI 0.2188
+
+------------------------------------------------------------
+Running: DIRICHLET_DYNAMIC
+--> [TOTAL] ARI 0.1750 | [CLEAN] ARI 0.1353 | [MIXED] ARI 0.2241
+
+------------------------------------------------------------
+Running: BASE_DYNAMIC
+--> [TOTAL] ARI 0.2150 | [CLEAN] ARI 0.1701 | [MIXED] ARI 0.2628
+
+------------------------------------------------------------
+Running: LEARNED_K_DYNAMIC
+--> [TOTAL] ARI 0.1905 | [CLEAN] ARI 0.1522 | [MIXED] ARI 0.2373
+
+------------------------------------------------------------
+Running: SAGD_DYNAMIC
+--> [TOTAL] ARI 0.1733 | [CLEAN] ARI 0.1338 | [MIXED] ARI 0.2218
+
+------------------------------------------------------------
+Running: ANTI_SMOOTH_DYNAMIC
+--> [TOTAL] ARI 0.1795 | [CLEAN] ARI 0.1505 | [MIXED] ARI 0.2049
+
+------------------------------------------------------------
+Running: ANTI_SMOOTH_LEARNED_K_DYNAMIC
+--> [TOTAL] ARI 0.1944 | [CLEAN] ARI 0.1908 | [MIXED] ARI 0.2018
+
+------------------------------------------------------------
+Running: ANTI_SMOOTH_SAGD_DYNAMIC
+--> [TOTAL] ARI 0.1810 | [CLEAN] ARI 0.1411 | [MIXED] ARI 0.2239
+
+------------------------------------------------------------
+Running: EDGE_MIX_DYNAMIC
+--> [TOTAL] ARI 0.1291 | [CLEAN] ARI 0.0795 | [MIXED] ARI 0.1496
+
+------------------------------------------------------------
+Running: EDGE_MIX_LEARNED_K_DYNAMIC
+--> [TOTAL] ARI 0.1882 | [CLEAN] ARI 0.1422 | [MIXED] ARI 0.2542
+
+------------------------------------------------------------
+Running: EDGE_MIX_SAGD_DYNAMIC
+--> [TOTAL] ARI 0.1745 | [CLEAN] ARI 0.1342 | [MIXED] ARI 0.2234
+
+================================================================================
+FINAL UNIFIED CRUCIBLE LEADERBOARD (Sorted by Total ARI)
+================================================================================
+EDGE_MIX_STATIC                     | TOTAL: 0.2971 | CLEAN: 0.2346 | MIXED: 0.3417
+BASE_STATIC                         | TOTAL: 0.2922 | CLEAN: 0.2413 | MIXED: 0.3454
+BASE_DYNAMIC                        | TOTAL: 0.2150 | CLEAN: 0.1701 | MIXED: 0.2628
+LEARNED_K_STATIC                    | TOTAL: 0.2107 | CLEAN: 0.1771 | MIXED: 0.2668
+ANTI_SMOOTH_SAGD_STATIC             | TOTAL: 0.2104 | CLEAN: 0.1900 | MIXED: 0.2299
+ANTI_SMOOTH_LEARNED_K_DYNAMIC       | TOTAL: 0.1944 | CLEAN: 0.1908 | MIXED: 0.2018
+LEARNED_K_DYNAMIC                   | TOTAL: 0.1905 | CLEAN: 0.1522 | MIXED: 0.2373
+EDGE_MIX_LEARNED_K_DYNAMIC          | TOTAL: 0.1882 | CLEAN: 0.1422 | MIXED: 0.2542
+ANTI_SMOOTH_SAGD_DYNAMIC            | TOTAL: 0.1810 | CLEAN: 0.1411 | MIXED: 0.2239
+ANTI_SMOOTH_DYNAMIC                 | TOTAL: 0.1795 | CLEAN: 0.1505 | MIXED: 0.2049
+SAGD_STATIC                         | TOTAL: 0.1776 | CLEAN: 0.1374 | MIXED: 0.2302
+DIRICHLET_STATIC                    | TOTAL: 0.1754 | CLEAN: 0.1360 | MIXED: 0.2238
+DIRICHLET_DYNAMIC                   | TOTAL: 0.1750 | CLEAN: 0.1353 | MIXED: 0.2241
+EDGE_MIX_SAGD_DYNAMIC               | TOTAL: 0.1745 | CLEAN: 0.1342 | MIXED: 0.2234
+SAGD_DYNAMIC                        | TOTAL: 0.1733 | CLEAN: 0.1338 | MIXED: 0.2218
+EDGE_MIX_LEARNED_K_STATIC           | TOTAL: 0.1722 | CLEAN: 0.1432 | MIXED: 0.2155
+EDGE_MIX_SAGD_STATIC                | TOTAL: 0.1709 | CLEAN: 0.1329 | MIXED: 0.2188
+ANTI_SMOOTH_LEARNED_K_STATIC        | TOTAL: 0.1559 | CLEAN: 0.1628 | MIXED: 0.1572
+ANTI_SMOOTH_STATIC                  | TOTAL: 0.1492 | CLEAN: 0.1455 | MIXED: 0.1576
+EDGE_MIX_DYNAMIC                    | TOTAL: 0.1291 | CLEAN: 0.0795 | MIXED: 0.1496

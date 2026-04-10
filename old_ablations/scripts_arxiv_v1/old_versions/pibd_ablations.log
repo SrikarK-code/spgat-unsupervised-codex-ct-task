@@ -1,0 +1,52 @@
+nohup: ignoring input
+Using device: cuda
+1. Loading CSV Data...
+2. Computing Feature KNN Graph (This takes ~2-5 minutes on CPU)...
+3. Computing Spatial KNN Graph...
+
+Starting Ablation Suite...
+
+==================================================
+Testing Decoder: PHYSICS
+==================================================
+  Epoch 000 | Loss: 4.9643
+  Epoch 050 | Loss: 0.6981
+  Epoch 100 | Loss: 0.6015
+  Epoch 150 | Loss: 0.5739
+  Epoch 200 | Loss: 0.5435
+  Epoch 250 | Loss: 0.5178
+  Epoch 299 | Loss: 0.4979
+  Raw Structural ARI: 0.1099
+  Unadjusted RI     : 0.6250
+  Weighted F1 (Plur): 0.3348
+  Weighted F1 (Hung): 0.3348
+
+==================================================
+Testing Decoder: MLP
+==================================================
+  Epoch 000 | Loss: 0.6858
+  Epoch 050 | Loss: 0.3347
+  Epoch 100 | Loss: 0.2524
+  Epoch 150 | Loss: 0.2002
+  Epoch 200 | Loss: 0.1677
+  Epoch 250 | Loss: 0.1444
+  Epoch 299 | Loss: 0.1329
+  Raw Structural ARI: 0.0063
+  Unadjusted RI     : 0.1950
+  Weighted F1 (Plur): 0.1388
+  Weighted F1 (Hung): 0.1377
+
+==================================================
+Testing Decoder: GAT
+==================================================
+  Epoch 000 | Loss: 0.6913
+  Epoch 050 | Loss: 0.4318
+  Epoch 100 | Loss: 0.3533
+  Epoch 150 | Loss: 0.2918
+  Epoch 200 | Loss: 0.2332
+  Epoch 250 | Loss: 0.1947
+  Epoch 299 | Loss: 0.1735
+  Raw Structural ARI: 0.0070
+  Unadjusted RI     : 0.3627
+  Weighted F1 (Plur): 0.2192
+  Weighted F1 (Hung): 0.1902

@@ -1,0 +1,8 @@
+Graph: mknn
+Model: gat
+Seed: 43
+Latent ARI: 0.0827
+Final STHD ARI: 0.4175
+Final STHD ARI: 0.0647 | RI: 0.6716 | F1: 0.1092
+Final STHD ARI: 0.4175 | RI: 0.8976 | F1: 0.5629
+STHD [TOTAL] ARI: 0.4175 | [CLEAN] ARI: 0.7482 | [MIXED] ARI: 0.4147

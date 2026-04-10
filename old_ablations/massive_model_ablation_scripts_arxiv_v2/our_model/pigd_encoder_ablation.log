@@ -1,0 +1,55 @@
+nohup: ignoring input
+Loading Data & Cached Graphs...
+
+------------------------------------------------------------
+Testing Encoder: GCN (Fixed Decoder: EDGE_MIX_STATIC)
+--> [TOTAL] ARI 0.2997 | [CLEAN] ARI 0.2711 | [MIXED] ARI 0.3425
+
+------------------------------------------------------------
+Testing Encoder: GAT (Fixed Decoder: EDGE_MIX_STATIC)
+--> [TOTAL] ARI 0.1958 | [CLEAN] ARI 0.1790 | [MIXED] ARI 0.2175
+
+------------------------------------------------------------
+Testing Encoder: VIRTUAL_NODE (Fixed Decoder: EDGE_MIX_STATIC)
+--> [TOTAL] ARI 0.0278 | [CLEAN] ARI 0.0270 | [MIXED] ARI -0.0006
+
+------------------------------------------------------------
+Testing Encoder: MEDIAN (Fixed Decoder: EDGE_MIX_STATIC)
+Traceback (most recent call last):
+  File "/hpc/group/yizhanglab/vk93/sthd-codex/pigd_encoder_ablation.py", line 221, in <module>
+    Z, X_hat = model(X, ei_feat, ei_space)
+  File "/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/hpc/group/yizhanglab/vk93/sthd-codex/pigd_encoder_ablation.py", line 133, in forward
+    Z = self.encoder(X, ei_feat, batch)
+  File "/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/hpc/group/yizhanglab/vk93/sthd-codex/pigd_encoder_ablation.py", line 78, in forward
+    h = F.elu(self.conv1(X, ei_feat))
+  File "/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/hpc/group/yizhanglab/vk93/sthd-codex/pigd_encoder_ablation.py", line 68, in forward
+    return self.propagate(edge_index, x=x)
+  File "/tmp/__main___MedianGCNConv_propagate_x0m0vvgw.py", line 200, in propagate
+    out = self.aggregate(
+  File "/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/torch_geometric/nn/conv/message_passing.py", line 594, in aggregate
+    return self.aggr_module(inputs, index, ptr=ptr, dim_size=dim_size,
+  File "/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/torch_geometric/experimental.py", line 117, in wrapper
+    return func(*args, **kwargs)
+  File "/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/torch_geometric/nn/aggr/base.py", line 139, in __call__
+    raise e
+  File "/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/torch_geometric/nn/aggr/base.py", line 131, in __call__
+    return super().__call__(x, index=index, ptr=ptr, dim_size=dim_size,
+  File "/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/torch_geometric/nn/aggr/quantile.py", line 99, in forward
+    index, index_perm = torch.sort(index, dim=dim, stable=True)
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.37 GiB. GPU 0 has a total capacity of 15.89 GiB of which 2.24 GiB is free. Including non-PyTorch memory, this process has 13.65 GiB memory in use. Of the allocated memory 12.33 GiB is allocated by PyTorch, and 1.02 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

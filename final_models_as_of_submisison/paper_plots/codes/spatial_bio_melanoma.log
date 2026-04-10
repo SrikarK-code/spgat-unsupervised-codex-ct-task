@@ -1,0 +1,99 @@
+nohup: ignoring input
+Loading Melanoma Dataset...
+Cleaning Missing Data...
+Applying Static Spillover Compensation (SCL) per image...
+
+============================================================
+Exploring Biological Signatures in 05_06_23_reg001.tsv...
+============================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+ -> Discovering Latent Clusters...
+ -> Running spGAT Spatial Deconvolution...
+
+--- LATENT CLUSTER MAPPING ---
+Saved full Latent->Human cell breakdown to Melanoma_05_06_23_reg001_Latent_to_Human_Mapping.csv
+Summary of mapping for the first 10 discovered clusters:
+   Latent Cluster 0  -> Mapped to 'Stromal' (3649/5167 cells)
+   Latent Cluster 1  -> Mapped to 'Stromal' (412/1422 cells)
+   Latent Cluster 10 -> Mapped to 'FAP+ Tumor' (65/387 cells)
+   Latent Cluster 11 -> Mapped to 'Smooth Muscle' (992/1091 cells)
+   Latent Cluster 12 -> Mapped to 'CD163+ CD206+ Macrophage' (134/388 cells)
+   Latent Cluster 13 -> Mapped to 'Stromal' (36/43 cells)
+   Latent Cluster 14 -> Mapped to 'Stromal' (1241/1593 cells)
+   Latent Cluster 15 -> Mapped to 'Epithelial' (585/585 cells)
+   Latent Cluster 16 -> Mapped to 'Stromal' (193/257 cells)
+   Latent Cluster 17 -> Mapped to 'CD4+ Treg' (85/225 cells)
+
+--- GENERATING CONFUSION MATRIX ---
+Saved Confusion Matrix to Melanoma_05_06_23_reg001_Confusion_Matrix.png
+--- GENERATING SYNCHRONIZED SPATIAL PLOTS ---
+/hpc/group/yizhanglab/vk93/sthd-codex/spatial_bio_melanoma.py:251: FutureWarning: Use `squidpy.pl.spatial_scatter` instead.
+  sc.pl.spatial(adata, color=target_label, spot_size=15, ax=axes[0], show=False)
+/hpc/group/yizhanglab/vk93/sthd-codex/spatial_bio_melanoma.py:255: FutureWarning: Use `squidpy.pl.spatial_scatter` instead.
+  sc.pl.spatial(adata, color="spGAT_Mapped", spot_size=15, ax=axes[1], show=False)
+Saved Spatial Comparison to Melanoma_05_06_23_reg001_Synchronized_Spatial.png
+
+============================================================
+Exploring Biological Signatures in 05_06_23_reg002.tsv...
+============================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+ -> Discovering Latent Clusters...
+ -> Running spGAT Spatial Deconvolution...
+
+--- LATENT CLUSTER MAPPING ---
+Saved full Latent->Human cell breakdown to Melanoma_05_06_23_reg002_Latent_to_Human_Mapping.csv
+Summary of mapping for the first 10 discovered clusters:
+   Latent Cluster 0  -> Mapped to 'Stromal' (3796/5160 cells)
+   Latent Cluster 1  -> Mapped to 'Stromal' (5759/7501 cells)
+   Latent Cluster 10 -> Mapped to 'Stromal' (1851/2729 cells)
+   Latent Cluster 100 -> Mapped to 'Stromal' (281/320 cells)
+   Latent Cluster 101 -> Mapped to 'FAP+ Fibroblast' (884/1355 cells)
+   Latent Cluster 102 -> Mapped to 'Stromal' (31/38 cells)
+   Latent Cluster 103 -> Mapped to 'Stromal' (60/69 cells)
+   Latent Cluster 104 -> Mapped to 'Endothelial' (698/1227 cells)
+   Latent Cluster 105 -> Mapped to 'Stromal' (33/48 cells)
+   Latent Cluster 106 -> Mapped to 'Stromal' (146/413 cells)
+
+--- GENERATING CONFUSION MATRIX ---
+Saved Confusion Matrix to Melanoma_05_06_23_reg002_Confusion_Matrix.png
+--- GENERATING SYNCHRONIZED SPATIAL PLOTS ---
+/hpc/group/yizhanglab/vk93/sthd-codex/spatial_bio_melanoma.py:251: FutureWarning: Use `squidpy.pl.spatial_scatter` instead.
+  sc.pl.spatial(adata, color=target_label, spot_size=15, ax=axes[0], show=False)
+/hpc/group/yizhanglab/vk93/sthd-codex/spatial_bio_melanoma.py:255: FutureWarning: Use `squidpy.pl.spatial_scatter` instead.
+  sc.pl.spatial(adata, color="spGAT_Mapped", spot_size=15, ax=axes[1], show=False)
+Saved Spatial Comparison to Melanoma_05_06_23_reg002_Synchronized_Spatial.png
+
+============================================================
+Exploring Biological Signatures in 05_06_23_reg003.tsv...
+============================================================
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+ -> Discovering Latent Clusters...
+ -> Running spGAT Spatial Deconvolution...
+
+--- LATENT CLUSTER MAPPING ---
+Saved full Latent->Human cell breakdown to Melanoma_05_06_23_reg003_Latent_to_Human_Mapping.csv
+Summary of mapping for the first 10 discovered clusters:
+   Latent Cluster 0  -> Mapped to 'CD56+ Tumor' (78/249 cells)
+   Latent Cluster 1  -> Mapped to 'Tumor' (2065/6722 cells)
+   Latent Cluster 10 -> Mapped to 'Epithelial' (1190/1281 cells)
+   Latent Cluster 11 -> Mapped to 'DC' (157/610 cells)
+   Latent Cluster 12 -> Mapped to 'DC' (901/1748 cells)
+   Latent Cluster 13 -> Mapped to 'Endothelial' (373/1681 cells)
+   Latent Cluster 14 -> Mapped to 'PTEN+ Tumor' (59/227 cells)
+   Latent Cluster 15 -> Mapped to 'MHCI+ Tumor' (329/1755 cells)
+   Latent Cluster 16 -> Mapped to 'DC' (373/1121 cells)
+   Latent Cluster 17 -> Mapped to 'Stromal' (173/471 cells)
+
+--- GENERATING CONFUSION MATRIX ---
+Saved Confusion Matrix to Melanoma_05_06_23_reg003_Confusion_Matrix.png
+--- GENERATING SYNCHRONIZED SPATIAL PLOTS ---
+/hpc/group/yizhanglab/vk93/sthd-codex/spatial_bio_melanoma.py:251: FutureWarning: Use `squidpy.pl.spatial_scatter` instead.
+  sc.pl.spatial(adata, color=target_label, spot_size=15, ax=axes[0], show=False)
+/hpc/group/yizhanglab/vk93/sthd-codex/spatial_bio_melanoma.py:255: FutureWarning: Use `squidpy.pl.spatial_scatter` instead.
+  sc.pl.spatial(adata, color="spGAT_Mapped", spot_size=15, ax=axes[1], show=False)
+Saved Spatial Comparison to Melanoma_05_06_23_reg003_Synchronized_Spatial.png
+
+Finished exploring all Melanoma regions.

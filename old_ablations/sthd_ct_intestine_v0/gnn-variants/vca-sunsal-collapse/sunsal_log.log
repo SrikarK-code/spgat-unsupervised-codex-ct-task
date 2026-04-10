@@ -1,0 +1,21 @@
+nohup: ignoring input
+Loading CODEX Data...
+/hpc/group/yizhanglab/vk93/micromamba-envs/envs/codex-sthd/lib/python3.10/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Running VCA to find 25 pure endmembers...
+VCA Complete. Pure endmembers locked.
+Building Physical Spatial Adjacency Graph...
+Running SUnSAL-TV Fractional Abundance Optimization...
+Epoch 000 | Total: 1022.9232 | Recon: 887.9985 | TV: 0.3336
+Epoch 050 | Total: 1.8613 | Recon: 0.8687 | TV: 0.0004
+Epoch 100 | Total: 1.8608 | Recon: 0.8683 | TV: 0.0004
+Epoch 150 | Total: 1.8608 | Recon: 0.8683 | TV: 0.0004
+Epoch 200 | Total: 1.8608 | Recon: 0.8683 | TV: 0.0004
+Epoch 250 | Total: 1.8608 | Recon: 0.8683 | TV: 0.0004
+Epoch 300 | Total: 1.8608 | Recon: 0.8683 | TV: 0.0004
+Finalizing assignments...
+
+=========================================
+FINAL SUnSAL-TV PIPELINE ARI: 0.0020
+=========================================
+

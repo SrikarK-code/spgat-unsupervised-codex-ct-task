@@ -1,0 +1,291 @@
+nohup: ignoring input
+Loading required package: SeuratObject
+Loading required package: sp
+
+Attaching package: ‘SeuratObject’
+
+The following objects are masked from ‘package:base’:
+
+    intersect, t
+
+Registered S3 method overwritten by 'pROC':
+  method   from            
+  plot.roc spatstat.explore
+Package 'mclust' version 6.1.2
+Type 'citation("mclust")' for citing this R package in publications.
+Loading required package: maps
+
+Attaching package: ‘maps’
+
+The following object is masked from ‘package:mclust’:
+
+    map
+
+Loading required package: shapefiles
+Loading required package: foreign
+
+Attaching package: ‘shapefiles’
+
+The following objects are masked from ‘package:foreign’:
+
+    read.dbf, write.dbf
+
+
+Attaching package: ‘dplyr’
+
+The following object is masked from ‘package:mclust’:
+
+    count
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+[1] "Loading B004 Ground Truth Data..."
+New names:
+• `` -> `...1`
+[1] "Running TACIT with B008 Prior..."
+Warning: Data is of class matrix. Coercing to dgCMatrix.
+[1] "-------------------REACHED HERE: NormalizeData---------------"
+Normalizing layer: counts
+Normalizing across cells
+[1] "-------------------REACHED HERE: FindVariableFeatures---------------"
+Finding variable features for layer data
+Calculating gene means
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+Calculating gene variance to mean ratios
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+[1] "-------------------REACHED HERE: ScaleData---------------"
+Centering and scaling data matrix
+[1] "-------------------REACHED HERE: RunPCA---------------"
+Warning in svd.function(A = t(x = object), nv = npcs, ...) :
+  You're computing too large a percentage of total singular values, use a standard svd instead.
+Warning in svd.function(A = t(x = object), nv = npcs, ...) :
+  did not converge--results might be invalid!; try increasing work or maxit
+PC_ 1 
+Positive:  aSMA, MUC2, CD49a, CD15, CHGA, Cytokeratin, Podoplanin, SOX9, CD66, Ki67 
+	   CD31, CD36, CD56, Synapto, CD34, CD117, MUC1, CD206, CD49f, CD90 
+	   CD163, CDX2, aDef5, CD138 
+Negative:  CD69, CD45, CD45RO, CD3, BCL2, CD127, NKG2D, CD161, CD7, CD4 
+	   CD8, CD57, CD44, CD68, CD11c, HLADR, CD21, CD16, CD19, CD123 
+	   Vimentin, CD38, ITLN1 
+PC_ 2 
+Positive:  CD45, Vimentin, CD206, CD4, CD90, CD163, CD38, CD44, CD69, CD3 
+	   CD19, BCL2, HLADR, Podoplanin, CD21, CD16, CD56, aSMA, CD8, CD11c 
+	   CD138, CD127, CD31, NKG2D 
+Negative:  MUC1, Cytokeratin, CD49f, SOX9, CDX2, ITLN1, CD66, MUC2, CD123, Ki67 
+	   CD45RO, CD15, CD57, CD68, CD117, Synapto, CHGA, CD49a, CD34, CD36 
+	   CD161, aDef5, CD7 
+PC_ 3 
+Positive:  CD34, CD31, CD36, CD49a, CD90, HLADR, CD56, CD123, Podoplanin, aSMA 
+	   Vimentin, Synapto, CD206, CD44, CD57, CD163, CD16, CD49f, aDef5, CD11c 
+	   CDX2, CD21, CD68, CD161 
+Negative:  CD7, CD3, CD69, CD8, CD45, BCL2, Cytokeratin, CD127, NKG2D, CD45RO 
+	   CD4, CD138, CD19, MUC1, MUC2, CD15, ITLN1, CD38, CD66, CHGA 
+	   CD117, SOX9, Ki67 
+PC_ 4 
+Positive:  CD163, CD206, CD16, CD68, HLADR, CD11c, CD4, CD66, CD15, CD45RO 
+	   MUC1, Cytokeratin, aDef5, CD45, CD123, Vimentin, ITLN1, CD49f, MUC2, CD117 
+	   CD57, Ki67, CHGA, CD36 
+Negative:  CD56, CD90, CD49a, BCL2, Podoplanin, CD21, Synapto, CD44, CD3, aSMA 
+	   CD8, CD19, NKG2D, CD7, CD138, CD161, CD69, CD34, CD127, CDX2 
+	   CD38, CD31, SOX9 
+PC_ 5 
+Positive:  CD44, CD38, CD138, Synapto, CD56, CD90, Podoplanin, CD19, MUC2, SOX9 
+	   ITLN1, MUC1, Ki67, CD21, CD11c, CDX2, BCL2, CD206, CD68, CD163 
+	   Vimentin, CD45RO, CD57, aSMA 
+Negative:  CD36, NKG2D, CD8, CD34, CD31, CD123, CD7, CD3, CD127, CD69 
+	   CD161, CD49f, CD49a, HLADR, CD66, CD45, CD16, aDef5, Cytokeratin, CD4 
+	   CD15, CD117, CHGA 
+[1] "-------------------REACHED HERE: RunUMAP---------------"
+Warning in svd.function(A = t(x = object), nv = npcs, ...) :
+  You're computing too large a percentage of total singular values, use a standard svd instead.
+Warning in svd.function(A = t(x = object), nv = npcs, ...) :
+  did not converge--results might be invalid!; try increasing work or maxit
+PC_ 1 
+Positive:  aSMA, MUC2, CD49a, CD15, CHGA, Cytokeratin, Podoplanin, SOX9, CD66, Ki67 
+	   CD31, CD36, CD56, Synapto, CD34, CD117, MUC1, CD206, CD49f, CD90 
+	   CD163, CDX2, aDef5, CD138 
+Negative:  CD69, CD45, CD45RO, CD3, BCL2, CD127, NKG2D, CD161, CD7, CD4 
+	   CD8, CD57, CD44, CD68, CD11c, HLADR, CD21, CD16, CD19, CD123 
+	   Vimentin, CD38, ITLN1 
+PC_ 2 
+Positive:  CD45, Vimentin, CD206, CD4, CD90, CD163, CD38, CD44, CD69, CD3 
+	   CD19, BCL2, HLADR, Podoplanin, CD21, CD16, CD56, aSMA, CD8, CD11c 
+	   CD138, CD127, CD31, NKG2D 
+Negative:  MUC1, Cytokeratin, CD49f, SOX9, CDX2, ITLN1, CD66, MUC2, CD123, Ki67 
+	   CD45RO, CD15, CD57, CD68, CD117, Synapto, CHGA, CD49a, CD34, CD36 
+	   CD161, aDef5, CD7 
+PC_ 3 
+Positive:  CD34, CD31, CD36, CD49a, CD90, HLADR, CD56, CD123, Podoplanin, aSMA 
+	   Vimentin, Synapto, CD206, CD44, CD57, CD163, CD16, CD49f, aDef5, CD11c 
+	   CDX2, CD21, CD68, CD161 
+Negative:  CD7, CD3, CD69, CD8, CD45, BCL2, Cytokeratin, CD127, NKG2D, CD45RO 
+	   CD4, CD138, CD19, MUC1, MUC2, CD15, ITLN1, CD38, CD66, CHGA 
+	   CD117, SOX9, Ki67 
+PC_ 4 
+Positive:  CD163, CD206, CD16, CD68, HLADR, CD11c, CD4, CD66, CD15, CD45RO 
+	   MUC1, Cytokeratin, aDef5, CD45, CD123, Vimentin, ITLN1, CD49f, MUC2, CD117 
+	   CD57, Ki67, CHGA, CD36 
+Negative:  CD56, CD90, CD49a, BCL2, Podoplanin, CD21, Synapto, CD44, CD3, aSMA 
+	   CD8, CD19, NKG2D, CD7, CD138, CD161, CD69, CD34, CD127, CDX2 
+	   CD38, CD31, SOX9 
+PC_ 5 
+Positive:  CD44, CD38, CD138, Synapto, CD56, CD90, Podoplanin, CD19, MUC2, SOX9 
+	   ITLN1, MUC1, Ki67, CD21, CD11c, CDX2, BCL2, CD206, CD68, CD163 
+	   Vimentin, CD45RO, CD57, aSMA 
+Negative:  CD36, NKG2D, CD8, CD34, CD31, CD123, CD7, CD3, CD127, CD69 
+	   CD161, CD49f, CD49a, HLADR, CD66, CD45, CD16, aDef5, Cytokeratin, CD4 
+	   CD15, CD117, CHGA 
+[1] "-------------------REACHED HERE: RunUMAP---------------"
+[1] "More than 100000 cells, training UMAP using 30% of cells for training or max 100000 cells, whichever is smaller"
+Loading required package: uwot
+Loading required package: Matrix
+Loading required package: future.apply
+Preparing data for UMAP...
+Using 74487 cells (out of 248287) to train UMAP model...
+Training UMAP model on subset...
+20:28:41 UMAP embedding parameters a = 1.896 b = 0.8006
+20:28:41 Read 74487 rows and found 46 numeric columns
+20:28:41 Using Annoy for neighbor search, n_neighbors = 15
+20:28:41 Annoy build: subtracting row means for correlation
+20:28:41 Building Annoy index with metric = correlation, n_trees = 50
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+20:28:54 Annoy search: subtracting row means for correlation
+20:28:54 Writing NN index file to temp file /tmp/RtmpZBDJtF/file1f3b24aea7be9
+20:28:54 Searching Annoy index using 39 threads, search_k = 1500
+20:28:55 Annoy recall = 100%
+20:28:56 Commencing smooth kNN distance calibration using 39 threads with target n_neighbors = 15
+20:28:58 Initializing from normalized Laplacian + noise (using RSpectra)
+20:29:02 Commencing optimization for 200 epochs, with 1649638 positive edges using 39 threads
+20:29:02 Using rng type: pcg
+Using method 'umap'
+Optimizing with Adam alpha = 1 beta1 = 0.5 beta2 = 0.9 eps = 1e-07
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+20:29:07 Optimization finished
+Projecting all cells onto UMAP model...
+Processing chunk 1 of 3...
+20:29:07 Read 100000 rows and found 46 numeric columns
+20:29:07 Processing block 1 of 1
+20:29:07 Annoy search: subtracting row means for correlation
+20:29:07 Writing NN index file to temp file /tmp/RtmpZBDJtF/file1f3b2753835a
+20:29:07 Searching Annoy index using 39 threads, search_k = 1500
+20:29:08 Commencing smooth kNN distance calibration using 39 threads with target n_neighbors = 15
+20:29:09 Initializing by weighted average of neighbor coordinates using 39 threads
+20:29:09 Commencing optimization for 67 epochs, with 1500000 positive edges using 39 threads
+Using method 'umap'
+Optimizing with Adam alpha = 1 beta1 = 0.5 beta2 = 0.9 eps = 1e-07
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+20:29:11 Finished
+Processing chunk 2 of 3...
+20:29:11 Read 100000 rows and found 46 numeric columns
+20:29:11 Processing block 1 of 1
+20:29:11 Annoy search: subtracting row means for correlation
+20:29:11 Writing NN index file to temp file /tmp/RtmpZBDJtF/file1f3b265560962
+20:29:11 Searching Annoy index using 39 threads, search_k = 1500
+20:29:12 Commencing smooth kNN distance calibration using 39 threads with target n_neighbors = 15
+20:29:13 Initializing by weighted average of neighbor coordinates using 39 threads
+20:29:14 Commencing optimization for 67 epochs, with 1499996 positive edges using 39 threads
+Using method 'umap'
+Optimizing with Adam alpha = 1 beta1 = 0.5 beta2 = 0.9 eps = 1e-07
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+20:29:15 Finished
+Processing chunk 3 of 3...
+20:29:15 Read 48287 rows and found 46 numeric columns
+20:29:15 Processing block 1 of 1
+20:29:15 Annoy search: subtracting row means for correlation
+20:29:15 Writing NN index file to temp file /tmp/RtmpZBDJtF/file1f3b27f18bafd
+20:29:15 Searching Annoy index using 39 threads, search_k = 1500
+20:29:16 Commencing smooth kNN distance calibration using 39 threads with target n_neighbors = 15
+20:29:16 Initializing by weighted average of neighbor coordinates using 39 threads
+20:29:16 Commencing optimization for 67 epochs, with 724305 positive edges using 39 threads
+Using method 'umap'
+Optimizing with Adam alpha = 1 beta1 = 0.5 beta2 = 0.9 eps = 1e-07
+0%   10   20   30   40   50   60   70   80   90   100%
+[----|----|----|----|----|----|----|----|----|----|
+**************************************************|
+20:29:17 Finished
+UMAP computation complete.
+[1] "-------------------REACHED HERE: FindNeighbors---------------"
+Computing nearest neighbor graph
+Computing SNN
+[1] "-------------------REACHED HERE: FindClusters---------------"
+[1] "---------------- now here ---------------"
+[1] "Number of clusters: 282 with 880 cells per clusters"
+Loading required package: iterators
+Loading required package: ggplot2
+Loading required package: lattice
+
+Attaching package: ‘caret’
+
+The following object is masked from ‘package:future’:
+
+    cluster
+
+==== Phase 1: Processing Main Data Columns ====
+Processing 25 columns in parallel...
+Loading required package: MASS
+
+Attaching package: ‘MASS’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+Loading required package: nlme
+
+Attaching package: ‘nlme’
+
+The following object is masked from ‘package:dplyr’:
+
+    collapse
+
+==== Phase 2: Processing Marker Subset Data ====
+Detected 46 marker subsets to process
+Processing marker subset columns in parallel...
+==== Phase 3: Processing Cell Types and Markers ====
+Processing 8 main cell types...
+  - Processing cell type 1 of 8 : Cycling TA 
+  - Processing cell type 2 of 8 : Enterocyte 
+  - Processing cell type 3 of 8 : M1 Macrophage 
+  - Processing cell type 4 of 8 : NK 
+  - Processing cell type 5 of 8 : Neuroendocrine 
+  - Processing cell type 6 of 8 : Smooth muscle 
+  - Processing cell type 7 of 8 : Stroma 
+  - Processing cell type 8 of 8 : TA 
+==== Phase 4: Post-Processing and Analysis ====
+Generating potential cell types...
+Creating test data...
+Calculating group mixtures...
+Calculating median values per cluster...
+Applying thresholds and converting to binary values...
+Generating potential cell type clusters...
+Identifying clean and mixed clusters...
+Separating clean and mixed groups...
+
+Cluster Summary:
+[1] "Number of clean MicroClusters: 24"
+[1] "Number of mixed MicroClusters: 258"
+- Total MicroClusters: 282 
+
+Processing cell type combinations...
+Preparing final data matrices...
+==== Phase 5: Final Processing and KNN Analysis ====
+[1] "Number of clean cells: 92312 with 24 cell types"
+[1] "Number of mixed cells: 155975 with 6700 mixed cell types"
