@@ -25,50 +25,8 @@ In highly dense, single-cell resolved proteomics (like CODEX), individual segmen
  **spGAT (Deconvolution):** A Graph Attention Network dynamically resolves mixed signals at the single-cell level. By calculating the attention ($\alpha$) between a cell and its physical neighbors, spGAT determines if an unexpected signal is a genuine biological co-expression or merely optical spillover from an adjacent neighbor, ultimately assigning the correct dominant latent identity to the cell.
 So, E-Step Equivalent (Spatial Attention): The Graph Attention Network dynamically calculates attention weights ($\alpha$), estimating the expected amount of signal contamination by calculating how heavily a cell's protein profile correlates with its physical neighbors.Step 3: M-Step Equivalent (Latent Assignment): The model maximizes the assignment probability by stripping away the $\alpha$-weighted neighbor spillover and matching the corrected cell against the pure $\mu$ signatures to lock in the final identity.
 
-## Repository Contents and Usage
 
-This repository contains the exploratory and validation scripts used to evaluate spGAT against expert-curated ground truth annotations in human Intestine and Melanoma datasets.
-
-### Validation Outputs
-
-The pipeline generates several key outputs to biologically and structurally validate the unsupervised predictions against expert ground truth.
-
-#### 1. Performance Metrics
-We utilize standard classification metrics to quantify the accuracy of our unsupervised assignments (via bipartite mapping) against the expert annotations.
-* **Adjusted Rand Index (ARI):** Measures the structural clustering agreement between spGAT and ground truth.
-* **Weighted F1 Score:** Measures the exact cell-type assignment accuracy.
-
-#### 2. Phenotypic Validation (Marker Expression Heatmaps)
-To confirm that the computationally derived latent states physically correspond to real biological lineages, we generate Z-scored protein expression heatmaps.
-* Shows the SCL-cleaned mean expression for each predicted cell state.
-* Allows for direct visual validation that the unsupervised Dir-VGAE recovered canonical marker geometries without manual supervision.
-
-#### 3. Cellular Classification (Confusion Matrices)
-To analyze specific lineage mixing and model failure modes.
-* A heatmap detailing exact misclassifications between ground-truth annotations and the spGAT predictions.
-* Identifies which specific overlapping phenotypes (e.g., highly granular T-cell sub-clones) the unsupervised model blends together.
-
-#### 4. Macroscopic Tissue Architecture (3-Way Spatial Microenvironments)
-To prove the model recovers valid higher-order multi-cellular structures, we model local cell-type frequencies over a 10-nearest-neighbor window and apply K-Means clustering. We output a 3-way spatial comparison:
-* **Curated Ground Truth:** The pathologist-annotated microenvironments.
-* **K-Means on Ground Truth Cells:** The structural recovery ceiling using perfect cell data.
-* **K-Means on spGAT Cells:** The structural recovery using purely unsupervised predictions.
-
-#### 5. Microenvironment Composition
-To quantify the exact makeup of the discovered tissue structures.
-* **Comparative Enrichment (Log2):** Heatmaps showing the statistical enrichment or depletion of specific cell types within the discovered K-Means communities.
-* **Compositional Stacked Bars:** Explicit percentage breakdowns of cell types within each discovered structural zone (e.g., validating that an "Immune Follicle" community is primarily composed of B-cells and T-cells).
-
-#### 6. Methodological Stability (Neighborhood Ablation)
-To prove the robustness of the dynamic attention mechanism.
-* Line plots demonstrating the stability of the model (ARI and F1) across varying local spatial graph densities ($K \in \{3, 6, 10, 15, 20\}$).
-
-## Data and Preprocessing
-
-All analyses utilize a Static Spillover Compensation (SCL) preprocessing step, which physically subtracts a percentage of neighborhood signal to mitigate baseline optical bleed-through before neural network ingestion.
-
-
-
+**This repository contains the exploratory and validation scripts used to evaluate spGAT against expert-curated ground truth annotations in human Intestine and Melanoma datasets.**
 
 
 ## Repository Contents and Execution
