@@ -1,0 +1,37 @@
+\begin{table}[H]
+\centering
+\caption{Per-Class Performance Comparison in B004\_Descending (Support-Ranked)}
+\label{tab:per_class_metrics}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{lc|cc|cc|cc}
+\toprule
+ & & \multicolumn{2}{c|}{\textbf{spGAT Unsupervised}} & \multicolumn{2}{c|}{\textbf{spGAT Meso (Supervised)}} & \multicolumn{2}{c}{\textbf{STELLAR (Intra-Donor)}} \\
+\textbf{Cell Type} & \textbf{Support} & \textbf{Recall (\%)} & \textbf{F1} & \textbf{Recall (\%)} & \textbf{F1} & \textbf{Recall (\%)} & \textbf{F1} \\
+\midrule
+Goblet & 4432 & 65.9 & 0.6759 & 80.2 & \textbf{0.7037} & \textbf{82.0} & 0.6597 \\
+Plasma & 3105 & 86.5 & 0.8677 & 83.6 & 0.8536 & \textbf{93.3} & \textbf{0.9248} \\
+Cycling TA & 2905 & \textbf{74.8} & 0.5977 & 69.0 & \textbf{0.6549} & 25.8 & 0.4076 \\
+Smooth muscle & 2294 & 86.0 & 0.8928 & 87.1 & 0.8956 & \textbf{93.1} & \textbf{0.9165} \\
+Endothelial & 2002 & 88.7 & 0.9190 & 89.9 & 0.9144 & \textbf{94.3} & \textbf{0.9640} \\
+CD4+ T cell & 1838 & 73.8 & 0.7217 & 73.7 & 0.7602 & \textbf{90.1} & \textbf{0.8830} \\
+Stroma & 1774 & 81.9 & 0.8145 & 81.8 & 0.7889 & \textbf{87.7} & \textbf{0.8788} \\
+CD66+ Enterocyte & 1725 & 45.2 & \textbf{0.5602} & \textbf{53.0} & 0.5423 & 42.4 & 0.5180 \\
+M2 Macrophage & 1619 & 74.7 & 0.7307 & 77.6 & 0.7674 & \textbf{88.4} & \textbf{0.8337} \\
+TA & 1610 & \textbf{13.7} & \textbf{0.1939} & 0.0 & 0.0000 & 1.7 & 0.0325 \\
+Enterocyte & 1374 & 61.1 & \textbf{0.5448} & 50.6 & 0.4884 & \textbf{85.2} & 0.4534 \\
+CD8+ T & 1219 & 84.8 & 0.7589 & 84.2 & 0.8288 & \textbf{87.4} & \textbf{0.8972} \\
+B & 1187 & 64.2 & 0.6649 & 64.0 & 0.6723 & \textbf{80.1} & \textbf{0.8202} \\
+Nerve & 1015 & \textbf{90.0} & 0.8087 & 86.8 & 0.8154 & 87.1 & \textbf{0.8752} \\
+Lymphatic & 616 & 51.9 & 0.5808 & \textbf{59.9} & 0.5734 & 59.6 & \textbf{0.7037} \\
+M1 Macrophage & 528 & 41.3 & 0.4877 & 41.1 & 0.4994 & \textbf{59.9} & \textbf{0.7069} \\
+DC & 435 & 80.7 & 0.6849 & \textbf{87.8} & 0.7549 & 82.8 & \textbf{0.8421} \\
+ICC & 384 & 94.5 & 0.8768 & \textbf{95.0} & 0.8732 & 89.8 & \textbf{0.9079} \\
+Neuroendocrine & 247 & 91.5 & 0.7888 & \textbf{97.6} & 0.8561 & 91.1 & \textbf{0.9036} \\
+CD7+ Immune & 128 & 0.0 & 0.0000 & \textbf{98.4} & 0.5328 & 82.0 & \textbf{0.7895} \\
+NK & 38 & \textbf{0.0} & \textbf{0.0000} & \textbf{0.0} & \textbf{0.0000} & \textbf{0.0} & \textbf{0.0000} \\
+MUC1+ Enterocyte & 38 & 0.0 & 0.0000 & 0.0 & 0.0000 & \textbf{52.6} & \textbf{0.5000} \\
+Neutrophil & 34 & 0.0 & 0.0000 & 0.0 & 0.0000 & \textbf{17.6} & \textbf{0.2667} \\
+\bottomrule
+\end{tabular}
+}
+\end{table}

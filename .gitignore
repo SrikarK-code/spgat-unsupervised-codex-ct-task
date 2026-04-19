@@ -12,3 +12,4 @@ sthd_ct_intestine/
 *.out
 *.npy
 *.h5ad
+*.log
